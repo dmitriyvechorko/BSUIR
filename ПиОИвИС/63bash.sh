@@ -1,4 +1,4 @@
-#!bin/bash/
+#!/bin/bash
 read -p "Vvedite put " x
 read -p "Vvedite adres " y
 if [ ! -d $x ]; then
