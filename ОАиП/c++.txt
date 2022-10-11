@@ -1,0 +1,8 @@
+// в строке ввода только цифры, перед которыми могут быть + или -.
+int a;
+while (!(cin >> a) || (cin.peek() != '\n'))
+{
+    cin.clear();
+    while (cin.get() != '\n');
+    cout << "Error!" << endl;
+}
