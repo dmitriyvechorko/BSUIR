@@ -22,13 +22,12 @@ int main() {
 	cin >> a >> b >> h >> n;
 	cout << "\n";
 
-	if (!cin) //numeric check
-	{
-		cin.clear();
-		cin.ignore();
-		cout << "Non-numeric!" << "\n";
-		return 0;
-	}
+	while (!(cin >> a >> b >> h >> n) || (cin.peek() != '\n')) {
+         
+	 cin.clear();
+         while (cin.get() != '\n');
+         cout << "Error!" << endl;
+        }
 
 	cout << "i\t  Y\t S\t |Y-S|\n";
 
