@@ -1,6 +1,6 @@
 #!/bin/bash
-read -p "Vvedite put " x
-read -p "Vvedite adres " y
+x=$1
+y=$2
 if [ ! -d $x ]; then
   exit
 fi
