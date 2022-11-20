@@ -1,0 +1,4 @@
+﻿  5-2.cpp
+D:\OAiP\lab5\5-2\5-2.cpp(20,13): warning C4244: return: преобразование "float" в "int", возможна потеря данных
+D:\OAiP\lab5\5-2\5-2.cpp(31): warning C4715: SymmetricRow: значение возвращается не при всех путях выполнения
+  5-2.vcxproj -> D:\OAiP\lab5\5-2\x64\Debug\5-2.exe

@@ -1,0 +1,4 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(534,5): warning MSB8028: промежуточный каталог (x64\Debug\) содержит файлы, которые используются совместно с другим проектом (Project4.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+  4-2.cpp
+D:\OAiP\лаб4\4-2.cpp(57,14): warning C4154: удаление массива; выполнено преобразование к указателю
+  Project4.vcxproj -> D:\OAiP\лаб4\x64\Debug\4-2.exe
