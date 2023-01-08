@@ -1,0 +1,332 @@
+1)$ git init
+Initialized empty Git repository in C:/Users/Asus/OneDrive/Рабочий стол/rep/.git/
+
+2)Asus@DESKTOP-HJ0VRPM MINGW64 ~/OneDrive/Рабочий стол/rep (master)
+$ git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+
+4)$ touch 1.txt
+
+Asus@DESKTOP-HJ0VRPM MINGW64 ~/OneDrive/Рабочий стол/rep (master)
+$ git add .
+
+5)Asus@DESKTOP-HJ0VRPM MINGW64 ~/OneDrive/Рабочий стол/rep (master)
+$ git commit -m "1.txt"
+[master (root-commit) 5175fcd] 1.txt
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 1.txt
+
+7)Asus@DESKTOP-HJ0VRPM MINGW64 ~/OneDrive/Рабочий стол/rep (master)
+$ git log
+commit 5175fcd30bf6cb83fefd75428c4bc450c8abbebf (HEAD -> master)
+Author: Dim <dimonvechorko@gmail.com>
+Date:   Wed Nov 16 00:40:22 2022 +0300
+
+    1.txt
+
+8)Asus@DESKTOP-HJ0VRPM MINGW64 ~/OneDrive/Рабочий стол/rep (master)
+$ git config --global --list
+user.name=Dim
+user.email=dimonvechorko@gmail.com
+core.autocrlf=true
+safe.directory=C:/Program Files/Git
+gui.recentrepo=C:/Users/Asus/OneDrive/Рабочий стол/123
+
+9)Asus@DESKTOP-HJ0VRPM MINGW64 ~/OneDrive/Рабочий стол/rep (master)
+$ touch 2.txt
+
+Asus@DESKTOP-HJ0VRPM MINGW64 ~/OneDrive/Рабочий стол/rep (master)
+$ git add .
+
+Asus@DESKTOP-HJ0VRPM MINGW64 ~/OneDrive/Рабочий стол/rep (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   2.txt
+
+Asus@DESKTOP-HJ0VRPM MINGW64 ~/OneDrive/Рабочий стол/rep (master)
+$ git restore --staged 2.txt
+
+Asus@DESKTOP-HJ0VRPM MINGW64 ~/OneDrive/Рабочий стол/rep (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        2.txt
+
+10)Asus@DESKTOP-HJ0VRPM MINGW64 ~/OneDrive/Рабочий стол/rep (master)
+$ echo "12345" > 1.txt
+
+Asus@DESKTOP-HJ0VRPM MINGW64 ~/OneDrive/Рабочий стол/rep (master)
+$ git diff 1.txt
+warning: in the working copy of '1.txt', LF will be replaced by CRLF the next time Git touches it
+diff --git a/1.txt b/1.txt
+index e69de29..e56e15b 100644
+--- a/1.txt
++++ b/1.txt
+@@ -0,0 +1 @@
++12345
+
+11)Asus@DESKTOP-HJ0VRPM MINGW64 ~/OneDrive/Рабочий стол/rep (master)
+$ git restore 1.txt
+
+Asus@DESKTOP-HJ0VRPM MINGW64 ~/OneDrive/Рабочий стол/rep (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   2.txt
+
+13)Asus@DESKTOP-HJ0VRPM MINGW64 ~/OneDrive/Рабочий стол/rep (master)
+$ git add .
+
+14)-15)Asus@DESKTOP-HJ0VRPM MINGW64 ~/OneDrive/Рабочий стол/rep (master)
+$ git config --global user.name "Dmitry"
+
+Asus@DESKTOP-HJ0VRPM MINGW64 ~/OneDrive/Рабочий стол/rep (master)
+$ git config --global --list
+user.name=Dmitry
+user.email=dimonvechorko@gmail.com
+core.autocrlf=true
+safe.directory=C:/Program Files/Git
+gui.recentrepo=C:/Users/Asus/OneDrive/Рабочий стол/123
+
+16)Asus@DESKTOP-HJ0VRPM MINGW64 ~/OneDrive/Рабочий стол/rep (master)
+$ git branch
+* master
+
+17)Asus@DESKTOP-HJ0VRPM MINGW64 ~/OneDrive/Рабочий стол/rep (master)
+$ git branch 1
+
+18)Asus@DESKTOP-HJ0VRPM MINGW64 ~/OneDrive/Рабочий стол/rep (master)
+$ git checkout 1
+Switched to branch '1'
+A       2.txt
+
+19)Asus@DESKTOP-HJ0VRPM MINGW64 ~/OneDrive/Рабочий стол/rep (1)
+$ git checkout master
+Switched to branch 'master'
+A       2.txt
+
+Asus@DESKTOP-HJ0VRPM MINGW64 ~/OneDrive/Рабочий стол/rep (master)
+$ git checkout -b 2
+Switched to a new branch '2'
+
+20)Asus@DESKTOP-HJ0VRPM MINGW64 ~/OneDrive/Рабочий стол/rep (2)
+$ git branch -d 1
+Deleted branch 1 (was 5175fcd).
+
+22)-26)Asus@DESKTOP-HJ0VRPM MINGW64 ~/OneDrive/Рабочий стол/rep (2)
+$ git checkout 2
+Already on '2'
+
+Asus@DESKTOP-HJ0VRPM MINGW64 ~/OneDrive/Рабочий стол/rep (2)
+$ git status
+On branch 2
+nothing to commit, working tree clean
+
+Asus@DESKTOP-HJ0VRPM MINGW64 ~/OneDrive/Рабочий стол/rep (2)
+$ cat 1.txt
+
+Asus@DESKTOP-HJ0VRPM MINGW64 ~/OneDrive/Рабочий стол/rep (2)
+$ echo "123
+> 456" > 1.txt
+
+Asus@DESKTOP-HJ0VRPM MINGW64 ~/OneDrive/Рабочий стол/rep (2)
+$ cat 1.txt
+123
+456
+
+Asus@DESKTOP-HJ0VRPM MINGW64 ~/OneDrive/Рабочий стол/rep (2)
+$ git add .
+warning: in the working copy of '1.txt', LF will be replaced by CRLF the next time Git touches it
+
+Asus@DESKTOP-HJ0VRPM MINGW64 ~/OneDrive/Рабочий стол/rep (2)
+$ git  commit -m "changed 1.txt"
+[2 db945d3] changed 1.txt
+ 1 file changed, 2 insertions(+)
+
+Asus@DESKTOP-HJ0VRPM MINGW64 ~/OneDrive/Рабочий стол/rep (2)
+$ git checkout master
+Switched to branch 'master'
+
+Asus@DESKTOP-HJ0VRPM MINGW64 ~/OneDrive/Рабочий стол/rep (master)
+$ cat 1.txt
+
+Asus@DESKTOP-HJ0VRPM MINGW64 ~/OneDrive/Рабочий стол/rep (master)
+$ echo "123
+> 789" > 1.txt
+
+Asus@DESKTOP-HJ0VRPM MINGW64 ~/OneDrive/Рабочий стол/rep (master)
+$ cat 1.txt
+123
+789
+
+Asus@DESKTOP-HJ0VRPM MINGW64 ~/OneDrive/Рабочий стол/rep (master)
+$ git add .
+warning: in the working copy of '1.txt', LF will be replaced by CRLF the next time Git touches it
+
+Asus@DESKTOP-HJ0VRPM MINGW64 ~/OneDrive/Рабочий стол/rep (master)
+$ git commit -m "changed 1.txt on master branch"
+[master 23146f2] changed 1.txt on master branch
+ 1 file changed, 2 insertions(+)
+
+Asus@DESKTOP-HJ0VRPM MINGW64 ~/OneDrive/Рабочий стол/rep (master)
+$ git checkout 2
+Switched to branch '2'
+
+Asus@DESKTOP-HJ0VRPM MINGW64 ~/OneDrive/Рабочий стол/rep (2)
+$ git merge master
+Auto-merging 1.txt
+CONFLICT (content): Merge conflict in 1.txt
+Automatic merge failed; fix conflicts and then commit the result.
+
+Asus@DESKTOP-HJ0VRPM MINGW64 ~/OneDrive/Рабочий стол/rep (2|MERGING)
+$ cat 1.txt
+123
+<<<<<<< HEAD
+456
+=======
+789
+>>>>>>> master
+
+Asus@DESKTOP-HJ0VRPM MINGW64 ~/OneDrive/Рабочий стол/rep (2|MERGING)
+$ cat 1.txt
+123
+456
+
+Asus@DESKTOP-HJ0VRPM MINGW64 ~/OneDrive/Рабочий стол/rep (2|MERGING)
+$ git add .
+
+Asus@DESKTOP-HJ0VRPM MINGW64 ~/OneDrive/Рабочий стол/rep (2|MERGING)
+$ git commit -m "conflict merge"
+[2 cc3730c] conflict merge
+
+
+26)Asus@DESKTOP-HJ0VRPM MINGW64 ~/OneDrive/Рабочий стол/rep (2)
+$ git log
+commit cc3730ca9afa92d1e742aca86c5d8b31cc9796ce (HEAD -> 2)
+Merge: db945d3 23146f2
+Author: Dmitry <dimonvechorko@gmail.com>
+Date:   Wed Nov 16 01:06:12 2022 +0300
+
+    conflict merge
+
+commit 23146f288f8523582f915ed7d435602cc4536295 (master)
+Author: Dmitry <dimonvechorko@gmail.com>
+Date:   Wed Nov 16 01:04:21 2022 +0300
+
+    changed 1.txt on master branch
+
+commit db945d359c7d94c0da2e9b485ad3e78339fb1e98
+Author: Dmitry <dimonvechorko@gmail.com>
+Date:   Wed Nov 16 01:02:43 2022 +0300
+
+    changed 1.txt
+
+commit 0f4d80adb80340545fb8a16b3eece63e17c39241
+Author: Dmitry <dimonvechorko@gmail.com>
+Date:   Wed Nov 16 00:58:59 2022 +0300
+
+    add 3.txt
+
+commit 5175fcd30bf6cb83fefd75428c4bc450c8abbebf
+Author: Dim <dimonvechorko@gmail.com>
+Date:   Wed Nov 16 00:40:22 2022 +0300
+
+    1.txt
+
+Asus@DESKTOP-HJ0VRPM MINGW64 ~/OneDrive/Рабочий стол/rep (2)
+$ git checkout  23146f288f
+Note: switching to '23146f288f'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 23146f2 changed 1.txt on master branch
+
+Asus@DESKTOP-HJ0VRPM MINGW64 ~/OneDrive/Рабочий стол/rep ((23146f2...))
+$ git switch -
+Previous HEAD position was 23146f2 changed 1.txt on master branch
+Switched to branch '2'
+
+27)-30)Asus@DESKTOP-HJ0VRPM MINGW64 ~/OneDrive/Рабочий стол/rep (2)
+$ cat 1.txt
+123
+456
+
+
+Asus@DESKTOP-HJ0VRPM MINGW64 ~/OneDrive/Рабочий стол/rep (2)
+$ git checkout master
+Switched to branch 'master'
+
+Asus@DESKTOP-HJ0VRPM MINGW64 ~/OneDrive/Рабочий стол/rep (master)
+$ echo "987
+> 654
+> 321" > 1.txt
+
+Asus@DESKTOP-HJ0VRPM MINGW64 ~/OneDrive/Рабочий стол/rep (master)
+$ git add .
+warning: in the working copy of '1.txt', LF will be replaced by CRLF the next time Git touches it
+
+Asus@DESKTOP-HJ0VRPM MINGW64 ~/OneDrive/Рабочий стол/rep (master)
+$ git commit -m "1.txt on master (rebase)"
+[master 2b815cc] 1.txt on master (rebase)
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+
+Asus@DESKTOP-HJ0VRPM MINGW64 ~/OneDrive/Рабочий стол/rep (master)
+$ git rebase 2
+Auto-merging 1.txt
+CONFLICT (content): Merge conflict in 1.txt
+error: could not apply 2b815cc... 1.txt on master (rebase)
+hint: Resolve all conflicts manually, mark them as resolved with
+hint: "git add/rm <conflicted_files>", then run "git rebase --continue".
+hint: You can instead skip this commit: run "git rebase --skip".
+hint: To abort and get back to the state before "git rebase", run "git rebase --abort".
+Could not apply 2b815cc... 1.txt on master (rebase)
+
+Asus@DESKTOP-HJ0VRPM MINGW64 ~/OneDrive/Рабочий стол/rep (master|REBASE 1/1)
+$ cat 1.txt
+<<<<<<< HEAD
+123
+456
+
+=======
+987
+654
+321
+>>>>>>> 2b815cc (1.txt on master (rebase))
+
+Asus@DESKTOP-HJ0VRPM MINGW64 ~/OneDrive/Рабочий стол/rep (master|REBASE 1/1)
+$ cat 1.txt
+987
+654
+321
+
+
+Asus@DESKTOP-HJ0VRPM MINGW64 ~/OneDrive/Рабочий стол/rep (master|REBASE 1/1)
+$ git add .
+
+Asus@DESKTOP-HJ0VRPM MINGW64 ~/OneDrive/Рабочий стол/rep (master|REBASE 1/1)
+$ git rebase --continue
+[detached HEAD b7d189a] 1.txt on master (rebase)
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+Successfully rebased and updated refs/heads/master.

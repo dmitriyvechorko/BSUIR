@@ -1,0 +1,1 @@
+Лабораторная работа N3 Копия страницы 177 из сборника(http://proc.ostis.net/proc/Proceedings%20OSTIS-2021.pdf)
