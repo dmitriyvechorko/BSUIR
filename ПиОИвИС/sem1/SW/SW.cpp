@@ -12,15 +12,16 @@ typedef std::vector<row_t> matrix_t;
 string tests(int numb) {
     string path;
     switch (numb) {
-    case 1: { path = "C:/GITHUB/RPIIS/sem1/PIOIVIS/SW/Tests/1.txt"; }
+        
+    case 1: { path = "D:/GIT/bsuir(study)/RPIIS/sem1/PIOIVIS/SW/Tests/1.txt"; }
           break;
-    case 2: { path = "C:/GITHUB/RPIIS/sem1/PIOIVIS/SW/Tests/2.txt"; }
+    case 2: { path = "D:/GIT/bsuir(study)/RPIIS/sem1/PIOIVIS/SW/Tests/2.txt"; }
           break;
-    case 3: { path = "C:/GITHUB/RPIIS/sem1/PIOIVIS/SW/Tests/3.txt"; }
+    case 3: { path = "D:/GIT/bsuir(study)/RPIIS/sem1/PIOIVIS/SW/Tests/3.txt"; }
           break;
-    case 4: { path = "C:/GITHUB/RPIIS/sem1/PIOIVIS/SW/Tests/4.txt"; }
+    case 4: { path = "D:/GIT/bsuir(study)/RPIIS/sem1/PIOIVIS/SW/Tests/4.txt"; }
           break;
-    case 5: { path = "C:/GITHUB/RPIIS/sem1/PIOIVIS/SW/Tests/5.txt"; }
+    case 5: { path = "D:/GIT/bsuir(study)/RPIIS/sem1/PIOIVIS/SW/Tests/5.txt"; }
           break;
     default: cout << "Wrong path.";
     }
@@ -29,15 +30,15 @@ string tests(int numb) {
 string tests1(int numb1) {
     string path1;
     switch (numb1) {
-    case 1: { path1 = "C:/GITHUB/RPIIS/sem1/PIOIVIS/SW/Tests/1_1.txt"; }
+    case 1: { path1 = "D:/GIT/bsuir(study)/RPIIS/sem1/PIOIVIS/SW/Tests/1_1.txt"; }
           break;
-    case 2: { path1 = "C:/GITHUB/RPIIS/sem1/PIOIVIS/SW/Tests/2_1.txt"; }
+    case 2: { path1 = "D:/GIT/bsuir(study)/RPIIS/sem1/PIOIVIS/SW/Tests/2_1.txt"; }
           break;
-    case 3: { path1 = "C:/GITHUB/RPIIS/sem1/PIOIVIS/SW/Tests/3_1.txt"; }
+    case 3: { path1 = "D:/GIT/bsuir(study)/RPIIS/sem1/PIOIVIS/SW/Tests/3_1.txt"; }
           break;
-    case 4: { path1 = "C:/GITHUB/RPIIS/sem1/PIOIVIS/SW/Tests/4_1.txt"; }
+    case 4: { path1 = "D:/GIT/bsuir(study)/RPIIS/sem1/PIOIVIS/SW/Tests/4_1.txt"; }
           break;
-    case 5: { path1 = "C:/GITHUB/RPIIS/sem1/PIOIVIS/SW/Tests/5_1.txt"; }
+    case 5: { path1 = "D:/GIT/bsuir(study)/RPIIS/sem1/PIOIVIS/SW/Tests/5_1.txt"; }
           break;
     default: cout << "Wrong path.";
     }
