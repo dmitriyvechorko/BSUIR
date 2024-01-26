@@ -1,0 +1,32 @@
+music_set
+      <-sc_node_class;
+      ->concept_type_of_music;;
+
+concept_type_of_music
+      => nrel_main_idtf:
+      [Вид музыки]
+      (* <- lang_rus;;*);
+      [Type of music]
+      (* <- lang_en;;*);
+      [Rodzaj muzyki]
+      (* <- lang_pol;;*);;
+      // => nrel_first_domain: hip_hop;
+      // => nrel_second_domain: electronic_music;
+      // => nrel_domain_of_definition: ...;;
+
+concept_type_of_music <= nrel_sc_text_translation:...
+      (*
+            <- definition;;
+            -> [Вид музыки - система классификации, которая классифицирует музыку по различным стилям];;
+      *);;
+
+
+concept_type_of_music => nrel_place_of_appearance: Africa;;
+conyinent_set
+      <- sc_node_class;
+      -> Africa;;
+
+concept_type_of_music => nrel_time_of_first_appearance: 50_thousand_years_ago;;
+time_period_set
+      <- sc_node_class;
+      -> 50_thousand_years_ago;; 
