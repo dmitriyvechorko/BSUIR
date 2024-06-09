@@ -1,0 +1,24 @@
+concept_Brest_region
+<- concept_region;
+=> nrel_main_idtf:
+    [Брестская область] (* <- lang_ru;;*);   
+    [Brest region] (* <- lang_en;;*); 
+
+=> nrel_is_region_central_city: concept_Brest_city;
+=> nrel_is_district_central_city: concept_Nesvizh_city;
+=> nrel_placed_in_Brest_region: concept_sights_of_Brest_region;;
+
+definition -> definition_of_Brest_region (*
+	-> rrel_key_sc_element: concept_Brest_region;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Брестская область — административно-территориальная единица на юго-западе Беларуси. 
+        Административный центр — город Брест.] (* <- lang_ru;; *);;
+		-> [Brest region is an administrative-territorial unit in the southwest Belarus.
+         Administrative center is the city of Brest] (* <- lang_en;; *);;
+	*);;
+
+	  => nrel_main_idtf:
+		[Опр. (Брестская область)] (* <- lang_ru;; *);
+		[Def. (Brest region)] (* <- lang_en;; *);;
+*);;

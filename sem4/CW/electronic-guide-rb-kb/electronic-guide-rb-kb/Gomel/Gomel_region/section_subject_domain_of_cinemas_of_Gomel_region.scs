@@ -1,0 +1,30 @@
+
+sc_node_struct->section_subject_domain_of_cinemas_of_Gomel_region;;
+
+
+section_subject_domain_of_cinemas_of_Gomel_region=>nrel_main_idtf:
+     [Раздел. Предметная область кинотеатров Гомельской области]
+     (*<-lang_ru;;*);;
+
+section_subject_domain_of_cinemas_of_Gomel_region=>nrel_main_idtf:
+     [Section. Subject domain of cinemas of Gomel region]
+     (*<-lang_en;;*);; 
+
+subject_domain_of_cinemas_of_Gomel_region->rrel_maximum_studied_object_class:
+     concept_movie_theater;;
+
+ section_subject_domain_of_cinemas_of_Gomel_region->rrel_key_sc_element:
+        subject_domain_of_cinemas_of_Gomel_region;;
+
+subject_domain_of_cinemas_of_Gomel_region=>nrel_main_idtf:
+     [Предметная область кинотеатров Гомельской области]
+     (*<-lang_ru;;*);;
+
+subject_domain_of_cinemas_of_Gomel_region<=nrel_private_subject_domain:
+        concept_culture;;
+     
+subject_domain_of_cinemas_of_Gomel_region=>nrel_main_idtf:
+     [Subject domain of cinemas of Gomel region]
+     (*<-lang_en;;*);;
+
+ subject_domain_of_cinemas_of_Gomel_region<-subject_domain;;

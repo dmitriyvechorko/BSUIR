@@ -1,0 +1,37 @@
+sc_node_struct->section_subject_domain_of_theaters;;
+     
+section_subject_domain_of_theaters=>nrel_system_idtf:[section_subject_domain_of_theaters](*<-lang_en;;*);;
+
+section_subject_domain_of_theaters=>nrel_main_idtf:
+     [Раздел. Предметная область театров]
+     (*<-lang_ru;;*);;
+
+section_subject_domain_of_theaters=>nrel_main_idtf:
+     [Section. Subject domain of theaters]
+     (*<-lang_en;;*);;
+
+
+subject_domain_of_theaters->rrel_maximum_studied_object_class:
+     concept_theater;;
+
+
+section_subject_domain_of_theaters->rrel_key_sc_element:subject_domain_of_theaters;;
+
+
+non_atomic_section->section_subject_domain_of_theaters;;	 	
+
+subject_domain_of_theaters<=nrel_private_subject_domain:
+        concept_culture;
+        concept_history;;                   
+          
+subject_domain_of_theaters<=nrel_private_subject_domain:subject_domain_of_the_melody;; 
+
+
+subject_domain_of_theaters=>nrel_main_idtf:
+     [Предметная область театров]
+     (*<-lang_ru;;*);;
+     
+subject_domain_of_theaters=>nrel_main_idtf:
+     [Subject domain of theaters]
+     (*<-lang_en;;*);;
+

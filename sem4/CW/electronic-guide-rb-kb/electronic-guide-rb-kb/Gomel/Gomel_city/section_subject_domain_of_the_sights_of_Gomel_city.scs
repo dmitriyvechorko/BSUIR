@@ -1,0 +1,82 @@
+section_subject_domain_of_sights_of_Gomel_city
+
+    => nrel_main_idtf:
+    [Раздел. Предметная область достопримечательностей города Гомель]
+    (* <- lang_ru;;*);
+    [Section. Subject domain of sights of Gomel city]
+    (* <- lang_en;;*);
+
+    <= nrel_section_decomposition:
+    {
+        section_subject_domain_of_Gomel_bars
+        (* 
+            => nrel_section_base_order: 
+            section_subject_domain_of_Gomel_museums;;
+        *);
+        section_subject_domain_of_Gomel_museums
+        (* 
+            => nrel_section_base_order: 
+            section_subject_domain_of_Gomel_cinemas;;
+        *);
+        section_subject_domain_of_Gomel_cinemas
+        (* 
+            => nrel_section_base_order: 
+            section_subject_domain_of_Gomel_galleries;;
+        *);
+        section_subject_domain_of_Gomel_galleries
+        (* 
+            => nrel_section_base_order: 
+            section_subject_domain_of_Gomel_monuments;;
+        *);
+        section_subject_domain_of_Gomel_monuments
+        (* 
+            => nrel_section_base_order: 
+            section_subject_domain_of_Gomel_theaters;;
+        *);
+        section_subject_domain_of_Gomel_theaters
+       
+    };
+
+    -> rrel_key_sc_element:
+        concept_sights_of_Gomel_city;
+        concept_Gomel_bars;
+        concept_Gomel_museums;
+        concept_Gomel_cinemas;
+        concept_Gomel_galleries;
+        concept_Gomel_monuments;
+        concept_Gomel_theaters;
+
+    <- non_atomic_section;;
+
+section_subject_domain_of_sights_of_Gomel_city 
+    = [*
+        subject_domain_of_sights_of_Gomel_city
+
+            => nrel_main_idtf:
+            [Предметная область достопримечательностей города Гомель]
+            (* <- lang_ru;;*);
+            [Subject domain of sights of Gomel city]
+            (* <- lang_en;;*);
+            
+            <- subject_domain;
+
+            => nrel_private_subject_domain:
+                subject_domain_of_sights_of_Gomel_museums;
+                subject_domain_of_sights_of_Gomel_bars;
+                subject_domain_of_sights_of_Gomel_cinemas;
+                subject_domain_of_sights_of_Gomel_galleries;
+                subject_domain_of_sights_of_Gomel_monuments;
+                subject_domain_of_sights_of_Gomel_theaters;
+
+            -> rrel_maximum_studied_object_class:
+                concept_sights_of_Gomel_city;
+
+            -> rrel_not_maximum_studied_object_class:
+                concept_Gomel_bars;
+                concept_Gomel_museums;
+                concept_Gomel_cinemas;
+                concept_Gomel_galleries;
+                concept_Gomel_monuments;
+                concept_Gomel_theaters;;
+            
+    *];;    

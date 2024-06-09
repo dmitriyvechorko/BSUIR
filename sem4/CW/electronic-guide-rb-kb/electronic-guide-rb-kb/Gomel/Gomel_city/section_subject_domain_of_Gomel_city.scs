@@ -1,0 +1,45 @@
+section_subject_domain_of_Gomel_city
+
+    => nrel_main_idtf:
+    [Раздел. Предметная область города Гомель]
+    (* <- lang_ru;;*);
+    [Section. Subject domain of Gomel city]
+    (* <- lang_en;;*);
+
+    <= nrel_section_decomposition:
+    {
+        section_subject_domain_of_sights_of_Gomel
+    };
+
+    -> rrel_key_sc_element:
+        concept_Gomel_city;
+        concept_sights_of_Gomel_city;
+        nrel_placed_in_Gomel_city;
+        
+    <- non_atomic_section;;
+
+section_subject_domain_of_Gomel_city
+    = [*
+        subject_domain_of_Gomel_city
+
+            => nrel_main_idtf:
+            [Предметная область города Гомель]
+            (* <- lang_ru;;*);
+            [Subject domain of Gomel city]
+            (* <- lang_en;;*);
+            
+            <- subject_domain;
+
+            => nrel_private_subject_domain:
+                subject_domain_of_sights_of_Gomel_city;
+
+            -> rrel_maximum_studied_object_class:
+                concept_Gomel_city;
+
+            -> rrel_not_maximum_studied_object_class:
+                concept_sights_of_Gomel_city;
+
+            -> rrel_explored_relation: 
+                nrel_placed_in_Gomel_city;;
+            
+    *];;

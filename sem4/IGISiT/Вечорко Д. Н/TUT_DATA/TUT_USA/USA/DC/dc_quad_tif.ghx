@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<ghx>
+	<RasterHandler>
+		<Colour version="1">
+			<RenderStyle value="Palette">
+				<Palette field="0" band="0" name=""/>
+			</RenderStyle>
+		</Colour>
+	</RasterHandler>
+</ghx>

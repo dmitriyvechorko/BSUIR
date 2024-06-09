@@ -1,0 +1,106 @@
+!Workspace
+!Version 1500
+!Charset WindowsJapanese
+Open Table "STATES" As STATES Interactive
+Open Table "US_HIWAY" As US_HIWAY Interactive
+Open Table "STATECAP" As STATECAP Interactive
+Open Table "C:\Users\LENOVO\Documents\STATES_Pop_Black.TAB" As STATES_Pop_Black Interactive
+Map From STATECAP,US_HIWAY,STATES,STATES
+  Position (0.0208333,1.58333) Units "in"
+  Width 9.83333 Units "in" Height 5.27778 Units "in" 
+Set Window FrontWindow() ScrollBars Off Autoscroll On
+Set Map
+  CoordSys Earth Projection 1, 62
+  Center (-103.861894,43.56253221)
+  Zoom 3113.390137 Units "km"
+  Preserve Scale Display Zoom
+  Distance Units "km" Area Units "sq km" XY Units "degree"
+shade 3 with Pop_Black ranges apply all use color Brush (2,3158064,16777215) 
+  0: 40000 Brush (2,14737632,16777215) Pen (1,2,0) ,
+  40000: 130000 Brush (2,11579568,16777215) Pen (1,2,0) ,
+  130000: 370000 Brush (2,9474192,16777215) Pen (1,2,0) ,
+  370000: 1150000 Brush (2,6316128,16777215) Pen (1,2,0) ,
+  1150000: 2860000 Brush (2,3158064,16777215) Pen (1,2,0) 
+  default Brush (2,16777215,16777215) Pen (1,2,0) 
+  # use 1 round 10000 inflect off Brush (2,16776960,16777215) at 3 by 0 color 1 # 
+Set Map
+  Layer 1
+    Display Graphic
+    Global Pen (1,2,0) Brush (2,16777215,16777215) Symbol (35,0,12) Line (1,2,0) Font ("MS UI Gothic",0,12,0)
+    Label Line Arrow Position Right Font ("MS UI Gothic",0,12,0) Pen (1,2,0) 
+      With Capital
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 2
+    Display Graphic
+    Global Pen (1,2,0) Brush (2,16777215,16777215) Symbol (35,0,12) Line (1,2,0) Font ("MS UI Gothic",0,12,0)
+    Label Line Arrow Position Above Font ("MS UI Gothic",0,12,0) Pen (1,2,0) 
+      With Highway
+      Parallel On Auto Off Overlap Off Duplicates Off Offset 2
+      Visibility On
+  Layer 3
+    Display Value
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (35,0,12)  Line (1,2,0)  Font ("MS UI Gothic",0,12,0)
+    Selectable Off
+  Layer 4
+    Display Graphic
+    Global Pen (1,2,0) Brush (2,16777215,16777215) Symbol (35,0,12) Line (1,2,0) Font ("MS UI Gothic",0,12,0)
+    FriendlyName "ratio"
+    Label Line None Position Center Font ("Arial Cyr",0,9,0) Pen (1,2,0) 
+      With Pop_Black/Pop_Asian+Chr$(13)+" black/asian ratio"
+      Parallel On Auto On Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 5
+    Display Graphic
+    Global Pen (1,2,0) Brush (2,16777215,16777215) Symbol (35,0,12) Line (1,2,0) Font ("MS UI Gothic",0,12,0)
+    Label Line None Position Center Font ("MS UI Gothic",0,12,0) Pen (1,2,0) 
+      With State_Name
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+set legend 
+  layer 3 
+    display on 
+    shades on 
+    symbols off 
+    lines off 
+    count on 
+    title "ÑKÑÄÑ|ÑyÑâÑuÑÉÑÑÑrÑÄ Ñ~ÑuÑsÑÇÑÄÑr ÑÅÑÄ ÑäÑÑÑpÑÑÑpÑ}" Font ("Arial Cyr",0,12,0)
+    subtitle auto Font ("Arial Cyr",0,8,0)
+    ascending off 
+    ranges Font ("Arial Cyr",0,8,0)
+      auto display off ,
+      auto display on ,
+      auto display on ,
+      auto display on ,
+      auto display on ,
+      auto display on  
+Set Window FrontWindow() Printer
+ Name "Microsoft Print to PDF" Orientation Portrait Copies 1
+ Papersize 9
+Create Designer Legend
+  Position (10.3403,0.208333) Units "in"
+  Width 2.78472 Units "in" Height 4.875 Units "in" 
+  Custom
+  Default Frame Title "#" Font ("System",0,12,0)
+  Default Frame Style "%" Font ("System",0,12,0)
+  Default Frame Line Width 36 Units "pt"
+  Default Frame Region Width 32 Units "pt"
+  Default Frame Region Height 14 Units "pt"
+  Default Frame Auto Font Size ON 
+  Frame From Layer 2
+    Position (0,0) Units "in"
+    Title "ÑSÑÇÑpÑÉÑÉÑp" Font ("System",0,12,0)
+    Using Column object FromMapCatalog OFF 
+    Style Font ("System",0,12,0)
+      Text "ÑLÑyÑ~ÑyÑë" Line Pen (1,2,16711680) 
+  Frame From Layer 4
+    Position (0,0.483333) Units "in"
+    Title "ÑYÑÑÑpÑÑ" Font ("System",0,12,0)
+    Using Column object FromMapCatalog OFF 
+    Style Font ("System",0,12,0)
+      Text "ÑPÑÄÑ|ÑyÑsÑÄÑ~" Region Pen (1,2,0)  Brush (2,12648384,16777215) 
+  Frame From Layer 3
+    Position (0,0.972222) Units "in"
+Set Window FrontWindow() Printer
+ Name "MapInfo PDF Printer Version 12.5 x64" Orientation Portrait Copies 1
+ Papersize 9

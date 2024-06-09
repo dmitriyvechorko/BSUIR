@@ -1,0 +1,38 @@
+section_subject_domain_of_Gomel_theatres
+
+    => nrel_main_idtf:
+    [Раздел. Предметная область театров города Гомель]
+    (* <- lang_ru;;*);
+    [Section. Subject domain of Gomel theatres]
+    (* <- lang_en;;*);
+
+    -> rrel_key_sc_element:
+        concept_Gomel_theatres;       
+          theatre_of_drama;
+          theatre_of_dolls;
+          theatre_of_photos;
+          theatre_of_the_green_house_in_the_quarter;
+
+    <- atomic_section;;
+
+section_subject_domain_of_Gomel_theatres
+    = [*
+        subject_domain_of_Gomel_theatres
+
+            => nrel_main_idtf:
+            [Предметная область театров города Гомель]
+            (* <- lang_ru;;*);
+            [Subject domain of Gomel theatres]
+            (* <- lang_en;;*);
+            
+            <- subject_domain;
+
+            -> rrel_maximum_studied_object_class:
+                concept_Gomel_theatres;
+
+            -> rrel_not_maximum_studied_object_class:
+                theatre_of_drama;
+                theatre_of_dolls;
+                theatre_of_photos;
+                theatre_of_the_green_house_in_the_quarter;;         
+    *];;

@@ -1,0 +1,68 @@
+sc_node_struct->section_subject_domain_of_food_establishments;;
+
+    section_subject_domain_of_food_establishments=>nrel_main_idtf:
+        [Раздел. Предметная область заведений питания]
+        (*<-lang_ru;;*);;
+
+    section_subject_domain_of_food_establishments=>nrel_main_idtf:
+        [Section. Subject domain of food establishments]
+        (*<-lang_en;;*);;
+
+    section_subject_domain_of_food_establishments<=nrel_section_decomposition:
+    {
+        section_subject_domain_of_cafes;
+        section_subject_domain_of_restaurants;
+        section_subject_domain_of_pubs;
+        section_subject_domain_of_bars
+    };;
+
+    section_subject_domain_of_food_establishments->rrel_key_sc_element:
+        subject_domain_of_food_establishments;
+        concept_order;
+        concept_food;
+        concept_table;
+        concept_chair;
+        concept_drinks;
+        concept_plates;
+        concept_mealwere;
+        nrel_ordering;
+        nrel_eat;
+        nrel_drinking;
+        nrel_order_fulfillment;;
+
+    section_subject_domain_of_food_establishments<-non_atomic_section;;
+
+    subject_domain_of_food_establishments=>nrel_main_idtf:
+        [Предметная область заведений питания]
+        (*<-lang_ru;;*);;
+
+    subject_domain_of_food_establishments=>nrel_main_idtf:
+        [Subject domain of food establishments]
+        (*<-lang_en;;*);;
+
+    subject_domain_of_food_establishments=>nrel_private_subject_domain:
+        section_subject_domain_of_cafes;
+        section_subject_domain_of_restaurants;
+        section_subject_domain_of_pubs;
+        section_subject_domain_of_bars;;
+
+    subject_domain_of_food_establishments<=nrel_private_subject_domain:
+        concept_organization;;
+
+    subject_domain_of_food_establishments->rrel_maximum_studied_object_class:
+        concept_food_establishment;;
+
+    subject_domain_of_food_establishments->rrel_not_maximum_studied_object_class:
+        concept_organization;
+        concept_order;
+        concept_drinks;
+        concept_table;
+        concept_chair;;
+
+    subject_domain_of_food_establishments->rrel_explored_relation:
+        nrel_ordering;
+        nrel_eat;
+        nrel_drinking;
+        nrel_order_fulfillment;;
+
+    subject_domain_of_food_establishments<-subject_domain;;

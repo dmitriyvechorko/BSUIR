@@ -1,0 +1,38 @@
+section_subject_domain_of_Gomel_monuments
+
+    => nrel_main_idtf:
+    [Раздел. Предметная область памятников города Гомель]
+    (* <- lang_ru;;*);
+    [Section. Subject domain of Gomel monuments]
+    (* <- lang_en;;*);
+
+    -> rrel_key_sc_element:
+        concept_Gomel_monuments;       
+          monument_of_A_A_Gromyko;
+          monument_of_Kirila_Turovsky;
+          monument_of_N_P_Rumyantsev;
+          monument_of_the_first_settler;
+
+    <- atomic_section;;
+
+section_subject_domain_of_Gomel_monuments
+    = [*
+        subject_domain_of_Gomel_monuments
+
+            => nrel_main_idtf:
+            [Предметная область памятников города Гомель]
+            (* <- lang_ru;;*);
+            [Subject domain of Gomel monuments]
+            (* <- lang_en;;*);
+            
+            <- subject_domain;
+
+            -> rrel_maximum_studied_object_class:
+                concept_Gomel_monuments;
+
+            -> rrel_not_maximum_studied_object_class:
+                monument_of_A_A_Gromyko;
+                monument_of_Kirila_Turovsky;
+                monument_of_N_P_Rumyantsev;
+                monument_of_the_first_settler;;         
+    *];;

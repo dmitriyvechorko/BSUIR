@@ -1,0 +1,25 @@
+concept_sights_of_Brest_region
+<- concept_sights;
+=> nrel_main_idtf:
+    [достопримечательности Брестской области] (* <- lang_ru;;*);   
+    [Sights of the Brest region] (* <- lang_en;;*);
+    
+=> nrel_inclusion:
+    concept_sights_of_Brest_city;
+    concept_sights_of_Cobrin_city;;
+
+
+definition -> definition_of_sights_of_Brest_region (*
+	-> rrel_key_sc_element: concept_sights_of_Brest_region;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Достопримечательности Брестской области - все достопримечательности, 
+    находящиеся на территории Брестской области.] (* <- lang_ru;; *);;
+		-> [Sights of the Brest region - all attractions
+     located on the territory of the Brest region.] (* <- lang_en;; *);;
+	*);;
+
+  => nrel_main_idtf:
+		[Опр. (Достопримечательности Брестской области)] (* <- lang_ru;; *);
+		[Def. (Sights of the Brest region)] (* <- lang_en;; *);;
+*);;

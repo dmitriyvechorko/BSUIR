@@ -1,0 +1,41 @@
+section_subject_domain_of_Gomel_cinemas
+
+    => nrel_main_idtf:
+    [Раздел. Предметная область  кинотеатров города Гомель]
+    (* <- lang_ru;;*);
+    [Section. Subject domain of Gomel cinemas]
+    (* <- lang_en;;*);
+
+    -> rrel_key_sc_element:
+        concept_Gomel_cinemas;       
+           Misteria_cinema;
+           cinema_MiniOn;
+           cinema_Mir;
+           cinema_Oktyabr;
+           cinema_of_I_M_Kalinin;
+
+    <- atomic_section;;
+
+section_subject_domain_of_Gomel_cinemas
+    = [*
+        subject_domain_of_Gomel_cinemas
+
+            => nrel_main_idtf:
+            [Предметная область кинотеатров города Гомель]
+            (* <- lang_ru;;*);
+            [Subject domain of Gomel cinemas]
+            (* <- lang_en;;*);
+            
+            <- subject_domain;
+
+            -> rrel_maximum_studied_object_class:
+                concept_Gomel_cinemas;
+
+            -> rrel_not_maximum_studied_object_class:
+                concept_sights_of_Gomel_cinemas;
+                Misteria_cinema;
+                cinema_MiniOn;
+                cinema_Mir;
+                cinema_of_I_M_Kalinin;
+                cinema_Oktyabr;;
+    *];;

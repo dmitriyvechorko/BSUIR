@@ -1,0 +1,19 @@
+concept_Gomel_city
+=> nrel_main_idtf:
+    [город Гомель] (* <- lang_ru;;*);   
+    [Gomel city] (* <- lang_en;;*); 
+    
+=> nrel_placed_in_Gomel_city: concept_sights_of_Gomel_city;;
+
+definition -> definition_of_Gomel_city (*
+	-> rrel_key_sc_element: concept_Gomel_city;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Брест — город на юго-западе Беларуси, административный центр Брестской области и Брестского района. ] (* <- lang_ru;; *);;
+		-> [Brest is a city in the southwest of Belarus, the administrative center of the Brest region and Brest district.] (* <- lang_en;; *);;
+	*);;
+
+    => nrel_main_idtf:
+		[Опр. (Город Гомель)] (* <- lang_ru;; *);
+		[Def. (Gomel city)] (* <- lang_en;; *);;
+*);;

@@ -1,0 +1,139 @@
+Include "MAPBASIC.DEF"
+Include "ICONS.DEF"
+Include "MENU.DEF"
+
+Declare Sub Main
+Declare Sub MenuDialog
+Declare Sub reduce
+Declare Sub paintwhite
+
+Define AppName "Reducer"
+Define AppNameMenu "Table Reducer"
+
+Global percent as Integer
+Global fieldname as String
+Global tablename as String
+
+
+
+
+
+Sub Main
+
+	Create Menu AppNameMenu as
+		"Enter Fields to reduce"
+		Calling MenuDialog
+	
+	Alter Menu Bar Remove ID M_HELP
+	Alter Menu "&SampleCode" Add
+		AppNameMenu As AppNameMenu
+	Alter Menu Bar Add "&SampleCode"
+	Alter Menu Bar Add ID M_HELP
+
+	Alter Menu ID M_SHORTCUT_TLV_TABLES Add
+		"(-",
+		"Reduce"
+		Calling MenuDialog
+
+
+End Sub Main
+
+
+
+Sub MenuDialog()
+
+	Dialog
+	Title "Reducer menu"
+	Width 240 Height 170
+	
+	Control EditText
+		Id 0
+		Position 33, 80
+		Width 119 Height 22
+		Value "STATES"
+		Into tablename
+	
+
+	Control EditText
+		Id 1
+		Position 33, 50
+		Width 119 Height 22
+		Value  "Pop_Rural"
+		Into fieldname
+
+	Control EditText
+		Id 2
+		Position 33, 20
+		Width 119 Height 22
+		Value 30
+		Into percent
+
+	
+	Control Button
+		Title "Paint roads in white"
+		Id 3
+		Position 33, 110
+		Width 119 Height 22
+		Calling paintwhite
+
+	
+	Control OKButton
+	
+	If CommandInfo(CMD_INFO_DLG_OK) Then
+		Call reduce
+	End If
+
+End Sub MenuDialog
+
+
+
+	
+Sub reduce
+
+	Run Command "SELECT * FROM " & tablename & " INTO sel"
+	Run Command "UPDATE sel SET " & fieldname & " = " & fieldname & " * ( 100 -  " & percent & " ) / 100 "
+
+End Sub reduce
+
+
+
+
+Sub paintwhite
+
+	Dim myobj As Object
+	Dim styleFill as Brush
+	Dim styleLine as Pen
+	Dim curRow as Integer
+	Dim stateCode as String
+	Dim numWindowSelection as Integer
+	Dim mapWindowSelection as Integer
+
+	styleFill = MakeBrush(64, CYAN, WHITE)
+	
+	Fetch First From Selection
+	curRow = 1
+
+	Do Until EOT(Selection)
+		myobj = Selection.obj
+		Alter Object myobj Info OBJ_INFO_BRUSH, styleFill
+		UPDATE Selection SET obj = myobj Where RowID = curRow
+		Fetch Next From Selection
+		curRow = curRow + 1
+	Loop
+
+	For numWindowSelection = 1 To NumWindows ()
+		If windowInfo(numWindowSelection, WIN_INFO_TYPE) = 1 Then
+			mapWindowSelection = WindowId(numWindowSelection)
+			Add Map
+			Window mapWindowSelection
+			Layer Selection
+			Set Map
+			Window mapWindowSelection
+			Zoom Entire Layer 1
+		End If
+	Next
+	
+End Sub paintwhite
+
+
+
