@@ -1,0 +1,282 @@
+[33mcommit e05e6f3492d6877182caf91cc1aca5c58025a74e[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: Dmitry V <dimonvechorko@gmail.com>
+Date:   Tue Jan 7 23:13:15 2025 +0300
+
+    changing Igisit main
+
+[33mcommit 8bdac6786084e0057d92e7158c5f98571b3ea4f7[m
+Author: Dmitry V <dimonvechorko@gmail.com>
+Date:   Tue Jan 7 23:08:37 2025 +0300
+
+    Adding some extra works
+
+[33mcommit 87b834971384a19d193bd25cbb614cb5a92c90ab[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: 43ea9e0 a6f1dea
+Author: Dmitry V <dimonvechorko@gmail.com>
+Date:   Tue Jan 7 22:58:53 2025 +0300
+
+    Merge branch 'main' of https://github.com/dmitriyvechorko/BSUIR
+
+[33mcommit 43ea9e080a4b8d154be899595bc8ae510a8b67df[m
+Author: Dmitry V <dimonvechorko@gmail.com>
+Date:   Tue Jan 7 22:58:48 2025 +0300
+
+    adding the 5th sem
+
+[33mcommit a6f1deaa898a67171657ce8cd3b2f4884bcad03c[m
+Author: Dmitry Vechorko <dimonvechorko@gmail.com>
+Date:   Tue Jan 7 22:52:49 2025 +0300
+
+    Delete sem5/CW directory
+
+[33mcommit 0538edbbd0a0e44c09c530c573b12f681a752195[m
+Author: Dmitry V <dimonvechorko@gmail.com>
+Date:   Tue Jan 7 22:51:57 2025 +0300
+
+    adding the 5th sem work
+
+[33mcommit cb6e9b826706d35baacebd429725a172922c7b93[m
+Author: Dimon <dimonvechorko@gmail.com>
+Date:   Sun Jun 9 20:17:29 2024 +0300
+
+    adding semesters' labs
+
+[33mcommit a8d7df31462f2588fd67df6e24a27929245d892c[m
+Author: dimon <dimonvechorko@gmailcom>
+Date:   Fri Jan 26 13:39:53 2024 +0300
+
+    changed readme
+
+[33mcommit 2d5f863a55d7e8cd2d956af949638113c2ee81a9[m
+Author: dimon <dimonvechorko@gmailcom>
+Date:   Fri Jan 26 13:23:20 2024 +0300
+
+    3 sem update
+
+[33mcommit b796853d6b76b75652e238ac258cb0260ad58edc[m
+Author: Dmitry Vechorko <113061286+dmitriyvechorko@users.noreply.github.com>
+Date:   Tue May 2 20:32:40 2023 +0300
+
+    PIOIVIS
+
+[33mcommit 49a3f3592ae391e7861761437e3a4eb78aae665d[m
+Merge: d3351eb f24da82
+Author: Dmitry <dimonvechorko@gmail.com>
+Date:   Sun Jan 8 18:50:19 2023 +0300
+
+    finish
+
+[33mcommit d3351ebbdb5153fe13b3d9013d5a522a6d449d85[m
+Author: Dmitry <dimonvechorko@gmail.com>
+Date:   Sun Jan 8 18:48:58 2023 +0300
+
+    the 1st semester
+
+[33mcommit f24da8222ff89286d1b6aa726c1b3f8181cc0674[m
+Author: Dmitry Vechorko <113061286+dmitriyvechorko@users.noreply.github.com>
+Date:   Sun Dec 4 19:27:59 2022 +0300
+
+    Update c++_check.txt
+
+[33mcommit ed869f6cd2921ad180cc13946b1c7fe8beb26b13[m
+Author: Dmitry <dimonvechorko@gmail.com>
+Date:   Sun Dec 4 19:23:27 2022 +0300
+
+    some changes
+
+[33mcommit bc040a0bf558dd891f89114019ff87a97d8129e4[m
+Author: Dmitry <dimonvechorko@gmail.com>
+Date:   Sun Dec 4 19:18:57 2022 +0300
+
+    8LW
+
+[33mcommit f82462c9f96ab63fbc1342e40744438f29708bef[m
+Author: Dmitry <dimonvechorko@gmail.com>
+Date:   Sun Dec 4 18:36:48 2022 +0300
+
+    7lab
+
+[33mcommit 246f2f2f33b417cf81608ad5ae2de7f082e53bcb[m
+Author: Dmitry <dimonvechorko@gmail.com>
+Date:   Tue Nov 22 23:35:19 2022 +0300
+
+    lab6
+
+[33mcommit 30f22cb0e8f5ff650e95d15772c5d5a18a97eb39[m
+Author: Dmitry <dimonvechorko@gmail.com>
+Date:   Mon Nov 21 23:51:50 2022 +0300
+
+    OKG
+
+[33mcommit 4ca0dc770e967b82131ebc22fe731aa7b3d878a7[m
+Author: Dmitry <dimonvechorko@gmail.com>
+Date:   Mon Nov 21 13:37:51 2022 +0300
+
+    some changes
+
+[33mcommit 7007e7895df23bc7ebdd679e40108d79a3e01823[m
+Author: Dmitry <dimonvechorko@gmail.com>
+Date:   Sun Nov 20 22:42:19 2022 +0300
+
+    2
+
+[33mcommit 828f44720c5d754830b38e71fd0e92bb9bb80816[m
+Author: Dmitry <dimonvechorko@gmail.com>
+Date:   Sun Nov 20 22:40:13 2022 +0300
+
+    1
+
+[33mcommit d4ded2c6075e7a1de5106bd78addf8cca51cb2b0[m
+Author: Dmitry <dimonvechorko@gmail.com>
+Date:   Sun Nov 20 22:38:17 2022 +0300
+
+    labs 4 and 5
+
+[33mcommit 20668f7a73d7120e6240cf6cd57acb0da123ec55[m
+Author: Dmitry <dimonvechorko@gmail.com>
+Date:   Sun Nov 20 22:37:27 2022 +0300
+
+    the 4th and the 5th labs
+
+[33mcommit 188b837f30efa0f66f885b009a921bb73aafb329[m
+Author: Dim <dimonvechorko@gmail.com>
+Date:   Wed Nov 9 19:20:54 2022 +0300
+
+    new LW
+
+[33mcommit cd958a9aaf2c45e03956ce792201bec8dba3ff90[m
+Merge: 3e337d6 152f567
+Author: Dim <dimonvechorko@gmail.com>
+Date:   Mon Nov 7 21:31:05 2022 +0300
+
+    so
+
+[33mcommit 3e337d6861f303d2024986b840bad3690b10ce98[m
+Author: Dim <dimonvechorko@gmail.com>
+Date:   Mon Nov 7 21:30:02 2022 +0300
+
+    New works
+
+[33mcommit 152f567e85242a740dfd6bacd3d06c75311edb26[m
+Author: Dmitry Vechorko <113061286+dmitriyvechorko@users.noreply.github.com>
+Date:   Tue Nov 1 22:54:20 2022 +0300
+
+    Update README.md
+
+[33mcommit 45edeba33ae35698915fd81923f8014086921112[m
+Author: Дмитрий <dimonvechorko@gmail.com>
+Date:   Tue Nov 1 22:53:20 2022 +0300
+
+    2
+
+[33mcommit 5e549fd2def5ae972930101f8286ed1f26bca965[m
+Author: Dmitry Vechorko <113061286+dmitriyvechorko@users.noreply.github.com>
+Date:   Tue Nov 1 22:49:48 2022 +0300
+
+    Update README.md
+
+[33mcommit 95435704cbc0507287ab00120684c66eed7a3d3c[m
+Author: Dmitry Vechorko <113061286+dmitriyvechorko@users.noreply.github.com>
+Date:   Tue Nov 1 22:46:07 2022 +0300
+
+    Update README.md
+
+[33mcommit 0ccec0a8125f98d0ac7002c048ffdbe735be9a58[m
+Author: Dmitry Vechorko <113061286+dmitriyvechorko@users.noreply.github.com>
+Date:   Tue Nov 1 22:45:41 2022 +0300
+
+    Update README.md
+
+[33mcommit ab69f636ee01b1aabcbc401f8654a471cc3f1110[m
+Author: Dmitry Vechorko <113061286+dmitriyvechorko@users.noreply.github.com>
+Date:   Tue Nov 1 22:45:06 2022 +0300
+
+    Update README.md
+
+[33mcommit d19b84b0e3b0a4d971f0a13056a1a0817005948d[m
+Author: Дмитрий <dimonvechorko@gmail.com>
+Date:   Tue Nov 1 22:41:38 2022 +0300
+
+    q
+
+[33mcommit ab0f2e7bcda7d895cc8d18646ea6ec51ab06511e[m
+Author: Дмитрий <dimonvechorko@gmail.com>
+Date:   Tue Nov 1 22:34:55 2022 +0300
+
+    qwer
+
+[33mcommit 0ce9de8d36f66c0864623a6fb38976a15038767c[m
+Merge: 39b3fa2 5b5d03c
+Author: Дмитрий <dimonvechorko@gmail.com>
+Date:   Tue Nov 1 22:26:25 2022 +0300
+
+    Merge branch 'main' of github.com:dmitriyvechorko/BSUIR
+
+[33mcommit 39b3fa29abdd2c632c1f48c6a98939fbe7709f4b[m
+Author: Дмитрий <dimonvechorko@gmail.com>
+Date:   Tue Nov 1 22:25:19 2022 +0300
+
+    Made some changes
+
+[33mcommit 5b5d03c46d4a7f0ae2959ba8a6b9f44790ea6520[m
+Author: Dmitry Vechorko <113061286+dmitriyvechorko@users.noreply.github.com>
+Date:   Sun Oct 23 23:01:42 2022 +0300
+
+    Update 3_level2.cpp
+
+[33mcommit 73c3f67a59901f781280dab0aadbc0ffd671fcbf[m
+Author: Dmitry Vechorko <113061286+dmitriyvechorko@users.noreply.github.com>
+Date:   Sun Oct 23 21:06:35 2022 +0300
+
+    Update 3_level2.cpp
+
+[33mcommit 689b796df53355f306317c5a8202e87503f8502f[m
+Author: Dmitry Vechorko <113061286+dmitriyvechorko@users.noreply.github.com>
+Date:   Sun Oct 23 21:03:52 2022 +0300
+
+    Rename c++.txt to c++_check.txt
+
+[33mcommit 661badc0c945eb5dceb831cb9dad44569a12fe52[m
+Author: Dmitry Vechorko <113061286+dmitriyvechorko@users.noreply.github.com>
+Date:   Tue Oct 11 22:28:26 2022 +0300
+
+    Update c++.txt
+
+[33mcommit 1dc131207a9c0df53c6c61473d01cbfaa79b7b30[m
+Author: Dmitry Vechorko <113061286+dmitriyvechorko@users.noreply.github.com>
+Date:   Tue Oct 11 22:28:08 2022 +0300
+
+    Add files via upload
+
+[33mcommit 195bffcb199cdabc1bd7411ae7a1e97adcaea30b[m
+Author: Dmitry Vechorko <113061286+dmitriyvechorko@users.noreply.github.com>
+Date:   Sat Oct 8 22:52:58 2022 +0300
+
+    Delete 123
+
+[33mcommit 94b3e5d6beb30fd3a8e4dc3d51557e37c6aaab85[m
+Author: Dmitry Vechorko <113061286+dmitriyvechorko@users.noreply.github.com>
+Date:   Sat Oct 8 22:52:22 2022 +0300
+
+    Add files via upload
+
+[33mcommit a03bffe8d8106ff0821190038d6a222e24f2a6b0[m
+Author: Dmitry Vechorko <113061286+dmitriyvechorko@users.noreply.github.com>
+Date:   Thu Sep 29 19:41:37 2022 +0300
+
+    Create 123
+
+[33mcommit ae095e7fe86a44b013bb476f88e9de812d487164[m
+Author: Dmitry Vechorko <113061286+dmitriyvechorko@users.noreply.github.com>
+Date:   Thu Sep 29 19:41:10 2022 +0300
+
+    Create 3_level3.cpp
+
+[33mcommit 016736bcc232f400bd64b53c9bc1e47f956bc704[m
+Author: Dmitry Vechorko <113061286+dmitriyvechorko@users.noreply.github.com>
+Date:   Thu Sep 29 19:20:44 2022 +0300
+
+    Create 3_level2.cpp
+
+[33mcommit e126c99d02f82ea5753341a46ae562929b2ad04e[m
+Author: 
