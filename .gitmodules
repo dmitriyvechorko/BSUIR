@@ -1,0 +1,3 @@
+[submodule "sem5/CW/JSONConverter"]
+	path = sem5/CW/JSONConverter
+	url = https://github.com/dmitriyvechorko/JSONConverter.git
