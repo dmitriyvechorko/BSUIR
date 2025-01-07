@@ -1,0 +1,23 @@
+@startuml
+left to right direction
+
+actor "Пользователь" as User
+actor "Почтовый сервер" as MailServer
+
+rectangle "Система пересылки писем" as MailSystem {
+  usecase "Подключение к серверу" as ConnectServer
+  usecase "Просмотр входящих писем" as ViewInbox
+  usecase "Написание письма" as WriteMail
+  usecase "Отправка письма" as SendMail
+  usecase "Получение письма" as ReceiveMail
+  usecase "Обработка некорректного адреса" as HandleInvalidAddress
+
+  User --> ConnectServer
+  User --> ViewInbox
+  User --> WriteMail
+  WriteMail --> SendMail
+  SendMail --> MailServer
+  MailServer --> ReceiveMail
+  MailServer --> HandleInvalidAddress
+}
+@enduml

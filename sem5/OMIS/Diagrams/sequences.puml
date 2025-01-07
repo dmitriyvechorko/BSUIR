@@ -1,0 +1,47 @@
+@startuml sequences
+
+actor "Житель дома" as user
+boundary "Интерфейс системы автоматизированного учёта и анализа энергопотребления в доме" as interface
+entity "Логический компонент системы автоматизированного учёта и анализа энергопотребления в доме" as system
+database "База данных" as database
+
+activate user
+activate interface
+loop Пока пользователь не авторизуется
+user -> interface: Запрос на авторизацию
+
+activate database
+interface -> database: Проверка учетных данных
+alt Пользователь найден
+    database --> interface: Ответ (успешная авторизация)
+
+    interface --> user: Успешная авторизация
+
+    user -> interface : Просмотреть статистику потребления
+    interface -> system : Запросить статистику потребления
+
+    activate system
+    activate database
+    system -> database : Запросить данные о потреблении
+    alt Данные найдены
+        database --> system: Вернуть данные о потреблении
+        system --> interface: Формирование статистики
+        deactivate system
+        interface --> user: Отображение статистики потребления
+    else Данные не найдены
+        database --> interface: Ошибка (данные недоступны)
+
+    deactivate database
+        interface --> user: Сообщение об ошибке (не удалось получить данные)
+    end
+else Пользователь не найден
+
+    database --> interface: Ответ (неуспешная авторизация)
+    deactivate database
+    interface --> user: Ошибка авторизации (Пользователь не найден)
+end
+end
+activate interface
+deactivate user
+
+@enduml

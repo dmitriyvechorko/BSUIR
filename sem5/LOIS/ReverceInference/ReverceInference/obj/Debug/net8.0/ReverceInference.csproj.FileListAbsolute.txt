@@ -1,0 +1,15 @@
+D:\sem5\LOIS\ReverceInference\ReverceInference\bin\Debug\net8.0\ReverceInference.exe
+D:\sem5\LOIS\ReverceInference\ReverceInference\bin\Debug\net8.0\ReverceInference.deps.json
+D:\sem5\LOIS\ReverceInference\ReverceInference\bin\Debug\net8.0\ReverceInference.runtimeconfig.json
+D:\sem5\LOIS\ReverceInference\ReverceInference\bin\Debug\net8.0\ReverceInference.dll
+D:\sem5\LOIS\ReverceInference\ReverceInference\bin\Debug\net8.0\ReverceInference.pdb
+D:\sem5\LOIS\ReverceInference\ReverceInference\obj\Debug\net8.0\ReverceInference.GeneratedMSBuildEditorConfig.editorconfig
+D:\sem5\LOIS\ReverceInference\ReverceInference\obj\Debug\net8.0\ReverceInference.AssemblyInfoInputs.cache
+D:\sem5\LOIS\ReverceInference\ReverceInference\obj\Debug\net8.0\ReverceInference.AssemblyInfo.cs
+D:\sem5\LOIS\ReverceInference\ReverceInference\obj\Debug\net8.0\ReverceInference.csproj.CoreCompileInputs.cache
+D:\sem5\LOIS\ReverceInference\ReverceInference\obj\Debug\net8.0\ReverceInference.sourcelink.json
+D:\sem5\LOIS\ReverceInference\ReverceInference\obj\Debug\net8.0\ReverceInference.dll
+D:\sem5\LOIS\ReverceInference\ReverceInference\obj\Debug\net8.0\refint\ReverceInference.dll
+D:\sem5\LOIS\ReverceInference\ReverceInference\obj\Debug\net8.0\ReverceInference.pdb
+D:\sem5\LOIS\ReverceInference\ReverceInference\obj\Debug\net8.0\ReverceInference.genruntimeconfig.cache
+D:\sem5\LOIS\ReverceInference\ReverceInference\obj\Debug\net8.0\ref\ReverceInference.dll

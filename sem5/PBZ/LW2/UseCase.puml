@@ -1,0 +1,22 @@
+@startuml
+left to right direction
+
+actor "Технолог МТС" as Techician
+actor "Оператор МТС" as Operator
+
+rectangle "Система управления междугородней телефонной станцией (МТС)" as Platform {
+  usecase "Добавление нового клиента" as AddingClient
+  usecase "Изменение тарифов на услуги" as ServiceCostChanging
+  usecase "Фиксирование информации о разговоре" as HistoryInfo
+  usecase "Отправить квитанцию об оплате" as RecommendationsInfo
+  usecase "Принять извещение об оплате" as ReportInfo
+
+  Techician  --> AddingClient
+  Techician  --> ServiceCostChanging
+
+  Operator   --> HistoryInfo
+  Operator   --> RecommendationsInfo
+  Operator   --> ReportInfo
+
+}
+@enduml

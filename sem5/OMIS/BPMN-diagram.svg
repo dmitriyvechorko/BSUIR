@@ -1,0 +1,1551 @@
+<?xml version="1.0"?>
+<svg width="2392" height="762" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" version="1.1">
+ <defs>
+  <pattern height="10" id="djs-grid-pattern-464707" patternUnits="userSpaceOnUse" width="10">
+   <circle cx="0.5" cy="0.5" fill="rgb(204, 204, 204)" id="svg_1" r="0.5"/>
+  </pattern>
+  <marker id="association-end-white-hsl_225_10_15_-c6im8aphrggn1h3aqcqq7afim" markerHeight="10" markerWidth="10" orient="auto" refX="11" refY="10" viewBox="0 0 20 20">
+   <path d="m1,5l10,5l-10,5" fill="none" id="svg_2" stroke="rgb(34, 36, 42)" stroke-dasharray="10000, 1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5px"/>
+  </marker>
+  <marker id="sequenceflow-end-white-hsl_225_10_15_-c6im8aphrggn1h3aqcqq7afim" markerHeight="10" markerWidth="10" orient="auto" refX="11" refY="10" viewBox="0 0 20 20">
+   <path d="m1,5l10,5l-10,5l0,-10z" fill="rgb(34, 36, 42)" id="svg_3" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1px"/>
+  </marker>
+  <marker id="messageflow-end-white-hsl_225_10_15_-c6im8aphrggn1h3aqcqq7afim" markerHeight="20" markerWidth="20" orient="auto" refX="8.5" refY="5" viewBox="0 0 20 20">
+   <path d="m1,5l0,-3l7,3l-7,3l0,-3z" fill="white" id="svg_4" stroke="rgb(34, 36, 42)" stroke-dasharray="10000, 1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1px"/>
+  </marker>
+  <marker id="messageflow-start-white-hsl_225_10_15_-c6im8aphrggn1h3aqcqq7afim" markerHeight="20" markerWidth="20" orient="auto" refX="6" refY="6" viewBox="0 0 20 20">
+   <circle cx="6" cy="6" fill="white" id="svg_5" r="3.5" stroke="rgb(34, 36, 42)" stroke-dasharray="10000, 1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1px"/>
+  </marker>
+ </defs>
+ <g class="layer">
+  <title>Layer 1</title>
+  <g class="djs-group" id="svg_6">
+   <g class="djs-element djs-shape" data-element-id="Participant_1lbc4zm" display="block" id="svg_7" transform="matrix(1 0 0 1 160 420)">
+    <g class="djs-visual" id="svg_8">
+     <rect fill="white" fill-opacity="0.95" height="410" id="svg_9" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5px" width="2380" x="0" y="0"/>
+     <path d="m30,0l0,410" fill="none" id="svg_10" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5px"/>
+     <text class="djs-label" fill="rgb(34, 36, 42)" font-family="Arial, sans-serif" font-size="12px" font-weight="normal" id="svg_11" transform="matrix(-1.83697e-16 -1 1 -1.83697e-16 0 410)">
+      <tspan id="svg_12" x="182.04" y="18.6">Студент</tspan>
+     </text>
+    </g>
+    <rect class="djs-outline" fill="none" height="422" id="svg_13" rx="4" width="2392" x="-6" y="-6"/>
+    <rect class="djs-hit djs-hit-no-move" fill="none" height="410" id="svg_14" stroke="white" stroke-opacity="0" stroke-width="15px" width="2380" x="0" y="0"/>
+    <rect class="djs-hit djs-hit-click-stroke" fill="none" height="410" id="svg_15" stroke="white" stroke-opacity="0" stroke-width="15px" width="2380" x="0" y="0"/>
+    <rect class="djs-hit djs-hit-all" fill="none" height="410" id="svg_16" stroke="white" stroke-opacity="0" stroke-width="15px" width="30" x="0" y="0"/>
+   </g>
+   <g class="djs-children" id="svg_17">
+    <g class="djs-group" id="svg_18">
+     <g class="djs-element djs-shape" data-element-id="Event_03h3qwt" display="block" id="svg_19" transform="matrix(1 0 0 1 212 592)">
+      <g class="djs-visual" id="svg_20">
+       <circle cx="18" cy="18" fill="white" fill-opacity="0.95" id="svg_21" r="18" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px"/>
+      </g>
+      <rect class="djs-hit djs-hit-all" fill="none" height="36" id="svg_22" stroke="white" stroke-opacity="0" stroke-width="15px" width="36" x="0" y="0"/>
+      <rect class="djs-outline" fill="none" height="48" id="svg_23" rx="4" width="48" x="-6" y="-6"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_24">
+     <g class="djs-element djs-shape" data-element-id="Activity_0y5ca0w" display="block" id="svg_25" transform="matrix(1 0 0 1 270 570)">
+      <g class="djs-visual" id="svg_26">
+       <rect fill="white" fill-opacity="0.95" height="80" id="svg_27" rx="10" ry="10" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px" width="100" x="0" y="0"/>
+       <text class="djs-label" fill="rgb(34, 36, 42)" font-family="Arial, sans-serif" font-size="12px" font-weight="normal" id="svg_28">
+        <tspan id="svg_29" x="10.81" y="36.4">Выбрать тему</tspan>
+        <tspan id="svg_30" x="27.94" y="50.8">проекта</tspan>
+       </text>
+      </g>
+      <rect class="djs-hit djs-hit-all" fill="none" height="80" id="svg_31" stroke="white" stroke-opacity="0" stroke-width="15px" width="100" x="0" y="0"/>
+      <rect class="djs-outline" fill="none" height="92" id="svg_32" rx="4" width="112" x="-6" y="-6"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_33">
+     <g class="djs-element djs-shape" data-element-id="Gateway_0toqjrd" display="block" id="svg_34" transform="matrix(1 0 0 1 395 585)">
+      <g class="djs-visual" id="svg_35">
+       <polygon fill="white" fill-opacity="0.95" id="svg_36" points="25,0 50,25 25,50 0,25" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px"/>
+       <path d="m23,10l0,12.5l-12.5,0l0,5l12.5,0l0,12.5l5,0l0,-12.5l12.5,0l0,-5l-12.5,0l0,-12.5l-5,0z" fill="rgb(34, 36, 42)" id="svg_37" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1px"/>
+      </g>
+      <rect class="djs-hit djs-hit-all" fill="none" height="50" id="svg_38" stroke="white" stroke-opacity="0" stroke-width="15px" width="50" x="0" y="0"/>
+      <rect class="djs-outline" fill="none" height="62" id="svg_39" rx="4" width="62" x="-6" y="-6"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_40">
+     <g class="djs-element djs-shape" data-element-id="Activity_0nwzkqb" display="block" id="svg_41" transform="matrix(1 0 0 1 470 460)">
+      <g class="djs-visual" id="svg_42">
+       <rect fill="white" fill-opacity="0.95" height="80" id="svg_43" rx="10" ry="10" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px" width="100" x="0" y="0"/>
+       <text class="djs-label" fill="rgb(34, 36, 42)" font-family="Arial, sans-serif" font-size="12px" font-weight="normal" id="svg_44">
+        <tspan id="svg_45" x="20.88" y="36.4">Составить</tspan>
+        <tspan id="svg_46" x="13.17" y="50.8">лист задания</tspan>
+       </text>
+      </g>
+      <rect class="djs-hit djs-hit-all" fill="none" height="80" id="svg_47" stroke="white" stroke-opacity="0" stroke-width="15px" width="100" x="0" y="0"/>
+      <rect class="djs-outline" fill="none" height="92" id="svg_48" rx="4" width="112" x="-6" y="-6"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_49">
+     <g class="djs-element djs-shape" data-element-id="Activity_0m7zm3j" display="block" id="svg_50" transform="matrix(1 0 0 1 470 570)">
+      <g class="djs-visual" id="svg_51">
+       <rect fill="white" fill-opacity="0.95" height="80" id="svg_52" rx="10" ry="10" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px" width="100" x="0" y="0"/>
+       <text class="djs-label" fill="rgb(34, 36, 42)" font-family="Arial, sans-serif" font-size="12px" font-weight="normal" id="svg_53">
+        <tspan id="svg_54" x="20.88" y="36.4">Составить</tspan>
+        <tspan id="svg_55" x="14.55" y="50.8">план работы</tspan>
+       </text>
+      </g>
+      <rect class="djs-hit djs-hit-all" fill="none" height="80" id="svg_56" stroke="white" stroke-opacity="0" stroke-width="15px" width="100" x="0" y="0"/>
+      <rect class="djs-outline" fill="none" height="92" id="svg_57" rx="4" width="112" x="-6" y="-6"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_58">
+     <g class="djs-element djs-shape" data-element-id="Activity_1fot0zu" display="block" id="svg_59" transform="matrix(1 0 0 1 610 460)">
+      <g class="djs-visual" id="svg_60">
+       <rect fill="white" fill-opacity="0.95" height="80" id="svg_61" rx="10" ry="10" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px" width="100" x="0" y="0"/>
+       <text class="djs-label" fill="rgb(34, 36, 42)" font-family="Arial, sans-serif" font-size="12px" font-weight="normal" id="svg_62">
+        <tspan id="svg_63" x="20.23" y="29.2">Отправить</tspan>
+        <tspan id="svg_64" x="13.17" y="43.6">лист задания</tspan>
+        <tspan id="svg_65" x="16.13" y="58">на проверку</tspan>
+       </text>
+       <path d="m5.98,5l0,14l21,0l0,-14l-21,0zl10.5,6l10.5,-6" fill="rgb(34, 36, 42)" id="svg_66" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1px"/>
+      </g>
+      <rect class="djs-hit djs-hit-all" fill="none" height="80" id="svg_67" stroke="white" stroke-opacity="0" stroke-width="15px" width="100" x="0" y="0"/>
+      <rect class="djs-outline" fill="none" height="92" id="svg_68" rx="4" width="112" x="-6" y="-6"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_69">
+     <g class="djs-element djs-shape" data-element-id="DataObjectReference_0y6xajs" display="block" id="svg_70" transform="matrix(1 0 0 1 772 475)">
+      <g class="djs-visual" id="svg_71">
+       <path d="m0,0l28.24,0l7.05,8.2l0,40.98l-35.29,0l0,-49.18l28.24,0l0,8.2l7.05,0" fill="white" fill-opacity="0.95" id="svg_72" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px"/>
+      </g>
+      <rect class="djs-hit djs-hit-all" fill="none" height="50" id="svg_73" stroke="white" stroke-opacity="0" stroke-width="15px" width="36" x="0" y="0"/>
+      <rect class="djs-outline" fill="none" height="62" id="svg_74" rx="4" width="48" x="-6" y="-6"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_75">
+     <g class="djs-element djs-shape" data-element-id="DataObjectReference_0y6xajs_label" display="block" id="svg_76" transform="matrix(1 0 0 1 756 532)">
+      <g class="djs-visual" id="svg_77">
+       <text class="djs-label" fill="rgb(34, 36, 42)" font-family="Arial, sans-serif" font-size="11px" font-weight="normal" id="svg_78">
+        <tspan id="svg_79" x="0" y="9.9">Лист задания</tspan>
+       </text>
+      </g>
+      <rect class="djs-hit djs-hit-all" fill="none" height="14" id="svg_80" stroke="white" stroke-opacity="0" stroke-width="15px" width="69" x="0" y="0"/>
+      <rect class="djs-outline" fill="none" height="26" id="svg_81" rx="4" width="81" x="-6" y="-6"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_82">
+     <g class="djs-element djs-shape" data-element-id="Activity_19hz2qi" display="block" id="svg_83" transform="matrix(1 0 0 1 1030 460)">
+      <g class="djs-visual" id="svg_84">
+       <rect fill="white" fill-opacity="0.95" height="80" id="svg_85" rx="10" ry="10" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px" width="100" x="0" y="0"/>
+       <text class="djs-label" fill="rgb(34, 36, 42)" font-family="Arial, sans-serif" font-size="12px" font-weight="normal" id="svg_86">
+        <tspan id="svg_87" x="20.23" y="29.2">Отправить</tspan>
+        <tspan id="svg_88" x="13.17" y="43.6">лист задания</tspan>
+        <tspan id="svg_89" x="16.13" y="58">на проверку</tspan>
+       </text>
+       <path d="m5.98,5l0,14l21,0l0,-14l-21,0zl10.5,6l10.5,-6" fill="rgb(34, 36, 42)" id="svg_90" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1px"/>
+      </g>
+      <rect class="djs-hit djs-hit-all" fill="none" height="80" id="svg_91" stroke="white" stroke-opacity="0" stroke-width="15px" width="100" x="0" y="0"/>
+      <rect class="djs-outline" fill="none" height="92" id="svg_92" rx="4" width="112" x="-6" y="-6"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_93">
+     <g class="djs-element djs-shape" data-element-id="Activity_04ns1ra" display="block" id="svg_94" transform="matrix(1 0 0 1 890 460)">
+      <g class="djs-visual" id="svg_95">
+       <rect fill="white" fill-opacity="0.95" height="80" id="svg_96" rx="10" ry="10" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px" width="100" x="0" y="0"/>
+       <text class="djs-label" fill="rgb(34, 36, 42)" font-family="Arial, sans-serif" font-size="12px" font-weight="normal" id="svg_97">
+        <tspan id="svg_98" x="17.73" y="36.4">Доработать</tspan>
+        <tspan id="svg_99" x="13.17" y="50.8">лист задания</tspan>
+       </text>
+       <path d="m6.3,5.6l0,12.6l18.9,0l0,-12.6l-18.9,0zl9.45,5.4l9.45,-5.4" fill="white" id="svg_100" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1px"/>
+      </g>
+      <rect class="djs-hit djs-hit-all" fill="none" height="80" id="svg_101" stroke="white" stroke-opacity="0" stroke-width="15px" width="100" x="0" y="0"/>
+      <rect class="djs-outline" fill="none" height="92" id="svg_102" rx="4" width="112" x="-6" y="-6"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_103">
+     <g class="djs-element djs-shape" data-element-id="Activity_1u7mmfm" display="block" id="svg_104" transform="matrix(1 0 0 1 470 680)">
+      <g class="djs-visual" id="svg_105">
+       <rect fill="white" fill-opacity="0.95" height="80" id="svg_106" rx="10" ry="10" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px" width="100" x="0" y="0"/>
+       <text class="djs-label" fill="rgb(34, 36, 42)" font-family="Arial, sans-serif" font-size="12px" font-weight="normal" id="svg_107">
+        <tspan id="svg_108" x="15.27" y="29.2">Подготовить</tspan>
+        <tspan id="svg_109" x="16.54" y="43.6">шаблон для</tspan>
+        <tspan id="svg_110" x="31.47" y="58">отчёта</tspan>
+       </text>
+      </g>
+      <rect class="djs-hit djs-hit-all" fill="none" height="80" id="svg_111" stroke="white" stroke-opacity="0" stroke-width="15px" width="100" x="0" y="0"/>
+      <rect class="djs-outline" fill="none" height="92" id="svg_112" rx="4" width="112" x="-6" y="-6"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_113">
+     <g class="djs-element djs-shape" data-element-id="Activity_0fgolmd" display="block" id="svg_114" transform="matrix(1 0 0 1 610 680)">
+      <g class="djs-visual" id="svg_115">
+       <rect fill="white" fill-opacity="0.95" height="80" id="svg_116" rx="10" ry="10" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px" width="100" x="0" y="0"/>
+       <text class="djs-label" fill="rgb(34, 36, 42)" font-family="Arial, sans-serif" font-size="12px" font-weight="normal" id="svg_117">
+        <tspan id="svg_118" x="9.31" y="22">Проанализиро</tspan>
+        <tspan id="svg_119" x="37.78" y="36.4">вать</tspan>
+        <tspan id="svg_120" x="15.81" y="50.8">предметную</tspan>
+        <tspan id="svg_121" x="27.77" y="65.2">область</tspan>
+       </text>
+      </g>
+      <rect class="djs-hit djs-hit-all" fill="none" height="80" id="svg_122" stroke="white" stroke-opacity="0" stroke-width="15px" width="100" x="0" y="0"/>
+      <rect class="djs-outline" fill="none" height="92" id="svg_123" rx="4" width="112" x="-6" y="-6"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_124">
+     <g class="djs-element djs-shape" data-element-id="Activity_0x6g3dm" display="block" id="svg_125" transform="matrix(1 0 0 1 610 570)">
+      <g class="djs-visual" id="svg_126">
+       <rect fill="white" fill-opacity="0.95" height="80" id="svg_127" rx="10" ry="10" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px" width="100" x="0" y="0"/>
+       <text class="djs-label" fill="rgb(34, 36, 42)" font-family="Arial, sans-serif" font-size="12px" font-weight="normal" id="svg_128">
+        <tspan id="svg_129" x="9.31" y="29.2">Проанализиро</tspan>
+        <tspan id="svg_130" x="7.7" y="43.6">вать подходы к</tspan>
+        <tspan id="svg_131" x="18.46" y="58">разработке</tspan>
+       </text>
+      </g>
+      <rect class="djs-hit djs-hit-all" fill="none" height="80" id="svg_132" stroke="white" stroke-opacity="0" stroke-width="15px" width="100" x="0" y="0"/>
+      <rect class="djs-outline" fill="none" height="92" id="svg_133" rx="4" width="112" x="-6" y="-6"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_134">
+     <g class="djs-element djs-shape" data-element-id="Activity_02kji4c" display="block" id="svg_135" transform="matrix(1 0 0 1 745 570)">
+      <g class="djs-visual" id="svg_136">
+       <rect fill="white" fill-opacity="0.95" height="80" id="svg_137" rx="10" ry="10" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px" width="100" x="0" y="0"/>
+       <text class="djs-label" fill="rgb(34, 36, 42)" font-family="Arial, sans-serif" font-size="12px" font-weight="normal" id="svg_138">
+        <tspan id="svg_139" x="9.31" y="22">Проанализиро</tspan>
+        <tspan id="svg_140" x="13.7" y="36.4">вать аналоги</tspan>
+        <tspan id="svg_141" x="8.87" y="50.8">разрабываемо</tspan>
+        <tspan id="svg_142" x="21.17" y="65.2">й системы</tspan>
+       </text>
+      </g>
+      <rect class="djs-hit djs-hit-all" fill="none" height="80" id="svg_143" stroke="white" stroke-opacity="0" stroke-width="15px" width="100" x="0" y="0"/>
+      <rect class="djs-outline" fill="none" height="92" id="svg_144" rx="4" width="112" x="-6" y="-6"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_145">
+     <g class="djs-element djs-shape" data-element-id="Activity_1fd71w4" display="block" id="svg_146" transform="matrix(1 0 0 1 745 680)">
+      <g class="djs-visual" id="svg_147">
+       <rect fill="white" fill-opacity="0.95" height="80" id="svg_148" rx="10" ry="10" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px" width="100" x="0" y="0"/>
+       <text class="djs-label" fill="rgb(34, 36, 42)" font-family="Arial, sans-serif" font-size="12px" font-weight="normal" id="svg_149">
+        <tspan id="svg_150" x="20.88" y="29.2">Составить</tspan>
+        <tspan id="svg_151" x="18.72" y="43.6">постановку</tspan>
+        <tspan id="svg_152" x="30.73" y="58">задачи</tspan>
+       </text>
+      </g>
+      <rect class="djs-hit djs-hit-all" fill="none" height="80" id="svg_153" stroke="white" stroke-opacity="0" stroke-width="15px" width="100" x="0" y="0"/>
+      <rect class="djs-outline" fill="none" height="92" id="svg_154" rx="4" width="112" x="-6" y="-6"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_155">
+     <g class="djs-element djs-shape" data-element-id="Activity_0v66epe" display="block" id="svg_156" transform="matrix(1 0 0 1 880 680)">
+      <g class="djs-visual" id="svg_157">
+       <rect fill="white" fill-opacity="0.95" height="80" id="svg_158" rx="10" ry="10" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px" width="100" x="0" y="0"/>
+       <text class="djs-label" fill="rgb(34, 36, 42)" font-family="Arial, sans-serif" font-size="12px" font-weight="normal" id="svg_159">
+        <tspan id="svg_160" x="26.64" y="22">Описать</tspan>
+        <tspan id="svg_161" x="9.83" y="36.4">потенциальны</tspan>
+        <tspan id="svg_162" x="47.14" y="50.8">х</tspan>
+        <tspan id="svg_163" x="8.56" y="65.2">пользователей</tspan>
+       </text>
+      </g>
+      <rect class="djs-hit djs-hit-all" fill="none" height="80" id="svg_164" stroke="white" stroke-opacity="0" stroke-width="15px" width="100" x="0" y="0"/>
+      <rect class="djs-outline" fill="none" height="92" id="svg_165" rx="4" width="112" x="-6" y="-6"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_166">
+     <g class="djs-element djs-shape" data-element-id="Activity_0di1as0" display="block" id="svg_167" transform="matrix(1 0 0 1 880 570)">
+      <g class="djs-visual" id="svg_168">
+       <rect fill="white" fill-opacity="0.95" height="80" id="svg_169" rx="10" ry="10" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px" width="100" x="0" y="0"/>
+       <text class="djs-label" fill="rgb(34, 36, 42)" font-family="Arial, sans-serif" font-size="12px" font-weight="normal" id="svg_170">
+        <tspan id="svg_171" x="25.82" y="29.2">Выбрать</tspan>
+        <tspan id="svg_172" x="12.83" y="43.6">средства для</tspan>
+        <tspan id="svg_173" x="18.6" y="58">разработки</tspan>
+       </text>
+      </g>
+      <rect class="djs-hit djs-hit-all" fill="none" height="80" id="svg_174" stroke="white" stroke-opacity="0" stroke-width="15px" width="100" x="0" y="0"/>
+      <rect class="djs-outline" fill="none" height="92" id="svg_175" rx="4" width="112" x="-6" y="-6"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_176">
+     <g class="djs-element djs-shape" data-element-id="Activity_03kv5hm" display="block" id="svg_177" transform="matrix(1 0 0 1 1030 570)">
+      <g class="djs-visual" id="svg_178">
+       <rect fill="white" fill-opacity="0.95" height="80" id="svg_179" rx="10" ry="10" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px" width="100" x="0" y="0"/>
+       <text class="djs-label" fill="rgb(34, 36, 42)" font-family="Arial, sans-serif" font-size="12px" font-weight="normal" id="svg_180">
+        <tspan id="svg_181" x="30.25" y="29.2">Внести</tspan>
+        <tspan id="svg_182" x="18.8" y="43.6">результаты</tspan>
+        <tspan id="svg_183" x="7.83" y="58">работы в отчёт</tspan>
+       </text>
+      </g>
+      <rect class="djs-hit djs-hit-all" fill="none" height="80" id="svg_184" stroke="white" stroke-opacity="0" stroke-width="15px" width="100" x="0" y="0"/>
+      <rect class="djs-outline" fill="none" height="92" id="svg_185" rx="4" width="112" x="-6" y="-6"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_186">
+     <g class="djs-element djs-shape" data-element-id="Gateway_1u87p2c" display="block" id="svg_187" transform="matrix(1 0 0 1 1055 695)">
+      <g class="djs-visual" id="svg_188">
+       <polygon fill="white" fill-opacity="0.95" id="svg_189" points="25,0 50,25 25,50 0,25" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px"/>
+       <path d="m23,10l0,12.5l-12.5,0l0,5l12.5,0l0,12.5l5,0l0,-12.5l12.5,0l0,-5l-12.5,0l0,-12.5l-5,0z" fill="rgb(34, 36, 42)" id="svg_190" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1px"/>
+      </g>
+      <rect class="djs-hit djs-hit-all" fill="none" height="50" id="svg_191" stroke="white" stroke-opacity="0" stroke-width="15px" width="50" x="0" y="0"/>
+      <rect class="djs-outline" fill="none" height="62" id="svg_192" rx="4" width="62" x="-6" y="-6"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_193">
+     <g class="djs-element djs-shape" data-element-id="DataObjectReference_03uwtk9" display="block" id="svg_194" transform="matrix(1 0 0 1 1192 445)">
+      <g class="djs-visual" id="svg_195">
+       <path d="m0,0l28.24,0l7.05,8.2l0,40.98l-35.29,0l0,-49.18l28.24,0l0,8.2l7.05,0" fill="white" fill-opacity="0.95" id="svg_196" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px"/>
+      </g>
+      <rect class="djs-hit djs-hit-all" fill="none" height="50" id="svg_197" stroke="white" stroke-opacity="0" stroke-width="15px" width="36" x="0" y="0"/>
+      <rect class="djs-outline" fill="none" height="62" id="svg_198" rx="4" width="48" x="-6" y="-6"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_199">
+     <g class="djs-element djs-shape" data-element-id="DataObjectReference_03uwtk9_label" display="block" id="svg_200" transform="matrix(1 0 0 1 1171 505)">
+      <g class="djs-visual" id="svg_201">
+       <text class="djs-label" fill="rgb(34, 36, 42)" font-family="Arial, sans-serif" font-size="11px" font-weight="normal" id="svg_202">
+        <tspan id="svg_203" x="0" y="9.9">Первая версия</tspan>
+        <tspan id="svg_204" x="21.3" y="23.1">отчёта</tspan>
+       </text>
+      </g>
+      <rect class="djs-hit djs-hit-all" fill="none" height="27" id="svg_205" stroke="white" stroke-opacity="0" stroke-width="15px" width="77" x="0" y="0"/>
+      <rect class="djs-outline" fill="none" height="39" id="svg_206" rx="4" width="89" x="-6" y="-6"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_207">
+     <g class="djs-element djs-shape" data-element-id="Activity_1euqjw8" display="block" id="svg_208" transform="matrix(1 0 0 1 1350 530)">
+      <g class="djs-visual" id="svg_209">
+       <rect fill="white" fill-opacity="0.95" height="80" id="svg_210" rx="10" ry="10" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px" width="100" x="0" y="0"/>
+       <text class="djs-label" fill="rgb(34, 36, 42)" font-family="Arial, sans-serif" font-size="12px" font-weight="normal" id="svg_211">
+        <tspan id="svg_212" x="20.23" y="29.2">Отправить</tspan>
+        <tspan id="svg_213" x="26.43" y="43.6">отчёт на</tspan>
+        <tspan id="svg_214" x="24.45" y="58">проверку</tspan>
+       </text>
+       <path d="m5.98,5l0,14l21,0l0,-14l-21,0zl10.5,6l10.5,-6" fill="rgb(34, 36, 42)" id="svg_215" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1px"/>
+      </g>
+      <rect class="djs-hit djs-hit-all" fill="none" height="80" id="svg_216" stroke="white" stroke-opacity="0" stroke-width="15px" width="100" x="0" y="0"/>
+      <rect class="djs-outline" fill="none" height="92" id="svg_217" rx="4" width="112" x="-6" y="-6"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_218">
+     <g class="djs-element djs-shape" data-element-id="Activity_0otwi2q" display="block" id="svg_219" transform="matrix(1 0 0 1 1210 530)">
+      <g class="djs-visual" id="svg_220">
+       <rect fill="white" fill-opacity="0.95" height="80" id="svg_221" rx="10" ry="10" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px" width="100" x="0" y="0"/>
+       <text class="djs-label" fill="rgb(34, 36, 42)" font-family="Arial, sans-serif" font-size="12px" font-weight="normal" id="svg_222">
+        <tspan id="svg_223" x="17.73" y="36.4">Доработать</tspan>
+        <tspan id="svg_224" x="34.73" y="50.8">отчёт</tspan>
+       </text>
+       <path d="m6.3,5.6l0,12.6l18.9,0l0,-12.6l-18.9,0zl9.45,5.4l9.45,-5.4" fill="white" id="svg_225" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1px"/>
+      </g>
+      <rect class="djs-hit djs-hit-all" fill="none" height="80" id="svg_226" stroke="white" stroke-opacity="0" stroke-width="15px" width="100" x="0" y="0"/>
+      <rect class="djs-outline" fill="none" height="92" id="svg_227" rx="4" width="112" x="-6" y="-6"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_228">
+     <g class="djs-element djs-shape" data-element-id="Activity_0fu0k9i" display="block" id="svg_229" transform="matrix(1 0 0 1 1160 620)">
+      <g class="djs-visual" id="svg_230">
+       <rect fill="white" fill-opacity="0.95" height="80" id="svg_231" rx="10" ry="10" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px" width="100" x="0" y="0"/>
+       <text class="djs-label" fill="rgb(34, 36, 42)" font-family="Arial, sans-serif" font-size="12px" font-weight="normal" id="svg_232">
+        <tspan id="svg_233" x="20.23" y="29.2">Отправить</tspan>
+        <tspan id="svg_234" x="26.43" y="43.6">отчёт на</tspan>
+        <tspan id="svg_235" x="11.68" y="58">опроцентовку</tspan>
+       </text>
+       <path d="m5.98,5l0,14l21,0l0,-14l-21,0zl10.5,6l10.5,-6" fill="rgb(34, 36, 42)" id="svg_236" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1px"/>
+      </g>
+      <rect class="djs-hit djs-hit-all" fill="none" height="80" id="svg_237" stroke="white" stroke-opacity="0" stroke-width="15px" width="100" x="0" y="0"/>
+      <rect class="djs-outline" fill="none" height="92" id="svg_238" rx="4" width="112" x="-6" y="-6"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_239">
+     <g class="djs-element djs-shape" data-element-id="Activity_1nc6nrt" display="block" id="svg_240" transform="matrix(1 0 0 1 1540 680)">
+      <g class="djs-visual" id="svg_241">
+       <rect fill="white" fill-opacity="0.95" height="80" id="svg_242" rx="10" ry="10" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px" width="100" x="0" y="0"/>
+       <text class="djs-label" fill="rgb(34, 36, 42)" font-family="Arial, sans-serif" font-size="12px" font-weight="normal" id="svg_243">
+        <tspan id="svg_244" x="7.76" y="29.2">Спроектироват</tspan>
+        <tspan id="svg_245" x="8.38" y="43.6">ь архитекутуру</tspan>
+        <tspan id="svg_246" x="26.19" y="58">системы</tspan>
+       </text>
+      </g>
+      <rect class="djs-hit djs-hit-all" fill="none" height="80" id="svg_247" stroke="white" stroke-opacity="0" stroke-width="15px" width="100" x="0" y="0"/>
+      <rect class="djs-outline" fill="none" height="92" id="svg_248" rx="4" width="112" x="-6" y="-6"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_249">
+     <g class="djs-element djs-shape" data-element-id="Activity_0cfur53" display="block" id="svg_250" transform="matrix(1 0 0 1 1540 580)">
+      <g class="djs-visual" id="svg_251">
+       <rect fill="white" fill-opacity="0.95" height="80" id="svg_252" rx="10" ry="10" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px" width="100" x="0" y="0"/>
+       <text class="djs-label" fill="rgb(34, 36, 42)" font-family="Arial, sans-serif" font-size="12px" font-weight="normal" id="svg_253">
+        <tspan id="svg_254" x="7.76" y="36.4">Спроектироват</tspan>
+        <tspan id="svg_255" x="22.5" y="50.8">ь систему</tspan>
+       </text>
+      </g>
+      <rect class="djs-hit djs-hit-all" fill="none" height="80" id="svg_256" stroke="white" stroke-opacity="0" stroke-width="15px" width="100" x="0" y="0"/>
+      <rect class="djs-outline" fill="none" height="92" id="svg_257" rx="4" width="112" x="-6" y="-6"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_258">
+     <g class="djs-element djs-shape" data-element-id="Activity_12o24ha" display="block" id="svg_259" transform="matrix(1 0 0 1 1670 580)">
+      <g class="djs-visual" id="svg_260">
+       <rect fill="white" fill-opacity="0.95" height="80" id="svg_261" rx="10" ry="10" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px" width="100" x="0" y="0"/>
+       <text class="djs-label" fill="rgb(34, 36, 42)" font-family="Arial, sans-serif" font-size="12px" font-weight="normal" id="svg_262">
+        <tspan id="svg_263" x="11.42" y="29.2">Практическая</tspan>
+        <tspan id="svg_264" x="17.01" y="43.6">реализация</tspan>
+        <tspan id="svg_265" x="26.19" y="58">системы</tspan>
+       </text>
+      </g>
+      <rect class="djs-hit djs-hit-all" fill="none" height="80" id="svg_266" stroke="white" stroke-opacity="0" stroke-width="15px" width="100" x="0" y="0"/>
+      <rect class="djs-outline" fill="none" height="92" id="svg_267" rx="4" width="112" x="-6" y="-6"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_268">
+     <g class="djs-element djs-shape" data-element-id="Activity_0iff08k" display="block" id="svg_269" transform="matrix(1 0 0 1 1670 680)">
+      <g class="djs-visual" id="svg_270">
+       <rect fill="white" fill-opacity="0.95" height="80" id="svg_271" rx="10" ry="10" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px" width="100" x="0" y="0"/>
+       <text class="djs-label" fill="rgb(34, 36, 42)" font-family="Arial, sans-serif" font-size="12px" font-weight="normal" id="svg_272">
+        <tspan id="svg_273" x="26.43" y="36.4">Сделать</tspan>
+        <tspan id="svg_274" x="28.36" y="50.8">выводы</tspan>
+       </text>
+      </g>
+      <rect class="djs-hit djs-hit-all" fill="none" height="80" id="svg_275" stroke="white" stroke-opacity="0" stroke-width="15px" width="100" x="0" y="0"/>
+      <rect class="djs-outline" fill="none" height="92" id="svg_276" rx="4" width="112" x="-6" y="-6"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_277">
+     <g class="djs-element djs-shape" data-element-id="Activity_1gniwdn" display="block" id="svg_278" transform="matrix(1 0 0 1 1810 680)">
+      <g class="djs-visual" id="svg_279">
+       <rect fill="white" fill-opacity="0.95" height="80" id="svg_280" rx="10" ry="10" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px" width="100" x="0" y="0"/>
+       <text class="djs-label" fill="rgb(34, 36, 42)" font-family="Arial, sans-serif" font-size="12px" font-weight="normal" id="svg_281">
+        <tspan id="svg_282" x="30.25" y="29.2">Внести</tspan>
+        <tspan id="svg_283" x="13.95" y="43.6">результаты в</tspan>
+        <tspan id="svg_284" x="34.73" y="58">отчёт</tspan>
+       </text>
+      </g>
+      <rect class="djs-hit djs-hit-all" fill="none" height="80" id="svg_285" stroke="white" stroke-opacity="0" stroke-width="15px" width="100" x="0" y="0"/>
+      <rect class="djs-outline" fill="none" height="92" id="svg_286" rx="4" width="112" x="-6" y="-6"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_287">
+     <g class="djs-element djs-shape" data-element-id="Gateway_00y3o0k" display="block" id="svg_288" transform="matrix(1 0 0 1 1955 695)">
+      <g class="djs-visual" id="svg_289">
+       <polygon fill="white" fill-opacity="0.95" id="svg_290" points="25,0 50,25 25,50 0,25" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px"/>
+       <path d="m23,10l0,12.5l-12.5,0l0,5l12.5,0l0,12.5l5,0l0,-12.5l12.5,0l0,-5l-12.5,0l0,-12.5l-5,0z" fill="rgb(34, 36, 42)" id="svg_291" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1px"/>
+      </g>
+      <rect class="djs-hit djs-hit-all" fill="none" height="50" id="svg_292" stroke="white" stroke-opacity="0" stroke-width="15px" width="50" x="0" y="0"/>
+      <rect class="djs-outline" fill="none" height="62" id="svg_293" rx="4" width="62" x="-6" y="-6"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_294">
+     <g class="djs-element djs-shape" data-element-id="Activity_1emezjv" display="block" id="svg_295" transform="matrix(1 0 0 1 1540 470)">
+      <g class="djs-visual" id="svg_296">
+       <rect fill="white" fill-opacity="0.95" height="80" id="svg_297" rx="10" ry="10" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px" width="100" x="0" y="0"/>
+       <text class="djs-label" fill="rgb(34, 36, 42)" font-family="Arial, sans-serif" font-size="12px" font-weight="normal" id="svg_298">
+        <tspan id="svg_299" x="17.73" y="36.4">Доработать</tspan>
+        <tspan id="svg_300" x="34.73" y="50.8">отчёт</tspan>
+       </text>
+      </g>
+      <rect class="djs-hit djs-hit-all" fill="none" height="80" id="svg_301" stroke="white" stroke-opacity="0" stroke-width="15px" width="100" x="0" y="0"/>
+      <rect class="djs-outline" fill="none" height="92" id="svg_302" rx="4" width="112" x="-6" y="-6"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_303">
+     <g class="djs-element djs-shape" data-element-id="Activity_1g4bmgh" display="block" id="svg_304" transform="matrix(1 0 0 1 1670 470)">
+      <g class="djs-visual" id="svg_305">
+       <rect fill="white" fill-opacity="0.95" height="80" id="svg_306" rx="10" ry="10" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px" width="100" x="0" y="0"/>
+       <text class="djs-label" fill="rgb(34, 36, 42)" font-family="Arial, sans-serif" font-size="12px" font-weight="normal" id="svg_307">
+        <tspan id="svg_308" x="20.23" y="22">Отправить</tspan>
+        <tspan id="svg_309" x="26.43" y="36.4">отчёт на</tspan>
+        <tspan id="svg_310" x="20.12" y="50.8">повторную</tspan>
+        <tspan id="svg_311" x="11.68" y="65.2">опроцентовку</tspan>
+       </text>
+       <path d="m5.98,5l0,14l21,0l0,-14l-21,0zl10.5,6l10.5,-6" fill="rgb(34, 36, 42)" id="svg_312" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1px"/>
+      </g>
+      <rect class="djs-hit djs-hit-all" fill="none" height="80" id="svg_313" stroke="white" stroke-opacity="0" stroke-width="15px" width="100" x="0" y="0"/>
+      <rect class="djs-outline" fill="none" height="92" id="svg_314" rx="4" width="112" x="-6" y="-6"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_315">
+     <g class="djs-element djs-shape" data-element-id="Activity_1tck3kc" display="block" id="svg_316" transform="matrix(1 0 0 1 1930 550)">
+      <g class="djs-visual" id="svg_317">
+       <rect fill="white" fill-opacity="0.95" height="80" id="svg_318" rx="10" ry="10" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px" width="100" x="0" y="0"/>
+       <text class="djs-label" fill="rgb(34, 36, 42)" font-family="Arial, sans-serif" font-size="12px" font-weight="normal" id="svg_319">
+        <tspan id="svg_320" x="20.23" y="29.2">Отправить</tspan>
+        <tspan id="svg_321" x="26.43" y="43.6">отчёт на</tspan>
+        <tspan id="svg_322" x="11.68" y="58">опроцентовку</tspan>
+       </text>
+       <path d="m5.98,5l0,14l21,0l0,-14l-21,0zl10.5,6l10.5,-6" fill="rgb(34, 36, 42)" id="svg_323" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1px"/>
+      </g>
+      <rect class="djs-hit djs-hit-all" fill="none" height="80" id="svg_324" stroke="white" stroke-opacity="0" stroke-width="15px" width="100" x="0" y="0"/>
+      <rect class="djs-outline" fill="none" height="92" id="svg_325" rx="4" width="112" x="-6" y="-6"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_326">
+     <g class="djs-element djs-shape" data-element-id="Event_0axi84k" display="block" id="svg_327" transform="matrix(1 0 0 1 2072 702)">
+      <g class="djs-visual" id="svg_328">
+       <circle cx="18" cy="18" fill="white" fill-opacity="0.95" id="svg_329" r="18" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5px"/>
+       <circle cx="18" cy="18" fill="none" id="svg_330" r="15" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5px"/>
+       <circle cx="18" cy="18" fill="white" id="svg_331" r="11" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px"/>
+       <path d="m18,18l2.25,-7.5m-2.25,7.5l5.25,1.5" fill="none" id="svg_332" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px"/>
+       <path d="m18,18m0,7.5l0,2.25" fill="none" id="svg_333" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1px" transform="rotate(0,18,18)"/>
+       <path d="m18,18m0,7.5l0,2.25" fill="none" id="svg_334" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1px" transform="rotate(30,18,18)"/>
+       <path d="m18,18m0,7.5l0,2.25" fill="none" id="svg_335" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1px" transform="rotate(60,18,18)"/>
+       <path d="m18,18m0,7.5l0,2.25" fill="none" id="svg_336" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1px" transform="rotate(90,18,18)"/>
+       <path d="m18,18m0,7.5l0,2.25" fill="none" id="svg_337" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1px" transform="rotate(120,18,18)"/>
+       <path d="m18,18m0,7.5l0,2.25" fill="none" id="svg_338" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1px" transform="rotate(150,18,18)"/>
+       <path d="m18,18m0,7.5l0,2.25" fill="none" id="svg_339" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1px" transform="rotate(180,18,18)"/>
+       <path d="m18,18m0,7.5l0,2.25" fill="none" id="svg_340" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1px" transform="rotate(210,18,18)"/>
+       <path d="m18,18m0,7.5l0,2.25" fill="none" id="svg_341" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1px" transform="rotate(240,18,18)"/>
+       <path d="m18,18m0,7.5l0,2.25" fill="none" id="svg_342" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1px" transform="rotate(270,18,18)"/>
+       <path d="m18,18m0,7.5l0,2.25" fill="none" id="svg_343" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1px" transform="rotate(300,18,18)"/>
+       <path d="m18,18m0,7.5l0,2.25" fill="none" id="svg_344" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1px" transform="rotate(330,18,18)"/>
+      </g>
+      <rect class="djs-hit djs-hit-all" fill="none" height="36" id="svg_345" stroke="white" stroke-opacity="0" stroke-width="15px" width="36" x="0" y="0"/>
+      <rect class="djs-outline" fill="none" height="48" id="svg_346" rx="4" width="48" x="-6" y="-6"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_347">
+     <g class="djs-element djs-shape" data-element-id="DataObjectReference_1nhugre" display="block" id="svg_348" transform="matrix(1 0 0 1 1842 505)">
+      <g class="djs-visual" id="svg_349">
+       <path d="m0,0l28.24,0l7.05,8.2l0,40.98l-35.29,0l0,-49.18l28.24,0l0,8.2l7.05,0" fill="white" fill-opacity="0.95" id="svg_350" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px"/>
+      </g>
+      <rect class="djs-hit djs-hit-all" fill="none" height="50" id="svg_351" stroke="white" stroke-opacity="0" stroke-width="15px" width="36" x="0" y="0"/>
+      <rect class="djs-outline" fill="none" height="62" id="svg_352" rx="4" width="48" x="-6" y="-6"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_353">
+     <g class="djs-element djs-shape" data-element-id="DataObjectReference_1nhugre_label" display="block" id="svg_354" transform="matrix(1 0 0 1 1822 468)">
+      <g class="djs-visual" id="svg_355">
+       <text class="djs-label" fill="rgb(34, 36, 42)" font-family="Arial, sans-serif" font-size="11px" font-weight="normal" id="svg_356">
+        <tspan id="svg_357" x="0" y="9.9">Вторая версия</tspan>
+        <tspan id="svg_358" x="20.42" y="23.1">отчёта</tspan>
+       </text>
+      </g>
+      <rect class="djs-hit djs-hit-all" fill="none" height="27" id="svg_359" stroke="white" stroke-opacity="0" stroke-width="15px" width="75" x="0" y="0"/>
+      <rect class="djs-outline" fill="none" height="39" id="svg_360" rx="4" width="87" x="-6" y="-6"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_361">
+     <g class="djs-element djs-shape" data-element-id="DataObjectReference_0o7jj3p" display="block" id="svg_362" transform="matrix(1 0 0 1 2102 615)">
+      <g class="djs-visual" id="svg_363">
+       <path d="m0,0l28.24,0l7.05,8.2l0,40.98l-35.29,0l0,-49.18l28.24,0l0,8.2l7.05,0" fill="white" fill-opacity="0.95" id="svg_364" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px"/>
+      </g>
+      <rect class="djs-hit djs-hit-all" fill="none" height="50" id="svg_365" stroke="white" stroke-opacity="0" stroke-width="15px" width="36" x="0" y="0"/>
+      <rect class="djs-outline" fill="none" height="62" id="svg_366" rx="4" width="48" x="-6" y="-6"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_367">
+     <g class="djs-element djs-shape" data-element-id="DataObjectReference_0o7jj3p_label" display="block" id="svg_368" transform="matrix(1 0 0 1 2089 672)">
+      <g class="djs-visual" id="svg_369">
+       <text class="djs-label" fill="rgb(34, 36, 42)" font-family="Arial, sans-serif" font-size="11px" font-weight="normal" id="svg_370">
+        <tspan id="svg_371" x="0" y="9.9">Реализация</tspan>
+        <tspan id="svg_372" x="8.79" y="23.1">системы</tspan>
+       </text>
+      </g>
+      <rect class="djs-hit djs-hit-all" fill="none" height="27" id="svg_373" stroke="white" stroke-opacity="0" stroke-width="15px" width="62" x="0" y="0"/>
+      <rect class="djs-outline" fill="none" height="39" id="svg_374" rx="4" width="74" x="-6" y="-6"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_375">
+     <g class="djs-element djs-shape" data-element-id="Activity_020kzur" display="block" id="svg_376" transform="matrix(1 0 0 1 2180 680)">
+      <g class="djs-visual" id="svg_377">
+       <rect fill="white" fill-opacity="0.95" height="80" id="svg_378" rx="10" ry="10" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px" width="100" x="0" y="0"/>
+       <text class="djs-label" fill="rgb(34, 36, 42)" font-family="Arial, sans-serif" font-size="12px" font-weight="normal" id="svg_379">
+        <tspan id="svg_380" x="22.76" y="29.2">Защитить</tspan>
+        <tspan id="svg_381" x="24.01" y="43.6">курсовую</tspan>
+        <tspan id="svg_382" x="30.73" y="58">работу</tspan>
+       </text>
+       <path d="m5.98,5l0,14l21,0l0,-14l-21,0zl10.5,6l10.5,-6" fill="rgb(34, 36, 42)" id="svg_383" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1px"/>
+      </g>
+      <rect class="djs-hit djs-hit-all" fill="none" height="80" id="svg_384" stroke="white" stroke-opacity="0" stroke-width="15px" width="100" x="0" y="0"/>
+      <rect class="djs-outline" fill="none" height="92" id="svg_385" rx="4" width="112" x="-6" y="-6"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_386">
+     <g class="djs-element djs-connection" data-element-id="Flow_0ijayrq" display="block" id="svg_387">
+      <g class="djs-visual" id="svg_388">
+       <path d="m248,610l22,0" data-corner-radius="5" fill="none" id="svg_389" marker-end="url(&#x27;#sequenceflow-end-white-hsl_225_10_15_-c6im8aphrggn1h3aqcqq7afim&#x27;)" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px"/>
+      </g>
+      <path class="djs-hit djs-hit-stroke" d="m248,610l22,0" fill="none" id="svg_390" stroke="white" stroke-opacity="0" stroke-width="15px"/>
+      <rect class="djs-outline" fill="none" height="12" id="svg_391" rx="4" width="34" x="242" y="604"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_392">
+     <g class="djs-element djs-connection" data-element-id="Flow_1ttao4j" display="block" id="svg_393">
+      <g class="djs-visual" id="svg_394">
+       <path d="m370,610l25,0" data-corner-radius="5" fill="none" id="svg_395" marker-end="url(&#x27;#sequenceflow-end-white-hsl_225_10_15_-c6im8aphrggn1h3aqcqq7afim&#x27;)" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px"/>
+      </g>
+      <path class="djs-hit djs-hit-stroke" d="m370,610l25,0" fill="none" id="svg_396" stroke="white" stroke-opacity="0" stroke-width="15px"/>
+      <rect class="djs-outline" fill="none" height="12" id="svg_397" rx="4" width="37" x="364" y="604"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_398">
+     <g class="djs-element djs-connection" data-element-id="Flow_0fa5uus" display="block" id="svg_399">
+      <g class="djs-visual" id="svg_400">
+       <path d="m445,610l25,0" data-corner-radius="5" fill="none" id="svg_401" marker-end="url(&#x27;#sequenceflow-end-white-hsl_225_10_15_-c6im8aphrggn1h3aqcqq7afim&#x27;)" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px"/>
+      </g>
+      <path class="djs-hit djs-hit-stroke" d="m445,610l25,0" fill="none" id="svg_402" stroke="white" stroke-opacity="0" stroke-width="15px"/>
+      <rect class="djs-outline" fill="none" height="12" id="svg_403" rx="4" width="37" x="439" y="604"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_404">
+     <g class="djs-element djs-connection" data-element-id="Flow_10b07y7" display="block" id="svg_405">
+      <g class="djs-visual" id="svg_406">
+       <path d="m420,585l0,-80c0,-2.5 2.5,-5 5,-5l45,0" data-corner-radius="5" fill="none" id="svg_407" marker-end="url(&#x27;#sequenceflow-end-white-hsl_225_10_15_-c6im8aphrggn1h3aqcqq7afim&#x27;)" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px"/>
+      </g>
+      <path class="djs-hit djs-hit-stroke" d="m420,585l0,-85l50,0" fill="none" id="svg_408" stroke="white" stroke-opacity="0" stroke-width="15px"/>
+      <rect class="djs-outline" fill="none" height="97" id="svg_409" rx="4" width="62" x="414" y="494"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_410">
+     <g class="djs-element djs-connection" data-element-id="Flow_0vikweo" display="block" id="svg_411">
+      <g class="djs-visual" id="svg_412">
+       <path d="m570,500l40,0" data-corner-radius="5" fill="none" id="svg_413" marker-end="url(&#x27;#sequenceflow-end-white-hsl_225_10_15_-c6im8aphrggn1h3aqcqq7afim&#x27;)" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px"/>
+      </g>
+      <path class="djs-hit djs-hit-stroke" d="m570,500l40,0" fill="none" id="svg_414" stroke="white" stroke-opacity="0" stroke-width="15px"/>
+      <rect class="djs-outline" fill="none" height="12" id="svg_415" rx="4" width="52" x="564" y="494"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_416">
+     <g class="djs-element djs-connection" data-element-id="Flow_0867s3s" display="block" id="svg_417">
+      <g class="djs-visual" id="svg_418">
+       <path d="m520,650l0,30" data-corner-radius="5" fill="none" id="svg_419" marker-end="url(&#x27;#sequenceflow-end-white-hsl_225_10_15_-c6im8aphrggn1h3aqcqq7afim&#x27;)" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px"/>
+      </g>
+      <path class="djs-hit djs-hit-stroke" d="m520,650l0,30" fill="none" id="svg_420" stroke="white" stroke-opacity="0" stroke-width="15px"/>
+      <rect class="djs-outline" fill="none" height="42" id="svg_421" rx="4" width="12" x="514" y="644"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_422">
+     <g class="djs-element djs-connection" data-element-id="Flow_0tdzq1k" display="block" id="svg_423">
+      <g class="djs-visual" id="svg_424">
+       <path d="m990,500l40,0" data-corner-radius="5" fill="none" id="svg_425" marker-end="url(&#x27;#sequenceflow-end-white-hsl_225_10_15_-c6im8aphrggn1h3aqcqq7afim&#x27;)" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px"/>
+      </g>
+      <path class="djs-hit djs-hit-stroke" d="m990,500l40,0" fill="none" id="svg_426" stroke="white" stroke-opacity="0" stroke-width="15px"/>
+      <rect class="djs-outline" fill="none" height="12" id="svg_427" rx="4" width="52" x="984" y="494"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_428">
+     <g class="djs-element djs-connection" data-element-id="Flow_1hb99v1" display="block" id="svg_429">
+      <g class="djs-visual" id="svg_430">
+       <path d="m570,720l40,0" data-corner-radius="5" fill="none" id="svg_431" marker-end="url(&#x27;#sequenceflow-end-white-hsl_225_10_15_-c6im8aphrggn1h3aqcqq7afim&#x27;)" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px"/>
+      </g>
+      <path class="djs-hit djs-hit-stroke" d="m570,720l40,0" fill="none" id="svg_432" stroke="white" stroke-opacity="0" stroke-width="15px"/>
+      <rect class="djs-outline" fill="none" height="12" id="svg_433" rx="4" width="52" x="564" y="714"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_434">
+     <g class="djs-element djs-connection" data-element-id="Flow_09ytge1" display="block" id="svg_435">
+      <g class="djs-visual" id="svg_436">
+       <path d="m660,680l0,-30" data-corner-radius="5" fill="none" id="svg_437" marker-end="url(&#x27;#sequenceflow-end-white-hsl_225_10_15_-c6im8aphrggn1h3aqcqq7afim&#x27;)" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px"/>
+      </g>
+      <path class="djs-hit djs-hit-stroke" d="m660,680l0,-30" fill="none" id="svg_438" stroke="white" stroke-opacity="0" stroke-width="15px"/>
+      <rect class="djs-outline" fill="none" height="42" id="svg_439" rx="4" width="12" x="654" y="644"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_440">
+     <g class="djs-element djs-connection" data-element-id="Flow_13rg11f" display="block" id="svg_441">
+      <g class="djs-visual" id="svg_442">
+       <path d="m710,610l35,0" data-corner-radius="5" fill="none" id="svg_443" marker-end="url(&#x27;#sequenceflow-end-white-hsl_225_10_15_-c6im8aphrggn1h3aqcqq7afim&#x27;)" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px"/>
+      </g>
+      <path class="djs-hit djs-hit-stroke" d="m710,610l35,0" fill="none" id="svg_444" stroke="white" stroke-opacity="0" stroke-width="15px"/>
+      <rect class="djs-outline" fill="none" height="12" id="svg_445" rx="4" width="47" x="704" y="604"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_446">
+     <g class="djs-element djs-connection" data-element-id="Flow_14b9yzj" display="block" id="svg_447">
+      <g class="djs-visual" id="svg_448">
+       <path d="m795,650l0,30" data-corner-radius="5" fill="none" id="svg_449" marker-end="url(&#x27;#sequenceflow-end-white-hsl_225_10_15_-c6im8aphrggn1h3aqcqq7afim&#x27;)" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px"/>
+      </g>
+      <path class="djs-hit djs-hit-stroke" d="m795,650l0,30" fill="none" id="svg_450" stroke="white" stroke-opacity="0" stroke-width="15px"/>
+      <rect class="djs-outline" fill="none" height="42" id="svg_451" rx="4" width="12" x="789" y="644"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_452">
+     <g class="djs-element djs-connection" data-element-id="Flow_0c9my0i" display="block" id="svg_453">
+      <g class="djs-visual" id="svg_454">
+       <path d="m845,720l35,0" data-corner-radius="5" fill="none" id="svg_455" marker-end="url(&#x27;#sequenceflow-end-white-hsl_225_10_15_-c6im8aphrggn1h3aqcqq7afim&#x27;)" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px"/>
+      </g>
+      <path class="djs-hit djs-hit-stroke" d="m845,720l35,0" fill="none" id="svg_456" stroke="white" stroke-opacity="0" stroke-width="15px"/>
+      <rect class="djs-outline" fill="none" height="12" id="svg_457" rx="4" width="47" x="839" y="714"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_458">
+     <g class="djs-element djs-connection" data-element-id="Flow_0tsjprh" display="block" id="svg_459">
+      <g class="djs-visual" id="svg_460">
+       <path d="m930,680l0,-30" data-corner-radius="5" fill="none" id="svg_461" marker-end="url(&#x27;#sequenceflow-end-white-hsl_225_10_15_-c6im8aphrggn1h3aqcqq7afim&#x27;)" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px"/>
+      </g>
+      <path class="djs-hit djs-hit-stroke" d="m930,680l0,-30" fill="none" id="svg_462" stroke="white" stroke-opacity="0" stroke-width="15px"/>
+      <rect class="djs-outline" fill="none" height="42" id="svg_463" rx="4" width="12" x="924" y="644"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_464">
+     <g class="djs-element djs-connection" data-element-id="Flow_0kx5nmc" display="block" id="svg_465">
+      <g class="djs-visual" id="svg_466">
+       <path d="m980,610l50,0" data-corner-radius="5" fill="none" id="svg_467" marker-end="url(&#x27;#sequenceflow-end-white-hsl_225_10_15_-c6im8aphrggn1h3aqcqq7afim&#x27;)" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px"/>
+      </g>
+      <path class="djs-hit djs-hit-stroke" d="m980,610l50,0" fill="none" id="svg_468" stroke="white" stroke-opacity="0" stroke-width="15px"/>
+      <rect class="djs-outline" fill="none" height="12" id="svg_469" rx="4" width="62" x="974" y="604"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_470">
+     <g class="djs-element djs-connection" data-element-id="Flow_0js2lp6" display="block" id="svg_471">
+      <g class="djs-visual" id="svg_472">
+       <path d="m1080,650l0,45" data-corner-radius="5" fill="none" id="svg_473" marker-end="url(&#x27;#sequenceflow-end-white-hsl_225_10_15_-c6im8aphrggn1h3aqcqq7afim&#x27;)" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px"/>
+      </g>
+      <path class="djs-hit djs-hit-stroke" d="m1080,650l0,45" fill="none" id="svg_474" stroke="white" stroke-opacity="0" stroke-width="15px"/>
+      <rect class="djs-outline" fill="none" height="57" id="svg_475" rx="4" width="12" x="1074" y="644"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_476">
+     <g class="djs-element djs-connection" data-element-id="Flow_1t1krjy" display="block" id="svg_477">
+      <g class="djs-visual" id="svg_478">
+       <path d="m1105,720l100,0c2.5,0 5,-2.5 5,-5l0,-15" data-corner-radius="5" fill="none" id="svg_479" marker-end="url(&#x27;#sequenceflow-end-white-hsl_225_10_15_-c6im8aphrggn1h3aqcqq7afim&#x27;)" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px"/>
+      </g>
+      <path class="djs-hit djs-hit-stroke" d="m1105,720l105,0l0,-20" fill="none" id="svg_480" stroke="white" stroke-opacity="0" stroke-width="15px"/>
+      <rect class="djs-outline" fill="none" height="32" id="svg_481" rx="4" width="117" x="1099" y="694"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_482">
+     <g class="djs-element djs-connection" data-element-id="Flow_0vfktrp" display="block" id="svg_483">
+      <g class="djs-visual" id="svg_484">
+       <path d="m1080,745l0,10c0,2.5 2.5,5 5,5l270,0c2.5,0 5,-2.5 5,-5l0,-30c0,-2.5 2.5,-5 5,-5l175,0" data-corner-radius="5" fill="none" id="svg_485" marker-end="url(&#x27;#sequenceflow-end-white-hsl_225_10_15_-c6im8aphrggn1h3aqcqq7afim&#x27;)" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px"/>
+      </g>
+      <path class="djs-hit djs-hit-stroke" d="m1080,745l0,15l280,0l0,-40l180,0" fill="none" id="svg_486" stroke="white" stroke-opacity="0" stroke-width="15px"/>
+      <rect class="djs-outline" fill="none" height="52" id="svg_487" rx="4" width="472" x="1074" y="714"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_488">
+     <g class="djs-element djs-connection" data-element-id="Flow_1ioc776" display="block" id="svg_489">
+      <g class="djs-visual" id="svg_490">
+       <path d="m1310,570l40,0" data-corner-radius="5" fill="none" id="svg_491" marker-end="url(&#x27;#sequenceflow-end-white-hsl_225_10_15_-c6im8aphrggn1h3aqcqq7afim&#x27;)" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px"/>
+      </g>
+      <path class="djs-hit djs-hit-stroke" d="m1310,570l40,0" fill="none" id="svg_492" stroke="white" stroke-opacity="0" stroke-width="15px"/>
+      <rect class="djs-outline" fill="none" height="12" id="svg_493" rx="4" width="52" x="1304" y="564"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_494">
+     <g class="djs-element djs-connection" data-element-id="Flow_03hvl0j" display="block" id="svg_495">
+      <g class="djs-visual" id="svg_496">
+       <path d="m1590,680l0,-20" data-corner-radius="5" fill="none" id="svg_497" marker-end="url(&#x27;#sequenceflow-end-white-hsl_225_10_15_-c6im8aphrggn1h3aqcqq7afim&#x27;)" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px"/>
+      </g>
+      <path class="djs-hit djs-hit-stroke" d="m1590,680l0,-20" fill="none" id="svg_498" stroke="white" stroke-opacity="0" stroke-width="15px"/>
+      <rect class="djs-outline" fill="none" height="32" id="svg_499" rx="4" width="12" x="1584" y="654"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_500">
+     <g class="djs-element djs-connection" data-element-id="Flow_0lqnik9" display="block" id="svg_501">
+      <g class="djs-visual" id="svg_502">
+       <path d="m1640,620l30,0" data-corner-radius="5" fill="none" id="svg_503" marker-end="url(&#x27;#sequenceflow-end-white-hsl_225_10_15_-c6im8aphrggn1h3aqcqq7afim&#x27;)" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px"/>
+      </g>
+      <path class="djs-hit djs-hit-stroke" d="m1640,620l30,0" fill="none" id="svg_504" stroke="white" stroke-opacity="0" stroke-width="15px"/>
+      <rect class="djs-outline" fill="none" height="12" id="svg_505" rx="4" width="42" x="1634" y="614"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_506">
+     <g class="djs-element djs-connection" data-element-id="Flow_04rwj2t" display="block" id="svg_507">
+      <g class="djs-visual" id="svg_508">
+       <path d="m1720,660l0,20" data-corner-radius="5" fill="none" id="svg_509" marker-end="url(&#x27;#sequenceflow-end-white-hsl_225_10_15_-c6im8aphrggn1h3aqcqq7afim&#x27;)" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px"/>
+      </g>
+      <path class="djs-hit djs-hit-stroke" d="m1720,660l0,20" fill="none" id="svg_510" stroke="white" stroke-opacity="0" stroke-width="15px"/>
+      <rect class="djs-outline" fill="none" height="32" id="svg_511" rx="4" width="12" x="1714" y="654"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_512">
+     <g class="djs-element djs-connection" data-element-id="Flow_0vmbg52" display="block" id="svg_513">
+      <g class="djs-visual" id="svg_514">
+       <path d="m1770,720l40,0" data-corner-radius="5" fill="none" id="svg_515" marker-end="url(&#x27;#sequenceflow-end-white-hsl_225_10_15_-c6im8aphrggn1h3aqcqq7afim&#x27;)" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px"/>
+      </g>
+      <path class="djs-hit djs-hit-stroke" d="m1770,720l40,0" fill="none" id="svg_516" stroke="white" stroke-opacity="0" stroke-width="15px"/>
+      <rect class="djs-outline" fill="none" height="12" id="svg_517" rx="4" width="52" x="1764" y="714"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_518">
+     <g class="djs-element djs-connection" data-element-id="Flow_11yqub1" display="block" id="svg_519">
+      <g class="djs-visual" id="svg_520">
+       <path d="m1910,720l45,0" data-corner-radius="5" fill="none" id="svg_521" marker-end="url(&#x27;#sequenceflow-end-white-hsl_225_10_15_-c6im8aphrggn1h3aqcqq7afim&#x27;)" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px"/>
+      </g>
+      <path class="djs-hit djs-hit-stroke" d="m1910,720l45,0" fill="none" id="svg_522" stroke="white" stroke-opacity="0" stroke-width="15px"/>
+      <rect class="djs-outline" fill="none" height="12" id="svg_523" rx="4" width="57" x="1904" y="714"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_524">
+     <g class="djs-element djs-connection" data-element-id="Flow_1uq77cn" display="block" id="svg_525">
+      <g class="djs-visual" id="svg_526">
+       <path d="m1980,695l0,-65" data-corner-radius="5" fill="none" id="svg_527" marker-end="url(&#x27;#sequenceflow-end-white-hsl_225_10_15_-c6im8aphrggn1h3aqcqq7afim&#x27;)" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px"/>
+      </g>
+      <path class="djs-hit djs-hit-stroke" d="m1980,695l0,-65" fill="none" id="svg_528" stroke="white" stroke-opacity="0" stroke-width="15px"/>
+      <rect class="djs-outline" fill="none" height="77" id="svg_529" rx="4" width="12" x="1974" y="624"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_530">
+     <g class="djs-element djs-connection" data-element-id="Flow_0hintfr" display="block" id="svg_531">
+      <g class="djs-visual" id="svg_532">
+       <path d="m2005,720l67,0" data-corner-radius="5" fill="none" id="svg_533" marker-end="url(&#x27;#sequenceflow-end-white-hsl_225_10_15_-c6im8aphrggn1h3aqcqq7afim&#x27;)" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px"/>
+      </g>
+      <path class="djs-hit djs-hit-stroke" d="m2005,720l67,0" fill="none" id="svg_534" stroke="white" stroke-opacity="0" stroke-width="15px"/>
+      <rect class="djs-outline" fill="none" height="12" id="svg_535" rx="4" width="79" x="1999" y="714"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_536">
+     <g class="djs-element djs-connection" data-element-id="Flow_0m82l10" display="block" id="svg_537">
+      <g class="djs-visual" id="svg_538">
+       <path d="m1640,510l30,0" data-corner-radius="5" fill="none" id="svg_539" marker-end="url(&#x27;#sequenceflow-end-white-hsl_225_10_15_-c6im8aphrggn1h3aqcqq7afim&#x27;)" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px"/>
+      </g>
+      <path class="djs-hit djs-hit-stroke" d="m1640,510l30,0" fill="none" id="svg_540" stroke="white" stroke-opacity="0" stroke-width="15px"/>
+      <rect class="djs-outline" fill="none" height="12" id="svg_541" rx="4" width="42" x="1634" y="504"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_542">
+     <g class="djs-element djs-connection" data-element-id="Flow_0cqyyil" display="block" id="svg_543">
+      <g class="djs-visual" id="svg_544">
+       <path d="m2108,720l72,0" data-corner-radius="5" fill="none" id="svg_545" marker-end="url(&#x27;#sequenceflow-end-white-hsl_225_10_15_-c6im8aphrggn1h3aqcqq7afim&#x27;)" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px"/>
+      </g>
+      <path class="djs-hit djs-hit-stroke" d="m2108,720l72,0" fill="none" id="svg_546" stroke="white" stroke-opacity="0" stroke-width="15px"/>
+      <rect class="djs-outline" fill="none" height="12" id="svg_547" rx="4" width="84" x="2102" y="714"/>
+     </g>
+    </g>
+   </g>
+  </g>
+  <g class="djs-group" id="svg_548">
+   <g class="djs-element djs-shape" data-element-id="Participant_0xju1nz" display="block" id="svg_549" transform="matrix(1 0 0 1 160 80)">
+    <g class="djs-visual" id="svg_550">
+     <rect fill="white" fill-opacity="0.95" height="340" id="svg_551" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5px" width="2380" x="0" y="0"/>
+     <path d="m30,0l0,340" fill="none" id="svg_552" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5px"/>
+     <text class="djs-label" fill="rgb(34, 36, 42)" font-family="Arial, sans-serif" font-size="12px" font-weight="normal" id="svg_553" transform="matrix(-1.83697e-16 -1 1 -1.83697e-16 0 340)">
+      <tspan id="svg_554" x="105.69" y="18.6">Научный руководитель</tspan>
+     </text>
+    </g>
+    <rect class="djs-outline" fill="none" height="352" id="svg_555" rx="4" width="2392" x="-6" y="-6"/>
+    <rect class="djs-hit djs-hit-no-move" fill="none" height="340" id="svg_556" stroke="white" stroke-opacity="0" stroke-width="15px" width="2380" x="0" y="0"/>
+    <rect class="djs-hit djs-hit-click-stroke" fill="none" height="340" id="svg_557" stroke="white" stroke-opacity="0" stroke-width="15px" width="2380" x="0" y="0"/>
+    <rect class="djs-hit djs-hit-all" fill="none" height="340" id="svg_558" stroke="white" stroke-opacity="0" stroke-width="15px" width="30" x="0" y="0"/>
+   </g>
+   <g class="djs-children" id="svg_559">
+    <g class="djs-group" id="svg_560">
+     <g class="djs-element djs-shape" data-element-id="Activity_0yuwwy0" display="block" id="svg_561" transform="matrix(1 0 0 1 600 260)">
+      <g class="djs-visual" id="svg_562">
+       <rect fill="white" fill-opacity="0.95" height="80" id="svg_563" rx="10" ry="10" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px" width="100" x="0" y="0"/>
+       <text class="djs-label" fill="rgb(34, 36, 42)" font-family="Arial, sans-serif" font-size="12px" font-weight="normal" id="svg_564">
+        <tspan id="svg_565" x="19.98" y="36.4">Проверить</tspan>
+        <tspan id="svg_566" x="13.17" y="50.8">лист задания</tspan>
+       </text>
+       <path d="m6.3,5.6l0,12.6l18.9,0l0,-12.6l-18.9,0zl9.45,5.4l9.45,-5.4" fill="white" id="svg_567" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1px"/>
+      </g>
+      <rect class="djs-hit djs-hit-all" fill="none" height="80" id="svg_568" stroke="white" stroke-opacity="0" stroke-width="15px" width="100" x="0" y="0"/>
+      <rect class="djs-outline" fill="none" height="92" id="svg_569" rx="4" width="112" x="-6" y="-6"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_570">
+     <g class="djs-element djs-shape" data-element-id="Gateway_0ekpom7" display="block" id="svg_571" transform="matrix(1 0 0 1 735 275)">
+      <g class="djs-visual" id="svg_572">
+       <polygon fill="white" fill-opacity="0.95" id="svg_573" points="25,0 50,25 25,50 0,25" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px"/>
+       <path d="m16,15l7.43,9.71l-7.43,9.72l3.43,0l5.71,-7.47l5.72,7.47l3.43,0l-7.43,-9.72l7.43,-9.71l-3.43,0l-5.72,7.46l-5.71,-7.46l-3.43,0z" fill="rgb(34, 36, 42)" id="svg_574" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1px"/>
+      </g>
+      <rect class="djs-hit djs-hit-all" fill="none" height="50" id="svg_575" stroke="white" stroke-opacity="0" stroke-width="15px" width="50" x="0" y="0"/>
+      <rect class="djs-outline" fill="none" height="62" id="svg_576" rx="4" width="62" x="-6" y="-6"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_577">
+     <g class="djs-element djs-shape" data-element-id="Gateway_0ekpom7_label" display="block" id="svg_578" transform="matrix(1 0 0 1 722 332)">
+      <g class="djs-visual" id="svg_579">
+       <text class="djs-label" fill="rgb(34, 36, 42)" font-family="Arial, sans-serif" font-size="11px" font-weight="normal" id="svg_580">
+        <tspan id="svg_581" x="3.44" y="9.9">Лист задания</tspan>
+        <tspan id="svg_582" x="0" y="23.1">удовлетворяет</tspan>
+        <tspan id="svg_583" x="0.94" y="36.3">требованиям?</tspan>
+       </text>
+      </g>
+      <rect class="djs-hit djs-hit-all" fill="none" height="40" id="svg_584" stroke="white" stroke-opacity="0" stroke-width="15px" width="76" x="0" y="0"/>
+      <rect class="djs-outline" fill="none" height="52" id="svg_585" rx="4" width="88" x="-6" y="-6"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_586">
+     <g class="djs-element djs-shape" data-element-id="Activity_15k3rgn" display="block" id="svg_587" transform="matrix(1 0 0 1 820 150)">
+      <g class="djs-visual" id="svg_588">
+       <rect fill="white" fill-opacity="0.95" height="80" id="svg_589" rx="10" ry="10" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px" width="100" x="0" y="0"/>
+       <text class="djs-label" fill="rgb(34, 36, 42)" font-family="Arial, sans-serif" font-size="12px" font-weight="normal" id="svg_590">
+        <tspan id="svg_591" x="12.19" y="36.4">Принять лист</tspan>
+        <tspan id="svg_592" x="27.16" y="50.8">задания</tspan>
+       </text>
+      </g>
+      <rect class="djs-hit djs-hit-all" fill="none" height="80" id="svg_593" stroke="white" stroke-opacity="0" stroke-width="15px" width="100" x="0" y="0"/>
+      <rect class="djs-outline" fill="none" height="92" id="svg_594" rx="4" width="112" x="-6" y="-6"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_595">
+     <g class="djs-element djs-shape" data-element-id="Gateway_1ojcweq" display="block" id="svg_596" transform="matrix(1 0 0 1 1295 275)">
+      <g class="djs-visual" id="svg_597">
+       <polygon fill="white" fill-opacity="0.95" id="svg_598" points="25,0 50,25 25,50 0,25" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px"/>
+       <path d="m16,15l7.43,9.71l-7.43,9.72l3.43,0l5.71,-7.47l5.72,7.47l3.43,0l-7.43,-9.72l7.43,-9.71l-3.43,0l-5.72,7.46l-5.71,-7.46l-3.43,0z" fill="rgb(34, 36, 42)" id="svg_599" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1px"/>
+      </g>
+      <rect class="djs-hit djs-hit-all" fill="none" height="50" id="svg_600" stroke="white" stroke-opacity="0" stroke-width="15px" width="50" x="0" y="0"/>
+      <rect class="djs-outline" fill="none" height="62" id="svg_601" rx="4" width="62" x="-6" y="-6"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_602">
+     <g class="djs-element djs-shape" data-element-id="Gateway_1ojcweq_label" display="block" id="svg_603" transform="matrix(1 0 0 1 1282 335)">
+      <g class="djs-visual" id="svg_604">
+       <text class="djs-label" fill="rgb(34, 36, 42)" font-family="Arial, sans-serif" font-size="11px" font-weight="normal" id="svg_605">
+        <tspan id="svg_606" x="22.28" y="9.9">Отчёт</tspan>
+        <tspan id="svg_607" x="0" y="23.1">удовлетворяет</tspan>
+        <tspan id="svg_608" x="0.94" y="36.3">требованиям?</tspan>
+       </text>
+      </g>
+      <rect class="djs-hit djs-hit-all" fill="none" height="40" id="svg_609" stroke="white" stroke-opacity="0" stroke-width="15px" width="76" x="0" y="0"/>
+      <rect class="djs-outline" fill="none" height="52" id="svg_610" rx="4" width="88" x="-6" y="-6"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_611">
+     <g class="djs-element djs-shape" data-element-id="Activity_0ob807j" display="block" id="svg_612" transform="matrix(1 0 0 1 1380 150)">
+      <g class="djs-visual" id="svg_613">
+       <rect fill="white" fill-opacity="0.95" height="80" id="svg_614" rx="10" ry="10" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px" width="100" x="0" y="0"/>
+       <text class="djs-label" fill="rgb(34, 36, 42)" font-family="Arial, sans-serif" font-size="12px" font-weight="normal" id="svg_615">
+        <tspan id="svg_616" x="26.55" y="29.2">Принять</tspan>
+        <tspan id="svg_617" x="29.45" y="43.6">первую</tspan>
+        <tspan id="svg_618" x="11.68" y="58">опроцентовку</tspan>
+       </text>
+      </g>
+      <rect class="djs-hit djs-hit-all" fill="none" height="80" id="svg_619" stroke="white" stroke-opacity="0" stroke-width="15px" width="100" x="0" y="0"/>
+      <rect class="djs-outline" fill="none" height="92" id="svg_620" rx="4" width="112" x="-6" y="-6"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_621">
+     <g class="djs-element djs-shape" data-element-id="Activity_0zlqy9q" display="block" id="svg_622" transform="matrix(1 0 0 1 820 260)">
+      <g class="djs-visual" id="svg_623">
+       <rect fill="white" fill-opacity="0.95" height="80" id="svg_624" rx="10" ry="10" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px" width="100" x="0" y="0"/>
+       <text class="djs-label" fill="rgb(34, 36, 42)" font-family="Arial, sans-serif" font-size="12px" font-weight="normal" id="svg_625">
+        <tspan id="svg_626" x="20.23" y="29.2">Отправить</tspan>
+        <tspan id="svg_627" x="13.17" y="43.6">лист задания</tspan>
+        <tspan id="svg_628" x="12.95" y="58">на доработку</tspan>
+       </text>
+       <path d="m5.98,5l0,14l21,0l0,-14l-21,0zl10.5,6l10.5,-6" fill="rgb(34, 36, 42)" id="svg_629" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1px"/>
+      </g>
+      <rect class="djs-hit djs-hit-all" fill="none" height="80" id="svg_630" stroke="white" stroke-opacity="0" stroke-width="15px" width="100" x="0" y="0"/>
+      <rect class="djs-outline" fill="none" height="92" id="svg_631" rx="4" width="112" x="-6" y="-6"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_632">
+     <g class="djs-element djs-shape" data-element-id="Activity_035u9hc" display="block" id="svg_633" transform="matrix(1 0 0 1 1160 260)">
+      <g class="djs-visual" id="svg_634">
+       <rect fill="white" fill-opacity="0.95" height="80" id="svg_635" rx="10" ry="10" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px" width="100" x="0" y="0"/>
+       <text class="djs-label" fill="rgb(34, 36, 42)" font-family="Arial, sans-serif" font-size="12px" font-weight="normal" id="svg_636">
+        <tspan id="svg_637" x="19.98" y="36.4">Проверить</tspan>
+        <tspan id="svg_638" x="34.73" y="50.8">отчёт</tspan>
+       </text>
+       <path d="m6.3,5.6l0,12.6l18.9,0l0,-12.6l-18.9,0zl9.45,5.4l9.45,-5.4" fill="white" id="svg_639" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1px"/>
+      </g>
+      <rect class="djs-hit djs-hit-all" fill="none" height="80" id="svg_640" stroke="white" stroke-opacity="0" stroke-width="15px" width="100" x="0" y="0"/>
+      <rect class="djs-outline" fill="none" height="92" id="svg_641" rx="4" width="112" x="-6" y="-6"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_642">
+     <g class="djs-element djs-shape" data-element-id="Activity_1djqxhy" display="block" id="svg_643" transform="matrix(1 0 0 1 1380 260)">
+      <g class="djs-visual" id="svg_644">
+       <rect fill="white" fill-opacity="0.95" height="80" id="svg_645" rx="10" ry="10" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px" width="100" x="0" y="0"/>
+       <text class="djs-label" fill="rgb(34, 36, 42)" font-family="Arial, sans-serif" font-size="12px" font-weight="normal" id="svg_646">
+        <tspan id="svg_647" x="20.23" y="29.2">Отправить</tspan>
+        <tspan id="svg_648" x="26.43" y="43.6">отчёт на</tspan>
+        <tspan id="svg_649" x="21.55" y="58">доработку</tspan>
+       </text>
+       <path d="m5.98,5l0,14l21,0l0,-14l-21,0zl10.5,6l10.5,-6" fill="rgb(34, 36, 42)" id="svg_650" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1px"/>
+      </g>
+      <rect class="djs-hit djs-hit-all" fill="none" height="80" id="svg_651" stroke="white" stroke-opacity="0" stroke-width="15px" width="100" x="0" y="0"/>
+      <rect class="djs-outline" fill="none" height="92" id="svg_652" rx="4" width="112" x="-6" y="-6"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_653">
+     <g class="djs-element djs-shape" data-element-id="Activity_0uss0v7" display="block" id="svg_654" transform="matrix(1 0 0 1 1550 260)">
+      <g class="djs-visual" id="svg_655">
+       <rect fill="white" fill-opacity="0.95" height="80" id="svg_656" rx="10" ry="10" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px" width="100" x="0" y="0"/>
+       <text class="djs-label" fill="rgb(34, 36, 42)" font-family="Arial, sans-serif" font-size="12px" font-weight="normal" id="svg_657">
+        <tspan id="svg_658" x="19.98" y="36.4">Проверить</tspan>
+        <tspan id="svg_659" x="34.73" y="50.8">отчёт</tspan>
+       </text>
+       <path d="m6.3,5.6l0,12.6l18.9,0l0,-12.6l-18.9,0zl9.45,5.4l9.45,-5.4" fill="white" id="svg_660" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1px"/>
+      </g>
+      <rect class="djs-hit djs-hit-all" fill="none" height="80" id="svg_661" stroke="white" stroke-opacity="0" stroke-width="15px" width="100" x="0" y="0"/>
+      <rect class="djs-outline" fill="none" height="92" id="svg_662" rx="4" width="112" x="-6" y="-6"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_663">
+     <g class="djs-element djs-shape" data-element-id="Gateway_1wd2f15" display="block" id="svg_664" transform="matrix(1 0 0 1 1705 275)">
+      <g class="djs-visual" id="svg_665">
+       <polygon fill="white" fill-opacity="0.95" id="svg_666" points="25,0 50,25 25,50 0,25" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px"/>
+       <path d="m16,15l7.43,9.71l-7.43,9.72l3.43,0l5.71,-7.47l5.72,7.47l3.43,0l-7.43,-9.72l7.43,-9.71l-3.43,0l-5.72,7.46l-5.71,-7.46l-3.43,0z" fill="rgb(34, 36, 42)" id="svg_667" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1px"/>
+      </g>
+      <rect class="djs-hit djs-hit-all" fill="none" height="50" id="svg_668" stroke="white" stroke-opacity="0" stroke-width="15px" width="50" x="0" y="0"/>
+      <rect class="djs-outline" fill="none" height="62" id="svg_669" rx="4" width="62" x="-6" y="-6"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_670">
+     <g class="djs-element djs-shape" data-element-id="Gateway_1wd2f15_label" display="block" id="svg_671" transform="matrix(1 0 0 1 1692 335)">
+      <g class="djs-visual" id="svg_672">
+       <text class="djs-label" fill="rgb(34, 36, 42)" font-family="Arial, sans-serif" font-size="11px" font-weight="normal" id="svg_673">
+        <tspan id="svg_674" x="22.41" y="9.9">Отчёт</tspan>
+        <tspan id="svg_675" x="0" y="23.1">удовлетврояет</tspan>
+        <tspan id="svg_676" x="1.07" y="36.3">требованиям?</tspan>
+       </text>
+      </g>
+      <rect class="djs-hit djs-hit-all" fill="none" height="40" id="svg_677" stroke="white" stroke-opacity="0" stroke-width="15px" width="76" x="0" y="0"/>
+      <rect class="djs-outline" fill="none" height="52" id="svg_678" rx="4" width="88" x="-6" y="-6"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_679">
+     <g class="djs-element djs-shape" data-element-id="Activity_1yjzs4r" display="block" id="svg_680" transform="matrix(1 0 0 1 1810 260)">
+      <g class="djs-visual" id="svg_681">
+       <rect fill="white" fill-opacity="0.95" height="80" id="svg_682" rx="10" ry="10" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px" width="100" x="0" y="0"/>
+       <text class="djs-label" fill="rgb(34, 36, 42)" font-family="Arial, sans-serif" font-size="12px" font-weight="normal" id="svg_683">
+        <tspan id="svg_684" x="20.23" y="29.2">Отправить</tspan>
+        <tspan id="svg_685" x="26.43" y="43.6">отчёт на</tspan>
+        <tspan id="svg_686" x="21.55" y="58">доработку</tspan>
+       </text>
+       <path d="m5.98,5l0,14l21,0l0,-14l-21,0zl10.5,6l10.5,-6" fill="rgb(34, 36, 42)" id="svg_687" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1px"/>
+      </g>
+      <rect class="djs-hit djs-hit-all" fill="none" height="80" id="svg_688" stroke="white" stroke-opacity="0" stroke-width="15px" width="100" x="0" y="0"/>
+      <rect class="djs-outline" fill="none" height="92" id="svg_689" rx="4" width="112" x="-6" y="-6"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_690">
+     <g class="djs-element djs-shape" data-element-id="Activity_1747o71" display="block" id="svg_691" transform="matrix(1 0 0 1 1810 140)">
+      <g class="djs-visual" id="svg_692">
+       <rect fill="white" fill-opacity="0.95" height="80" id="svg_693" rx="10" ry="10" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px" width="100" x="0" y="0"/>
+       <text class="djs-label" fill="rgb(34, 36, 42)" font-family="Arial, sans-serif" font-size="12px" font-weight="normal" id="svg_694">
+        <tspan id="svg_695" x="26.55" y="29.2">Принять</tspan>
+        <tspan id="svg_696" x="30.09" y="43.6">вторую</tspan>
+        <tspan id="svg_697" x="11.68" y="58">опроцентовку</tspan>
+       </text>
+      </g>
+      <rect class="djs-hit djs-hit-all" fill="none" height="80" id="svg_698" stroke="white" stroke-opacity="0" stroke-width="15px" width="100" x="0" y="0"/>
+      <rect class="djs-outline" fill="none" height="92" id="svg_699" rx="4" width="112" x="-6" y="-6"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_700">
+     <g class="djs-element djs-shape" data-element-id="Activity_1r74pbm" display="block" id="svg_701" transform="matrix(1 0 0 1 2080 210)">
+      <g class="djs-visual" id="svg_702">
+       <rect fill="white" fill-opacity="0.95" height="80" id="svg_703" rx="10" ry="10" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px" width="100" x="0" y="0"/>
+       <text class="djs-label" fill="rgb(34, 36, 42)" font-family="Arial, sans-serif" font-size="12px" font-weight="normal" id="svg_704">
+        <tspan id="svg_705" x="26.07" y="29.2">Оценить</tspan>
+        <tspan id="svg_706" x="24.01" y="43.6">курсовую</tspan>
+        <tspan id="svg_707" x="30.73" y="58">работу</tspan>
+       </text>
+       <path d="m6.3,5.6l0,12.6l18.9,0l0,-12.6l-18.9,0zl9.45,5.4l9.45,-5.4" fill="white" id="svg_708" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1px"/>
+      </g>
+      <rect class="djs-hit djs-hit-all" fill="none" height="80" id="svg_709" stroke="white" stroke-opacity="0" stroke-width="15px" width="100" x="0" y="0"/>
+      <rect class="djs-outline" fill="none" height="92" id="svg_710" rx="4" width="112" x="-6" y="-6"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_711">
+     <g class="djs-element djs-shape" data-element-id="Gateway_07kqwht" display="block" id="svg_712" transform="matrix(1 0 0 1 2215 225)">
+      <g class="djs-visual" id="svg_713">
+       <polygon fill="white" fill-opacity="0.95" id="svg_714" points="25,0 50,25 25,50 0,25" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px"/>
+       <path d="m16,15l7.43,9.71l-7.43,9.72l3.43,0l5.71,-7.47l5.72,7.47l3.43,0l-7.43,-9.72l7.43,-9.71l-3.43,0l-5.72,7.46l-5.71,-7.46l-3.43,0z" fill="rgb(34, 36, 42)" id="svg_715" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1px"/>
+      </g>
+      <rect class="djs-hit djs-hit-all" fill="none" height="50" id="svg_716" stroke="white" stroke-opacity="0" stroke-width="15px" width="50" x="0" y="0"/>
+      <rect class="djs-outline" fill="none" height="62" id="svg_717" rx="4" width="62" x="-6" y="-6"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_718">
+     <g class="djs-element djs-shape" data-element-id="Gateway_07kqwht_label" display="block" id="svg_719" transform="matrix(1 0 0 1 2275 237)">
+      <g class="djs-visual" id="svg_720">
+       <text class="djs-label" fill="rgb(34, 36, 42)" font-family="Arial, sans-serif" font-size="11px" font-weight="normal" id="svg_721">
+        <tspan id="svg_722" x="0" y="9.9">Курсовая работа</tspan>
+        <tspan id="svg_723" x="24.88" y="23.1">сдана?</tspan>
+       </text>
+      </g>
+      <rect class="djs-hit djs-hit-all" fill="none" height="27" id="svg_724" stroke="white" stroke-opacity="0" stroke-width="15px" width="87" x="0" y="0"/>
+      <rect class="djs-outline" fill="none" height="39" id="svg_725" rx="4" width="99" x="-6" y="-6"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_726">
+     <g class="djs-element djs-shape" data-element-id="Activity_1wh3pbn" display="block" id="svg_727" transform="matrix(1 0 0 1 2303 150)">
+      <g class="djs-visual" id="svg_728">
+       <rect fill="white" fill-opacity="0.95" height="80" id="svg_729" rx="10" ry="10" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px" width="100" x="0" y="0"/>
+       <text class="djs-label" fill="rgb(34, 36, 42)" font-family="Arial, sans-serif" font-size="12px" font-weight="normal" id="svg_730">
+        <tspan id="svg_731" x="22.72" y="29.2">Оцениить</tspan>
+        <tspan id="svg_732" x="24.01" y="43.6">курсовую</tspan>
+        <tspan id="svg_733" x="30.73" y="58">работу</tspan>
+       </text>
+      </g>
+      <rect class="djs-hit djs-hit-all" fill="none" height="80" id="svg_734" stroke="white" stroke-opacity="0" stroke-width="15px" width="100" x="0" y="0"/>
+      <rect class="djs-outline" fill="none" height="92" id="svg_735" rx="4" width="112" x="-6" y="-6"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_736">
+     <g class="djs-element djs-shape" data-element-id="Activity_1rbbb3o" display="block" id="svg_737" transform="matrix(1 0 0 1 2303 270)">
+      <g class="djs-visual" id="svg_738">
+       <rect fill="white" fill-opacity="0.95" height="80" id="svg_739" rx="10" ry="10" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px" width="100" x="0" y="0"/>
+       <text class="djs-label" fill="rgb(34, 36, 42)" font-family="Arial, sans-serif" font-size="12px" font-weight="normal" id="svg_740">
+        <tspan id="svg_741" x="20.36" y="36.4">Отчислить</tspan>
+        <tspan id="svg_742" x="25.12" y="50.8">студента</tspan>
+       </text>
+      </g>
+      <rect class="djs-hit djs-hit-all" fill="none" height="80" id="svg_743" stroke="white" stroke-opacity="0" stroke-width="15px" width="100" x="0" y="0"/>
+      <rect class="djs-outline" fill="none" height="92" id="svg_744" rx="4" width="112" x="-6" y="-6"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_745">
+     <g class="djs-element djs-shape" data-element-id="Event_19ogeux" display="block" id="svg_746" transform="matrix(1 0 0 1 2452 292)">
+      <g class="djs-visual" id="svg_747">
+       <circle cx="18" cy="18" fill="white" fill-opacity="0.95" id="svg_748" r="18" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="4px"/>
+      </g>
+      <rect class="djs-hit djs-hit-all" fill="none" height="36" id="svg_749" stroke="white" stroke-opacity="0" stroke-width="15px" width="36" x="0" y="0"/>
+      <rect class="djs-outline" fill="none" height="48" id="svg_750" rx="4" width="48" x="-6" y="-6"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_751">
+     <g class="djs-element djs-shape" data-element-id="Event_19ogeux_label" display="block" id="svg_752" transform="matrix(1 0 0 1 2447 335)">
+      <g class="djs-visual" id="svg_753">
+       <text class="djs-label" fill="rgb(34, 36, 42)" font-family="Arial, sans-serif" font-size="11px" font-weight="normal" id="svg_754">
+        <tspan id="svg_755" x="2.45" y="9.9">Студент</tspan>
+        <tspan id="svg_756" x="0" y="23.1">отчислен</tspan>
+       </text>
+      </g>
+      <rect class="djs-hit djs-hit-all" fill="none" height="27" id="svg_757" stroke="white" stroke-opacity="0" stroke-width="15px" width="47" x="0" y="0"/>
+      <rect class="djs-outline" fill="none" height="39" id="svg_758" rx="4" width="59" x="-6" y="-6"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_759">
+     <g class="djs-element djs-shape" data-element-id="Event_12zrmk6" display="block" id="svg_760" transform="matrix(1 0 0 1 2452 172)">
+      <g class="djs-visual" id="svg_761">
+       <circle cx="18" cy="18" fill="white" fill-opacity="0.95" id="svg_762" r="18" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="4px"/>
+      </g>
+      <rect class="djs-hit djs-hit-all" fill="none" height="36" id="svg_763" stroke="white" stroke-opacity="0" stroke-width="15px" width="36" x="0" y="0"/>
+      <rect class="djs-outline" fill="none" height="48" id="svg_764" rx="4" width="48" x="-6" y="-6"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_765">
+     <g class="djs-element djs-shape" data-element-id="Event_12zrmk6_label" display="block" id="svg_766" transform="matrix(1 0 0 1 2435 215)">
+      <g class="djs-visual" id="svg_767">
+       <text class="djs-label" fill="rgb(34, 36, 42)" font-family="Arial, sans-serif" font-size="11px" font-weight="normal" id="svg_768">
+        <tspan id="svg_769" x="14.15" y="9.9">Студент</tspan>
+        <tspan id="svg_770" x="0" y="23.1">допускается к</tspan>
+        <tspan id="svg_771" x="17.69" y="36.3">сессии</tspan>
+       </text>
+      </g>
+      <rect class="djs-hit djs-hit-all" fill="none" height="40" id="svg_772" stroke="white" stroke-opacity="0" stroke-width="15px" width="71" x="0" y="0"/>
+      <rect class="djs-outline" fill="none" height="52" id="svg_773" rx="4" width="83" x="-6" y="-6"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_774">
+     <g class="djs-element djs-connection" data-element-id="Flow_1b5xcxc" display="block" id="svg_775">
+      <g class="djs-visual" id="svg_776">
+       <path d="m700,300l35,0" data-corner-radius="5" fill="none" id="svg_777" marker-end="url(&#x27;#sequenceflow-end-white-hsl_225_10_15_-c6im8aphrggn1h3aqcqq7afim&#x27;)" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px"/>
+      </g>
+      <path class="djs-hit djs-hit-stroke" d="m700,300l35,0" fill="none" id="svg_778" stroke="white" stroke-opacity="0" stroke-width="15px"/>
+      <rect class="djs-outline" fill="none" height="12" id="svg_779" rx="4" width="47" x="694" y="294"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_780">
+     <g class="djs-element djs-connection" data-element-id="Flow_0brwo9p" display="block" id="svg_781">
+      <g class="djs-visual" id="svg_782">
+       <path d="m785,300l35,0" data-corner-radius="5" fill="none" id="svg_783" marker-end="url(&#x27;#sequenceflow-end-white-hsl_225_10_15_-c6im8aphrggn1h3aqcqq7afim&#x27;)" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px"/>
+      </g>
+      <path class="djs-hit djs-hit-stroke" d="m785,300l35,0" fill="none" id="svg_784" stroke="white" stroke-opacity="0" stroke-width="15px"/>
+      <rect class="djs-outline" fill="none" height="12" id="svg_785" rx="4" width="47" x="779" y="294"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_786">
+     <g class="djs-element djs-shape" data-element-id="Flow_0brwo9p_label" display="block" id="svg_787" transform="matrix(1 0 0 1 791 282)">
+      <g class="djs-visual" id="svg_788">
+       <text class="djs-label" fill="rgb(34, 36, 42)" font-family="Arial, sans-serif" font-size="11px" font-weight="normal" id="svg_789">
+        <tspan id="svg_790" x="0" y="9.9">НЕТ</tspan>
+       </text>
+      </g>
+      <rect class="djs-hit djs-hit-all" fill="none" height="14" id="svg_791" stroke="white" stroke-opacity="0" stroke-width="15px" width="23" x="0" y="0"/>
+      <rect class="djs-outline" fill="none" height="26" id="svg_792" rx="4" width="35" x="-6" y="-6"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_793">
+     <g class="djs-element djs-connection" data-element-id="Flow_1bynkiy" display="block" id="svg_794">
+      <g class="djs-visual" id="svg_795">
+       <path d="m760,275l0,-80c0,-2.5 2.5,-5 5,-5l55,0" data-corner-radius="5" fill="none" id="svg_796" marker-end="url(&#x27;#sequenceflow-end-white-hsl_225_10_15_-c6im8aphrggn1h3aqcqq7afim&#x27;)" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px"/>
+      </g>
+      <path class="djs-hit djs-hit-stroke" d="m760,275l0,-85l60,0" fill="none" id="svg_797" stroke="white" stroke-opacity="0" stroke-width="15px"/>
+      <rect class="djs-outline" fill="none" height="97" id="svg_798" rx="4" width="72" x="754" y="184"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_799">
+     <g class="djs-element djs-shape" data-element-id="Flow_1bynkiy_label" display="block" id="svg_800" transform="matrix(1 0 0 1 768 230)">
+      <g class="djs-visual" id="svg_801">
+       <text class="djs-label" fill="rgb(34, 36, 42)" font-family="Arial, sans-serif" font-size="11px" font-weight="normal" id="svg_802">
+        <tspan id="svg_803" x="0" y="9.9">ДА</tspan>
+       </text>
+      </g>
+      <rect class="djs-hit djs-hit-all" fill="none" height="14" id="svg_804" stroke="white" stroke-opacity="0" stroke-width="15px" width="15" x="0" y="0"/>
+      <rect class="djs-outline" fill="none" height="26" id="svg_805" rx="4" width="27" x="-6" y="-6"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_806">
+     <g class="djs-element djs-connection" data-element-id="Flow_0sywku3" display="block" id="svg_807">
+      <g class="djs-visual" id="svg_808">
+       <path d="m1260,300l35,0" data-corner-radius="5" fill="none" id="svg_809" marker-end="url(&#x27;#sequenceflow-end-white-hsl_225_10_15_-c6im8aphrggn1h3aqcqq7afim&#x27;)" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px"/>
+      </g>
+      <path class="djs-hit djs-hit-stroke" d="m1260,300l35,0" fill="none" id="svg_810" stroke="white" stroke-opacity="0" stroke-width="15px"/>
+      <rect class="djs-outline" fill="none" height="12" id="svg_811" rx="4" width="47" x="1254" y="294"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_812">
+     <g class="djs-element djs-connection" data-element-id="Flow_1hftt7b" display="block" id="svg_813">
+      <g class="djs-visual" id="svg_814">
+       <path d="m1320,275l0,-80c0,-2.5 2.5,-5 5,-5l55,0" data-corner-radius="5" fill="none" id="svg_815" marker-end="url(&#x27;#sequenceflow-end-white-hsl_225_10_15_-c6im8aphrggn1h3aqcqq7afim&#x27;)" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px"/>
+      </g>
+      <path class="djs-hit djs-hit-stroke" d="m1320,275l0,-85l60,0" fill="none" id="svg_816" stroke="white" stroke-opacity="0" stroke-width="15px"/>
+      <rect class="djs-outline" fill="none" height="97" id="svg_817" rx="4" width="72" x="1314" y="184"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_818">
+     <g class="djs-element djs-shape" data-element-id="Flow_1hftt7b_label" display="block" id="svg_819" transform="matrix(1 0 0 1 1328 230)">
+      <g class="djs-visual" id="svg_820">
+       <text class="djs-label" fill="rgb(34, 36, 42)" font-family="Arial, sans-serif" font-size="11px" font-weight="normal" id="svg_821">
+        <tspan id="svg_822" x="0" y="9.9">ДА</tspan>
+       </text>
+      </g>
+      <rect class="djs-hit djs-hit-all" fill="none" height="14" id="svg_823" stroke="white" stroke-opacity="0" stroke-width="15px" width="15" x="0" y="0"/>
+      <rect class="djs-outline" fill="none" height="26" id="svg_824" rx="4" width="27" x="-6" y="-6"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_825">
+     <g class="djs-element djs-connection" data-element-id="Flow_17cedcm" display="block" id="svg_826">
+      <g class="djs-visual" id="svg_827">
+       <path d="m1345,300l35,0" data-corner-radius="5" fill="none" id="svg_828" marker-end="url(&#x27;#sequenceflow-end-white-hsl_225_10_15_-c6im8aphrggn1h3aqcqq7afim&#x27;)" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px"/>
+      </g>
+      <path class="djs-hit djs-hit-stroke" d="m1345,300l35,0" fill="none" id="svg_829" stroke="white" stroke-opacity="0" stroke-width="15px"/>
+      <rect class="djs-outline" fill="none" height="12" id="svg_830" rx="4" width="47" x="1339" y="294"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_831">
+     <g class="djs-element djs-shape" data-element-id="Flow_17cedcm_label" display="block" id="svg_832" transform="matrix(1 0 0 1 1351 282)">
+      <g class="djs-visual" id="svg_833">
+       <text class="djs-label" fill="rgb(34, 36, 42)" font-family="Arial, sans-serif" font-size="11px" font-weight="normal" id="svg_834">
+        <tspan id="svg_835" x="0" y="9.9">НЕТ</tspan>
+       </text>
+      </g>
+      <rect class="djs-hit djs-hit-all" fill="none" height="14" id="svg_836" stroke="white" stroke-opacity="0" stroke-width="15px" width="23" x="0" y="0"/>
+      <rect class="djs-outline" fill="none" height="26" id="svg_837" rx="4" width="35" x="-6" y="-6"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_838">
+     <g class="djs-element djs-connection" data-element-id="Flow_11v196k" display="block" id="svg_839">
+      <g class="djs-visual" id="svg_840">
+       <path d="m1650,300l55,0" data-corner-radius="5" fill="none" id="svg_841" marker-end="url(&#x27;#sequenceflow-end-white-hsl_225_10_15_-c6im8aphrggn1h3aqcqq7afim&#x27;)" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px"/>
+      </g>
+      <path class="djs-hit djs-hit-stroke" d="m1650,300l55,0" fill="none" id="svg_842" stroke="white" stroke-opacity="0" stroke-width="15px"/>
+      <rect class="djs-outline" fill="none" height="12" id="svg_843" rx="4" width="67" x="1644" y="294"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_844">
+     <g class="djs-element djs-connection" data-element-id="Flow_0jmv240" display="block" id="svg_845">
+      <g class="djs-visual" id="svg_846">
+       <path d="m1755,300l55,0" data-corner-radius="5" fill="none" id="svg_847" marker-end="url(&#x27;#sequenceflow-end-white-hsl_225_10_15_-c6im8aphrggn1h3aqcqq7afim&#x27;)" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px"/>
+      </g>
+      <path class="djs-hit djs-hit-stroke" d="m1755,300l55,0" fill="none" id="svg_848" stroke="white" stroke-opacity="0" stroke-width="15px"/>
+      <rect class="djs-outline" fill="none" height="12" id="svg_849" rx="4" width="67" x="1749" y="294"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_850">
+     <g class="djs-element djs-connection" data-element-id="Flow_00gi9i9" display="block" id="svg_851">
+      <g class="djs-visual" id="svg_852">
+       <path d="m1730,275l0,-90c0,-2.5 2.5,-5 5,-5l75,0" data-corner-radius="5" fill="none" id="svg_853" marker-end="url(&#x27;#sequenceflow-end-white-hsl_225_10_15_-c6im8aphrggn1h3aqcqq7afim&#x27;)" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px"/>
+      </g>
+      <path class="djs-hit djs-hit-stroke" d="m1730,275l0,-95l80,0" fill="none" id="svg_854" stroke="white" stroke-opacity="0" stroke-width="15px"/>
+      <rect class="djs-outline" fill="none" height="107" id="svg_855" rx="4" width="92" x="1724" y="174"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_856">
+     <g class="djs-element djs-connection" data-element-id="Flow_1kthm6q" display="block" id="svg_857">
+      <g class="djs-visual" id="svg_858">
+       <path d="m2180,250l35,0" data-corner-radius="5" fill="none" id="svg_859" marker-end="url(&#x27;#sequenceflow-end-white-hsl_225_10_15_-c6im8aphrggn1h3aqcqq7afim&#x27;)" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px"/>
+      </g>
+      <path class="djs-hit djs-hit-stroke" d="m2180,250l35,0" fill="none" id="svg_860" stroke="white" stroke-opacity="0" stroke-width="15px"/>
+      <rect class="djs-outline" fill="none" height="12" id="svg_861" rx="4" width="47" x="2174" y="244"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_862">
+     <g class="djs-element djs-connection" data-element-id="Flow_0xol8yk" display="block" id="svg_863">
+      <g class="djs-visual" id="svg_864">
+       <path d="m2240,275l0,30c0,2.5 2.5,5 5,5l58,0" data-corner-radius="5" fill="none" id="svg_865" marker-end="url(&#x27;#sequenceflow-end-white-hsl_225_10_15_-c6im8aphrggn1h3aqcqq7afim&#x27;)" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px"/>
+      </g>
+      <path class="djs-hit djs-hit-stroke" d="m2240,275l0,35l63,0" fill="none" id="svg_866" stroke="white" stroke-opacity="0" stroke-width="15px"/>
+      <rect class="djs-outline" fill="none" height="47" id="svg_867" rx="4" width="75" x="2234" y="269"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_868">
+     <g class="djs-element djs-shape" data-element-id="Flow_0xol8yk_label" display="block" id="svg_869" transform="matrix(1 0 0 1 2239 286)">
+      <g class="djs-visual" id="svg_870">
+       <text class="djs-label" fill="rgb(34, 36, 42)" font-family="Arial, sans-serif" font-size="11px" font-weight="normal" id="svg_871">
+        <tspan id="svg_872" x="0" y="9.9">НЕТ</tspan>
+       </text>
+      </g>
+      <rect class="djs-hit djs-hit-all" fill="none" height="14" id="svg_873" stroke="white" stroke-opacity="0" stroke-width="15px" width="23" x="0" y="0"/>
+      <rect class="djs-outline" fill="none" height="26" id="svg_874" rx="4" width="35" x="-6" y="-6"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_875">
+     <g class="djs-element djs-connection" data-element-id="Flow_0gebc8u" display="block" id="svg_876">
+      <g class="djs-visual" id="svg_877">
+       <path d="m2240,225l0,-30c0,-2.5 2.5,-5 5,-5l58,0" data-corner-radius="5" fill="none" id="svg_878" marker-end="url(&#x27;#sequenceflow-end-white-hsl_225_10_15_-c6im8aphrggn1h3aqcqq7afim&#x27;)" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px"/>
+      </g>
+      <path class="djs-hit djs-hit-stroke" d="m2240,225l0,-35l63,0" fill="none" id="svg_879" stroke="white" stroke-opacity="0" stroke-width="15px"/>
+      <rect class="djs-outline" fill="none" height="47" id="svg_880" rx="4" width="75" x="2234" y="184"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_881">
+     <g class="djs-element djs-shape" data-element-id="Flow_0gebc8u_label" display="block" id="svg_882" transform="matrix(1 0 0 1 2260 199)">
+      <g class="djs-visual" id="svg_883">
+       <text class="djs-label" fill="rgb(34, 36, 42)" font-family="Arial, sans-serif" font-size="11px" font-weight="normal" id="svg_884">
+        <tspan id="svg_885" x="0" y="9.9">ДА</tspan>
+       </text>
+      </g>
+      <rect class="djs-hit djs-hit-all" fill="none" height="14" id="svg_886" stroke="white" stroke-opacity="0" stroke-width="15px" width="15" x="0" y="0"/>
+      <rect class="djs-outline" fill="none" height="26" id="svg_887" rx="4" width="27" x="-6" y="-6"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_888">
+     <g class="djs-element djs-connection" data-element-id="Flow_0kya19e" display="block" id="svg_889">
+      <g class="djs-visual" id="svg_890">
+       <path d="m2403,190l49,0" data-corner-radius="5" fill="none" id="svg_891" marker-end="url(&#x27;#sequenceflow-end-white-hsl_225_10_15_-c6im8aphrggn1h3aqcqq7afim&#x27;)" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px"/>
+      </g>
+      <path class="djs-hit djs-hit-stroke" d="m2403,190l49,0" fill="none" id="svg_892" stroke="white" stroke-opacity="0" stroke-width="15px"/>
+      <rect class="djs-outline" fill="none" height="12" id="svg_893" rx="4" width="61" x="2397" y="184"/>
+     </g>
+    </g>
+    <g class="djs-group" id="svg_894">
+     <g class="djs-element djs-connection" data-element-id="Flow_1dh1ts9" display="block" id="svg_895">
+      <g class="djs-visual" id="svg_896">
+       <path d="m2403,310l49,0" data-corner-radius="5" fill="none" id="svg_897" marker-end="url(&#x27;#sequenceflow-end-white-hsl_225_10_15_-c6im8aphrggn1h3aqcqq7afim&#x27;)" stroke="rgb(34, 36, 42)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px"/>
+      </g>
+      <path class="djs-hit djs-hit-stroke" d="m2403,310l49,0" fill="none" id="svg_898" stroke="white" stroke-opacity="0" stroke-width="15px"/>
+      <rect class="djs-outline" fill="none" height="12" id="svg_899" rx="4" width="61" x="2397" y="304"/>
+     </g>
+    </g>
+   </g>
+  </g>
+  <g class="djs-group" id="svg_900">
+   <g class="djs-element djs-shape djs-frame" data-element-id="Group_1yosh4z" display="block" id="svg_901" transform="matrix(1 0 0 1 260 110)">
+    <g class="djs-visual" id="svg_902">
+     <rect fill="none" height="680" id="svg_903" rx="10" ry="10" stroke="rgb(34, 36, 42)" stroke-dasharray="10, 6, 0, 6" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5px" width="1240" x="0" y="0"/>
+    </g>
+    <rect class="djs-hit djs-hit-stroke" fill="none" height="680" id="svg_904" stroke="white" stroke-opacity="0" stroke-width="15px" width="1240" x="0" y="0"/>
+    <rect class="djs-outline" fill="none" height="692" id="svg_905" rx="4" width="1252" x="-6" y="-6"/>
+   </g>
+  </g>
+  <g class="djs-group" id="svg_906">
+   <g class="djs-element djs-shape" data-element-id="Group_1yosh4z_label" display="block" id="svg_907" transform="matrix(1 0 0 1 845 117)">
+    <g class="djs-visual" id="svg_908">
+     <text class="djs-label" fill="rgb(34, 36, 42)" font-family="Arial, sans-serif" font-size="11px" font-weight="normal" id="svg_909">
+      <tspan id="svg_910" x="16.48" y="9.9">Первая</tspan>
+      <tspan id="svg_911" x="0" y="23.1">опроцентовка</tspan>
+     </text>
+    </g>
+    <rect class="djs-hit djs-hit-all" fill="none" height="27" id="svg_912" stroke="white" stroke-opacity="0" stroke-width="15px" width="71" x="0" y="0"/>
+    <rect class="djs-outline" fill="none" height="39" id="svg_913" rx="4" width="83" x="-6" y="-6"/>
+   </g>
+  </g>
+  <g class="djs-group" id="svg_914">
+   <g class="djs-element djs-shape djs-frame" data-element-id="Group_09k16hz" display="block" id="svg_915" transform="matrix(1 0 0 1 1530 110)">
+    <g class="djs-visual" id="svg_916">
+     <rect fill="none" height="680" id="svg_917" rx="10" ry="10" stroke="rgb(34, 36, 42)" stroke-dasharray="10, 6, 0, 6" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5px" width="520" x="0" y="0"/>
+    </g>
+    <rect class="djs-hit djs-hit-stroke" fill="none" height="680" id="svg_918" stroke="white" stroke-opacity="0" stroke-width="15px" width="520" x="0" y="0"/>
+    <rect class="djs-outline" fill="none" height="692" id="svg_919" rx="4" width="532" x="-6" y="-6"/>
+   </g>
+  </g>
+  <g class="djs-group" id="svg_920">
+   <g class="djs-element djs-shape" data-element-id="Group_09k16hz_label" display="block" id="svg_921" transform="matrix(1 0 0 1 1755 117)">
+    <g class="djs-visual" id="svg_922">
+     <text class="djs-label" fill="rgb(34, 36, 42)" font-family="Arial, sans-serif" font-size="11px" font-weight="normal" id="svg_923">
+      <tspan id="svg_924" x="17.35" y="9.9">Вторая</tspan>
+      <tspan id="svg_925" x="0" y="23.1">опроцентовка</tspan>
+     </text>
+    </g>
+    <rect class="djs-hit djs-hit-all" fill="none" height="27" id="svg_926" stroke="white" stroke-opacity="0" stroke-width="15px" width="71" x="0" y="0"/>
+    <rect class="djs-outline" fill="none" height="39" id="svg_927" rx="4" width="83" x="-6" y="-6"/>
+   </g>
+  </g>
+  <g class="djs-group" id="svg_928">
+   <g class="djs-element djs-connection" data-element-id="DataOutputAssociation_1kjn5ji" display="block" id="svg_929">
+    <g class="djs-visual" id="svg_930">
+     <path d="m710,500l60,0" data-corner-radius="5" fill="none" id="svg_931" marker-end="url(&#x27;#association-end-white-hsl_225_10_15_-c6im8aphrggn1h3aqcqq7afim&#x27;)" stroke="rgb(34, 36, 42)" stroke-dasharray="0, 5" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px"/>
+    </g>
+    <path class="djs-hit djs-hit-stroke" d="m710,500l60,0" fill="none" id="svg_932" stroke="white" stroke-opacity="0" stroke-width="15px"/>
+    <rect class="djs-outline" fill="none" height="12" id="svg_933" rx="4" width="72" x="704" y="494"/>
+   </g>
+  </g>
+  <g class="djs-group" id="svg_934">
+   <g class="djs-element djs-connection" data-element-id="DataOutputAssociation_1tlpb6a" display="block" id="svg_935">
+    <g class="djs-visual" id="svg_936">
+     <path d="m890,502l-82,2" data-corner-radius="5" fill="none" id="svg_937" marker-end="url(&#x27;#association-end-white-hsl_225_10_15_-c6im8aphrggn1h3aqcqq7afim&#x27;)" stroke="rgb(34, 36, 42)" stroke-dasharray="0, 5" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px"/>
+    </g>
+    <path class="djs-hit djs-hit-stroke" d="m890,502l-82,2" fill="none" id="svg_938" stroke="white" stroke-opacity="0" stroke-width="15px"/>
+    <rect class="djs-outline" fill="none" height="14" id="svg_939" rx="4" width="94" x="802" y="496"/>
+   </g>
+  </g>
+  <g class="djs-group" id="svg_940">
+   <g class="djs-element djs-connection" data-element-id="DataOutputAssociation_1i04yuc" display="block" id="svg_941">
+    <g class="djs-visual" id="svg_942">
+     <path d="m1119,570l73,-75" data-corner-radius="5" fill="none" id="svg_943" marker-end="url(&#x27;#association-end-white-hsl_225_10_15_-c6im8aphrggn1h3aqcqq7afim&#x27;)" stroke="rgb(34, 36, 42)" stroke-dasharray="0, 5" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px"/>
+    </g>
+    <path class="djs-hit djs-hit-stroke" d="m1119,570l73,-75" fill="none" id="svg_944" stroke="white" stroke-opacity="0" stroke-width="15px"/>
+    <rect class="djs-outline" fill="none" height="87" id="svg_945" rx="4" width="85" x="1113" y="489"/>
+   </g>
+  </g>
+  <g class="djs-group" id="svg_946">
+   <g class="djs-element djs-connection" data-element-id="DataOutputAssociation_0zx5x6b" display="block" id="svg_947">
+    <g class="djs-visual" id="svg_948">
+     <path d="m1239,530l-18,-35" data-corner-radius="5" fill="none" id="svg_949" marker-end="url(&#x27;#association-end-white-hsl_225_10_15_-c6im8aphrggn1h3aqcqq7afim&#x27;)" stroke="rgb(34, 36, 42)" stroke-dasharray="0, 5" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px"/>
+    </g>
+    <path class="djs-hit djs-hit-stroke" d="m1239,530l-18,-35" fill="none" id="svg_950" stroke="white" stroke-opacity="0" stroke-width="15px"/>
+    <rect class="djs-outline" fill="none" height="47" id="svg_951" rx="4" width="30" x="1215" y="489"/>
+   </g>
+  </g>
+  <g class="djs-group" id="svg_952">
+   <g class="djs-element djs-connection" data-element-id="DataOutputAssociation_1ln78iz" display="block" id="svg_953">
+    <g class="djs-visual" id="svg_954">
+     <path d="m1770,627l125.05,17.31c2.47,0.35 7.45,0.69 9.95,0.69l197,0" data-corner-radius="5" fill="none" id="svg_955" marker-end="url(&#x27;#association-end-white-hsl_225_10_15_-c6im8aphrggn1h3aqcqq7afim&#x27;)" stroke="rgb(34, 36, 42)" stroke-dasharray="0, 5" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px"/>
+    </g>
+    <path class="djs-hit djs-hit-stroke" d="m1770,627l130,18l202,0" fill="none" id="svg_956" stroke="white" stroke-opacity="0" stroke-width="15px"/>
+    <rect class="djs-outline" fill="none" height="30" id="svg_957" rx="4" width="344" x="1764" y="621"/>
+   </g>
+  </g>
+  <g class="djs-group" id="svg_958">
+   <g class="djs-element djs-connection" data-element-id="DataOutputAssociation_0ugv6st" display="block" id="svg_959">
+    <g class="djs-visual" id="svg_960">
+     <path d="m1860,680l2,-125" data-corner-radius="5" fill="none" id="svg_961" marker-end="url(&#x27;#association-end-white-hsl_225_10_15_-c6im8aphrggn1h3aqcqq7afim&#x27;)" stroke="rgb(34, 36, 42)" stroke-dasharray="0, 5" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px"/>
+    </g>
+    <path class="djs-hit djs-hit-stroke" d="m1860,680l2,-125" fill="none" id="svg_962" stroke="white" stroke-opacity="0" stroke-width="15px"/>
+    <rect class="djs-outline" fill="none" height="137" id="svg_963" rx="4" width="14" x="1854" y="549"/>
+   </g>
+  </g>
+  <g class="djs-group" id="svg_964">
+   <g class="djs-element djs-connection" data-element-id="DataOutputAssociation_0gi8972" display="block" id="svg_965">
+    <g class="djs-visual" id="svg_966">
+     <path d="m1640,538l35.62,19.59c2.19,1.21 6.86,2.07 9.33,1.74l157.05,-21.33" data-corner-radius="5" fill="none" id="svg_967" marker-end="url(&#x27;#association-end-white-hsl_225_10_15_-c6im8aphrggn1h3aqcqq7afim&#x27;)" stroke="rgb(34, 36, 42)" stroke-dasharray="0, 5" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px"/>
+    </g>
+    <path class="djs-hit djs-hit-stroke" d="m1640,538l40,22l162,-22" fill="none" id="svg_968" stroke="white" stroke-opacity="0" stroke-width="15px"/>
+    <rect class="djs-outline" fill="none" height="34" id="svg_969" rx="4" width="214" x="1634" y="532"/>
+   </g>
+  </g>
+  <g class="djs-group" id="svg_970">
+   <g class="djs-element djs-connection" data-element-id="DataInputAssociation_00lhdkr" display="block" id="svg_971">
+    <g class="djs-visual" id="svg_972">
+     <path d="m2138,653l44,32" data-corner-radius="5" fill="none" id="svg_973" marker-end="url(&#x27;#association-end-white-hsl_225_10_15_-c6im8aphrggn1h3aqcqq7afim&#x27;)" stroke="rgb(34, 36, 42)" stroke-dasharray="0, 5" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px"/>
+    </g>
+    <path class="djs-hit djs-hit-stroke" d="m2138,653l44,32" fill="none" id="svg_974" stroke="white" stroke-opacity="0" stroke-width="15px"/>
+    <rect class="djs-outline" fill="none" height="44" id="svg_975" rx="4" width="56" x="2132" y="647"/>
+   </g>
+  </g>
+  <g class="djs-group" id="svg_976">
+   <g class="djs-element djs-connection" data-element-id="DataInputAssociation_0wy3ghi" display="block" id="svg_977">
+    <g class="djs-visual" id="svg_978">
+     <path d="m1878,530l227,0c2.5,0 6.5,2 8.01,3.99l109.99,146.01" data-corner-radius="5" fill="none" id="svg_979" marker-end="url(&#x27;#association-end-white-hsl_225_10_15_-c6im8aphrggn1h3aqcqq7afim&#x27;)" stroke="rgb(34, 36, 42)" stroke-dasharray="0, 5" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px"/>
+    </g>
+    <path class="djs-hit djs-hit-stroke" d="m1878,530l232,0l113,150" fill="none" id="svg_980" stroke="white" stroke-opacity="0" stroke-width="15px"/>
+    <rect class="djs-outline" fill="none" height="162" id="svg_981" rx="4" width="357" x="1872" y="524"/>
+   </g>
+  </g>
+  <g class="djs-group" id="svg_982">
+   <g class="djs-element djs-connection" data-element-id="DataInputAssociation_0bzr5yl" display="block" id="svg_983">
+    <g class="djs-visual" id="svg_984">
+     <path d="m776,475l-76,-135" data-corner-radius="5" fill="none" id="svg_985" marker-end="url(&#x27;#association-end-white-hsl_225_10_15_-c6im8aphrggn1h3aqcqq7afim&#x27;)" stroke="rgb(34, 36, 42)" stroke-dasharray="0, 5" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px"/>
+    </g>
+    <path class="djs-hit djs-hit-stroke" d="m776,475l-76,-135" fill="none" id="svg_986" stroke="white" stroke-opacity="0" stroke-width="15px"/>
+    <rect class="djs-outline" fill="none" height="147" id="svg_987" rx="4" width="88" x="694" y="334"/>
+   </g>
+  </g>
+  <g class="djs-group" id="svg_988">
+   <g class="djs-element djs-connection" data-element-id="DataInputAssociation_078p48l" display="block" id="svg_989">
+    <g class="djs-visual" id="svg_990">
+     <path d="m1210,445l0,-105" data-corner-radius="5" fill="none" id="svg_991" marker-end="url(&#x27;#association-end-white-hsl_225_10_15_-c6im8aphrggn1h3aqcqq7afim&#x27;)" stroke="rgb(34, 36, 42)" stroke-dasharray="0, 5" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px"/>
+    </g>
+    <path class="djs-hit djs-hit-stroke" d="m1210,445l0,-105" fill="none" id="svg_992" stroke="white" stroke-opacity="0" stroke-width="15px"/>
+    <rect class="djs-outline" fill="none" height="117" id="svg_993" rx="4" width="12" x="1204" y="334"/>
+   </g>
+  </g>
+  <g class="djs-group" id="svg_994">
+   <g class="djs-element djs-connection" data-element-id="DataInputAssociation_0t7m60l" display="block" id="svg_995">
+    <g class="djs-visual" id="svg_996">
+     <path d="m1842,515l-217,-175" data-corner-radius="5" fill="none" id="svg_997" marker-end="url(&#x27;#association-end-white-hsl_225_10_15_-c6im8aphrggn1h3aqcqq7afim&#x27;)" stroke="rgb(34, 36, 42)" stroke-dasharray="0, 5" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px"/>
+    </g>
+    <path class="djs-hit djs-hit-stroke" d="m1842,515l-217,-175" fill="none" id="svg_998" stroke="white" stroke-opacity="0" stroke-width="15px"/>
+    <rect class="djs-outline" fill="none" height="187" id="svg_999" rx="4" width="229" x="1619" y="334"/>
+   </g>
+  </g>
+  <g class="djs-group" id="svg_1000">
+   <g class="djs-element djs-connection" data-element-id="Flow_0rvzgsy" display="block" id="svg_1001">
+    <g class="djs-visual" id="svg_1002">
+     <path d="m920,300l35,0c2.5,0 5,2.5 5,5l0,155" data-corner-radius="5" fill="none" id="svg_1003" marker-end="url(&#x27;#messageflow-end-white-hsl_225_10_15_-c6im8aphrggn1h3aqcqq7afim&#x27;)" marker-start="url(&#x27;#messageflow-start-white-hsl_225_10_15_-c6im8aphrggn1h3aqcqq7afim&#x27;)" stroke="rgb(34, 36, 42)" stroke-dasharray="10, 11" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5px"/>
+    </g>
+    <path class="djs-hit djs-hit-stroke" d="m920,300l40,0l0,160" fill="none" id="svg_1004" stroke="white" stroke-opacity="0" stroke-width="15px"/>
+    <rect class="djs-outline" fill="none" height="172" id="svg_1005" rx="4" width="52" x="914" y="294"/>
+   </g>
+  </g>
+  <g class="djs-group" id="svg_1006">
+   <g class="djs-element djs-connection" data-element-id="Flow_14xjhry" display="block" id="svg_1007">
+    <g class="djs-visual" id="svg_1008">
+     <path d="m660,460l0,-120" data-corner-radius="5" fill="none" id="svg_1009" marker-end="url(&#x27;#messageflow-end-white-hsl_225_10_15_-c6im8aphrggn1h3aqcqq7afim&#x27;)" marker-start="url(&#x27;#messageflow-start-white-hsl_225_10_15_-c6im8aphrggn1h3aqcqq7afim&#x27;)" stroke="rgb(34, 36, 42)" stroke-dasharray="10, 11" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5px"/>
+    </g>
+    <path class="djs-hit djs-hit-stroke" d="m660,460l0,-120" fill="none" id="svg_1010" stroke="white" stroke-opacity="0" stroke-width="15px"/>
+    <rect class="djs-outline" fill="none" height="132" id="svg_1011" rx="4" width="12" x="654" y="334"/>
+   </g>
+  </g>
+  <g class="djs-group" id="svg_1012">
+   <g class="djs-element djs-connection" data-element-id="Flow_14sfrgn" display="block" id="svg_1013">
+    <g class="djs-visual" id="svg_1014">
+     <path d="m1080,460l0,-55c0,-2.5 -2.5,-5 -5,-5l-390,0c-2.5,0 -5,-2.5 -5,-5l0,-55" data-corner-radius="5" fill="none" id="svg_1015" marker-end="url(&#x27;#messageflow-end-white-hsl_225_10_15_-c6im8aphrggn1h3aqcqq7afim&#x27;)" marker-start="url(&#x27;#messageflow-start-white-hsl_225_10_15_-c6im8aphrggn1h3aqcqq7afim&#x27;)" stroke="rgb(34, 36, 42)" stroke-dasharray="10, 11" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5px"/>
+    </g>
+    <path class="djs-hit djs-hit-stroke" d="m1080,460l0,-60l-400,0l0,-60" fill="none" id="svg_1016" stroke="white" stroke-opacity="0" stroke-width="15px"/>
+    <rect class="djs-outline" fill="none" height="132" id="svg_1017" rx="4" width="412" x="674" y="334"/>
+   </g>
+  </g>
+  <g class="djs-group" id="svg_1018">
+   <g class="djs-element djs-connection" data-element-id="Flow_0yi5ahp" display="block" id="svg_1019">
+    <g class="djs-visual" id="svg_1020">
+     <path d="m1393,340l-89.59,96.34c-1.71,1.83 -3.41,6.16 -3.41,8.66l0,85" data-corner-radius="5" fill="none" id="svg_1021" marker-end="url(&#x27;#messageflow-end-white-hsl_225_10_15_-c6im8aphrggn1h3aqcqq7afim&#x27;)" marker-start="url(&#x27;#messageflow-start-white-hsl_225_10_15_-c6im8aphrggn1h3aqcqq7afim&#x27;)" stroke="rgb(34, 36, 42)" stroke-dasharray="10, 11" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5px"/>
+    </g>
+    <path class="djs-hit djs-hit-stroke" d="m1393,340l-93,100l0,90" fill="none" id="svg_1022" stroke="white" stroke-opacity="0" stroke-width="15px"/>
+    <rect class="djs-outline" fill="none" height="202" id="svg_1023" rx="4" width="105" x="1294" y="334"/>
+   </g>
+  </g>
+  <g class="djs-group" id="svg_1024">
+   <g class="djs-element djs-connection" data-element-id="Flow_0klk67m" display="block" id="svg_1025">
+    <g class="djs-visual" id="svg_1026">
+     <path d="m1380,530l0,-55c0,-2.5 -2.5,-5 -5,-5l-120,0c-2.5,0 -5,-2.5 -5,-5l0,-125" data-corner-radius="5" fill="none" id="svg_1027" marker-end="url(&#x27;#messageflow-end-white-hsl_225_10_15_-c6im8aphrggn1h3aqcqq7afim&#x27;)" marker-start="url(&#x27;#messageflow-start-white-hsl_225_10_15_-c6im8aphrggn1h3aqcqq7afim&#x27;)" stroke="rgb(34, 36, 42)" stroke-dasharray="10, 11" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5px"/>
+    </g>
+    <path class="djs-hit djs-hit-stroke" d="m1380,530l0,-60l-130,0l0,-130" fill="none" id="svg_1028" stroke="white" stroke-opacity="0" stroke-width="15px"/>
+    <rect class="djs-outline" fill="none" height="202" id="svg_1029" rx="4" width="142" x="1244" y="334"/>
+   </g>
+  </g>
+  <g class="djs-group" id="svg_1030">
+   <g class="djs-element djs-connection" data-element-id="Flow_1k15xpn" display="block" id="svg_1031">
+    <g class="djs-visual" id="svg_1032">
+     <path d="m1180,620l0,-280" data-corner-radius="5" fill="none" id="svg_1033" marker-end="url(&#x27;#messageflow-end-white-hsl_225_10_15_-c6im8aphrggn1h3aqcqq7afim&#x27;)" marker-start="url(&#x27;#messageflow-start-white-hsl_225_10_15_-c6im8aphrggn1h3aqcqq7afim&#x27;)" stroke="rgb(34, 36, 42)" stroke-dasharray="10, 11" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5px"/>
+    </g>
+    <path class="djs-hit djs-hit-stroke" d="m1180,620l0,-280" fill="none" id="svg_1034" stroke="white" stroke-opacity="0" stroke-width="15px"/>
+    <rect class="djs-outline" fill="none" height="292" id="svg_1035" rx="4" width="12" x="1174" y="334"/>
+   </g>
+  </g>
+  <g class="djs-group" id="svg_1036">
+   <g class="djs-element djs-connection" data-element-id="Flow_1xuqcki" display="block" id="svg_1037">
+    <g class="djs-visual" id="svg_1038">
+     <path d="m1980,550l0,-105c0,-2.5 -2.5,-5 -5,-5l-400,0c-2.5,0 -5,-2.5 -5,-5l0,-95" data-corner-radius="5" fill="none" id="svg_1039" marker-end="url(&#x27;#messageflow-end-white-hsl_225_10_15_-c6im8aphrggn1h3aqcqq7afim&#x27;)" marker-start="url(&#x27;#messageflow-start-white-hsl_225_10_15_-c6im8aphrggn1h3aqcqq7afim&#x27;)" stroke="rgb(34, 36, 42)" stroke-dasharray="10, 11" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5px"/>
+    </g>
+    <path class="djs-hit djs-hit-stroke" d="m1980,550l0,-110l-410,0l0,-100" fill="none" id="svg_1040" stroke="white" stroke-opacity="0" stroke-width="15px"/>
+    <rect class="djs-outline" fill="none" height="222" id="svg_1041" rx="4" width="422" x="1564" y="334"/>
+   </g>
+  </g>
+  <g class="djs-group" id="svg_1042">
+   <g class="djs-element djs-connection" data-element-id="Flow_05dztgn" display="block" id="svg_1043">
+    <g class="djs-visual" id="svg_1044">
+     <path d="m1860,340l0,60c0,2.5 -2.5,5 -5,5l-250,0c-2.5,0 -5,2.5 -5,5l0,60" data-corner-radius="5" fill="none" id="svg_1045" marker-end="url(&#x27;#messageflow-end-white-hsl_225_10_15_-c6im8aphrggn1h3aqcqq7afim&#x27;)" marker-start="url(&#x27;#messageflow-start-white-hsl_225_10_15_-c6im8aphrggn1h3aqcqq7afim&#x27;)" stroke="rgb(34, 36, 42)" stroke-dasharray="10, 11" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5px"/>
+    </g>
+    <path class="djs-hit djs-hit-stroke" d="m1860,340l0,65l-260,0l0,65" fill="none" id="svg_1046" stroke="white" stroke-opacity="0" stroke-width="15px"/>
+    <rect class="djs-outline" fill="none" height="142" id="svg_1047" rx="4" width="272" x="1594" y="334"/>
+   </g>
+  </g>
+  <g class="djs-group" id="svg_1048">
+   <g class="djs-element djs-connection" data-element-id="Flow_15op7jk" display="block" id="svg_1049">
+    <g class="djs-visual" id="svg_1050">
+     <path d="m1720,470l0,-85c0,-2.5 -2.5,-5 -5,-5l-120,0c-2.5,0 -5,-2.5 -5,-5l0,-35" data-corner-radius="5" fill="none" id="svg_1051" marker-end="url(&#x27;#messageflow-end-white-hsl_225_10_15_-c6im8aphrggn1h3aqcqq7afim&#x27;)" marker-start="url(&#x27;#messageflow-start-white-hsl_225_10_15_-c6im8aphrggn1h3aqcqq7afim&#x27;)" stroke="rgb(34, 36, 42)" stroke-dasharray="10, 11" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5px"/>
+    </g>
+    <path class="djs-hit djs-hit-stroke" d="m1720,470l0,-90l-130,0l0,-40" fill="none" id="svg_1052" stroke="white" stroke-opacity="0" stroke-width="15px"/>
+    <rect class="djs-outline" fill="none" height="142" id="svg_1053" rx="4" width="142" x="1584" y="334"/>
+   </g>
+  </g>
+  <g class="djs-group" id="svg_1054">
+   <g class="djs-element djs-connection" data-element-id="Flow_0f3b45c" display="block" id="svg_1055">
+    <g class="djs-visual" id="svg_1056">
+     <path d="m2230,680l0,-190c0,-2.5 -2.5,-5 -5,-5l-90,0c-2.5,0 -5,-2.5 -5,-5l0,-190" data-corner-radius="5" fill="none" id="svg_1057" marker-end="url(&#x27;#messageflow-end-white-hsl_225_10_15_-c6im8aphrggn1h3aqcqq7afim&#x27;)" marker-start="url(&#x27;#messageflow-start-white-hsl_225_10_15_-c6im8aphrggn1h3aqcqq7afim&#x27;)" stroke="rgb(34, 36, 42)" stroke-dasharray="10, 11" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5px"/>
+    </g>
+    <path class="djs-hit djs-hit-stroke" d="m2230,680l0,-195l-100,0l0,-195" fill="none" id="svg_1058" stroke="white" stroke-opacity="0" stroke-width="15px"/>
+    <rect class="djs-outline" fill="none" height="402" id="svg_1059" rx="4" width="112" x="2124" y="284"/>
+   </g>
+  </g>
+ </g>
+</svg>

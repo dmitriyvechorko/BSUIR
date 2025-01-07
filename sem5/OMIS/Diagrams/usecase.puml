@@ -1,0 +1,38 @@
+@startuml
+left to right direction
+
+actor "Житель дома" as User
+actor Администратор as Admin
+
+rectangle "Система автоматизированного учёта и анализа энергопотребления в доме" as Platform {
+  usecase "Получение информации" as Info
+
+  usecase "Получение информации о статистике потребления" as StatisticsInfo
+  usecase "Получение информации об истории потребления" as HistoryInfo
+  usecase "Получение информации о рекомендациях" as RecommendationsInfo
+
+  usecase "Получение отчётов" as ReportInfo
+
+  usecase "Управление подсистемами" as SubsystemsControl
+
+  usecase "Настройка оборудования" as EquipmentControl
+  usecase "Настройка формирования отчётов" as ReportControl
+  usecase "Изменение данных пользователей" as UserDataControl
+  usecase "Настройка оповещений" as NotificationsControl
+
+  User --> Info
+  Admin -up-|> User
+
+  Admin --> SubsystemsControl
+  Admin --> ReportInfo
+
+  Info    ..>   HistoryInfo         : ''include''
+  Info    ..>   StatisticsInfo      : ''include''
+  Info    ..>   RecommendationsInfo : ''include''
+  SubsystemsControl   ..>   EquipmentControl     : ''include''
+  SubsystemsControl   ..>   ReportControl        : ''include''
+  SubsystemsControl   ..>   UserDataControl      : ''include''
+  SubsystemsControl   ..>   NotificationsControl : ''include''
+  ReportInfo   ..>   ReportControl        : ''include''
+}
+@enduml
