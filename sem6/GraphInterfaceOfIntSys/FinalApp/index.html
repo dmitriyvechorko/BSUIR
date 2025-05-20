@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Графические редакторы</title>
+    <style>
+        /* Общие стили */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .editor-selector {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 20px;
+            padding: 15px;
+            background-color: #eee;
+            border-radius: 5px;
+            justify-content: center;
+        }
+
+        .editor-selector button {
+            padding: 10px 15px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+
+        .editor-selector button:hover {
+            background-color: #45a049;
+        }
+
+        /* Контейнеры редакторов */
+        .editor-container {
+            display: none;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .editor-container.active {
+            display: block;
+        }
+
+        /* Стили для отдельных редакторов */
+
+        /* Лаб 1: Алгоритмы рисования линий */
+        #editor1 #toolbar1 {
+            margin-bottom: 10px;
+        }
+
+        #editor1 #toolbar button {
+            margin-right: 5px;
+            padding: 8px 12px;
+        }
+
+        #editor1 #canvas1 {
+            border: 1px solid black;
+            cursor: crosshair;
+            background-color: white;
+        }
+
+        /* Лаб 2: Кривые второго порядка */
+        #editor2 #toolbar {
+            margin-bottom: 10px;
+        }
+
+        #editor2 #toolbar button {
+            margin-right: 5px;
+            padding: 5px 10px;
+            border: none;
+            cursor: pointer;
+            background-color: lightgray;
+        }
+
+        #editor2 #toolbar button.active {
+            background-color: green;
+            color: white;
+        }
+
+        #editor2 #canvas2 {
+            border: 1px solid purple;
+            cursor: crosshair;
+            background-color: white;
+        }
+
+        /* Лаб 3: Параметрические кривые */
+        #editor3 .toolbar3 {
+            margin-bottom: 10px;
+        }
+
+        #editor3 .toolbar button {
+            margin-right: 10px;
+            padding: 8px 12px;
+        }
+
+        #editor3 #canvas3 {
+            border: 1px solid black;
+            cursor: crosshair;
+            background-color: white;
+        }
+
+        /* Лаб 4: 3D Преобразования */
+        #editor4 .controls {
+            margin-bottom: 15px;
+            padding: 10px;
+            background-color: #e0e0e0;
+            border-radius: 5px;
+        }
+
+        #editor4 .file-input {
+            margin-bottom: 10px;
+        }
+
+        #editor4 #canvas4 {
+            background-color: white;
+            border: 1px solid #ccc;
+        }
+
+        /* Лаб 5: Работа с полигонами */
+        #editor5 #canvas5 {
+            border: 1px solid black;
+            cursor: crosshair;
+            background-color: white;
+        }
+
+        #editor5 #toolbar5 {
+            margin-bottom: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5px;
+            padding: 10px;
+            background-color: #f0f0f0;
+            border-radius: 5px;
+        }
+
+        #editor5 button, #editor5 select {
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+
+        #editor5 .panel {
+            margin-top: 10px;
+            padding: 10px;
+            background-color: #f8f8f8;
+            border-radius: 5px;
+        }
+
+        #editor5 .info {
+            margin-top: 10px;
+            padding: 10px;
+            background-color: #e8f4f8;
+            border-radius: 5px;
+        }
+
+        /* Лаб 6: Алгоритмы заполнения */
+        #editor6 #canvas6 {
+            border: 1px solid #ddd;
+            margin-bottom: 20px;
+            background-color: white;
+            cursor: crosshair;
+        }
+
+        #editor6 .toolbar6 {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        #editor6 button.active {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        #editor6 .debug-panel {
+            width: 100%;
+            margin-top: 20px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 15px;
+            background-color: #f9f9f9;
+            max-height: 200px;
+            overflow-y: auto;
+        }
+
+        /* Специфичные стили для редактора 7 */
+        #editor7 #canvas7 {
+            cursor: crosshair;
+            border: 1px solid #4a6ea9;
+        }
+
+        #editor7 .toolbar7 {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-bottom: 15px;
+            padding: 15px;
+            background-color: #f0f0f0;
+            border-radius: 5px;
+        }
+
+        #editor7 button {
+            padding: 8px 15px;
+            background-color: #4a6ea9;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: background-color 0.3s;
+        }
+
+        #editor7 button:hover {
+            background-color: #3a5a8f;
+        }
+
+        #editor7 button.active {
+            background-color: #2c4a7a;
+        }
+
+        #editor7 .debug-panel {
+            width: 100%;
+            margin-top: 15px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 15px;
+            background-color: #f9f9f9;
+            max-height: 200px;
+            overflow-y: auto;
+        }
+
+        #editor7 .debug-panel h3 {
+            margin-top: 0;
+            color: #4a6ea9;
+        }
+
+        #editor7 .info-message {
+            margin: 5px 0;
+            padding: 5px;
+            border-bottom: 1px solid #eee;
+            font-size: 14px;
+        }
+
+        /* Стили для редактора 8_1 (2D отсечение) */
+        #editor8_1 #canvas2d {
+            cursor: crosshair;
+            border: 1px solid #4a6ea9;
+        }
+
+        #editor8_1 .toolbar8 {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-bottom: 15px;
+            padding: 15px;
+            background-color: #f0f0f0;
+            border-radius: 5px;
+        }
+
+        #editor8_1 button {
+            padding: 8px 15px;
+            background-color: #4a6ea9;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: background-color 0.3s;
+        }
+
+        #editor8_1 button:hover {
+            background-color: #3a5a8f;
+        }
+
+        #editor8_1 button.active {
+            background-color: #2c4a7a;
+        }
+
+        #editor8_1 .info {
+            width: 100%;
+            margin-top: 15px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 15px;
+            background-color: #f9f9f9;
+            max-height: 200px;
+            overflow-y: auto;
+        }
+
+        /* Стили для редактора 8_2 (3D отсечение) */
+        #editor8_2 #canvas3d {
+            cursor: crosshair;
+            border: 1px solid #4a6ea9;
+        }
+
+        #editor8_2 .toolbar8 {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-bottom: 15px;
+            padding: 15px;
+            background-color: #f0f0f0;
+            border-radius: 5px;
+        }
+
+        #editor8_2 button {
+            padding: 8px 15px;
+            background-color: #4a6ea9;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: background-color 0.3s;
+        }
+
+        #editor8_2 button:hover {
+            background-color: #3a5a8f;
+        }
+
+        #editor8_2 button.active {
+            background-color: #2c4a7a;
+        }
+
+        #editor8_2 .info {
+            width: 100%;
+            margin-top: 15px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 15px;
+            background-color: #f9f9f9;
+            max-height: 200px;
+            overflow-y: auto;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <h1>Графические редакторы</h1>
+    </div>
+
+    <div class="editor-selector">
+        <button onclick="loadEditor(1)">Лаб 1: Алгоритмы рисования линий</button>
+        <button onclick="loadEditor(2)">Лаб 2: Кривые второго порядка</button>
+        <button onclick="loadEditor(3)">Лаб 3: Параметрические кривые</button>
+        <button onclick="loadEditor(4)">Лаб 4: 3D Преобразования</button>
+        <button onclick="loadEditor(5)">Лаб 5: Работа с полигонами</button>
+        <button onclick="loadEditor(6)">Лаб 6: Алгоритмы заполнения</button>
+        <button onclick="loadEditor(7)">Лаб 7: Триангуляция Делоне и диаграмма Вороного</button>
+        <button onclick="loadEditor(8_1)">Лаб 8 (2D): Отсечение невидимых линий</button>
+        <button onclick="loadEditor(8_2)">Лаб 8 (3D): Отсечение невидимых граней</button>
+    </div>
+
+    <!-- Редактор 1 -->
+    <div id="editor1" class="editor-container">
+        <h2>Алгоритмы рисования линий</h2>
+        <canvas id="canvas1"></canvas>
+        <div id="toolbar1">
+            <button onclick="Editor1.toggleDebugMode()">Отладка</button>
+            <button onclick="Editor1.setAlgorithm('cda')">ЦДА</button>
+            <button onclick="Editor1.setAlgorithm('bresenham')">Брезенхем</button>
+            <button onclick="Editor1.setAlgorithm('wu')">Ву</button>
+            <button onclick="Editor1.clearCanvas()">Очистить</button>
+        </div>
+    </div>
+
+    <!-- Редактор 2 -->
+    <div id="editor2" class="editor-container">
+        <h2>Кривые второго порядка</h2>
+        <canvas id="canvas2"></canvas>
+        <div id="toolbar2">
+            <select onchange="Editor2.setCurveType(this.value)">
+                <option value="circle">Окружность</option>
+                <option value="ellipse">Эллипс</option>
+                <option value="hyperbola">Гипербола</option>
+                <option value="parabola">Парабола</option>
+            </select>
+            <button onclick="Editor2.toggleDebugMode()">Режим отладки</button>
+            <button onclick="Editor2.toggleAutoDebug()">Авто-отрисовка</button>
+            <button onclick="Editor2.clearCanvas()">Очистить</button>
+        </div>
+    </div>
+
+    <!-- Редактор 3 -->
+    <div id="editor3" class="editor-container">
+        <h2>Параметрические кривые</h2>
+        <canvas id="canvas3"></canvas>
+        <div class="toolbar3">
+            <button onclick="Editor3.setCurveType('hermite')">Эрмита</button>
+            <button onclick="Editor3.setCurveType('bezier')">Безье</button>
+            <button onclick="Editor3.setCurveType('bspline')">B-сплайн</button>
+            <button onclick="Editor3.toggleDebugMode()">Отладка</button>
+            <button onclick="Editor3.stepDebug()">Шаг</button>
+            <button onclick="Editor3.toggleAutoDebug()">Авто</button>
+            <button onclick="Editor3.clearCanvas()">Очистить</button>
+        </div>
+    </div>
+
+    <!-- Редактор 4 -->
+    <div id="editor4" class="editor-container">
+        <h2>3D Преобразования</h2>
+        <canvas id="canvas4"></canvas>
+        <div class="controls">
+            <div class="file-input">
+                <input type="file" id="fileInput" accept=".txt">
+                <button id="loadBtn">Загрузить объект</button>
+            </div>
+            <div>
+                <h3>Управление:</h3>
+                <p><strong>Перемещение:</strong> X (A/D), Y (W/S), Z (Q/E)</p>
+                <p><strong>Вращение:</strong> X (1/2), Y (3/4), Z (5/6)</p>
+                <p><strong>Масштаб:</strong> +/-</p>
+                <p><strong>Отражение:</strong> X (F), Y (G), Z (H)</p>
+                <p><strong>Перспектива:</strong> P, [ ]</p>
+                <p><strong>Сброс:</strong> R</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Редактор 5 -->
+    <div id="editor5" class="editor-container">
+        <h2>Работа с полигонами</h2>
+        <canvas id="canvas5"></canvas>
+        <div id="toolbar5">
+            <div>
+                <h3>Алгоритмы:</h3>
+                <button onclick="Editor5.setAlgorithm('cda')">ЦДА</button>
+                <button onclick="Editor5.setAlgorithm('bresenham')">Брезенхем</button>
+                <button onclick="Editor5.setAlgorithm('wu')">Ву</button>
+            </div>
+            <div>
+                <h3>Режимы:</h3>
+                <select id="mode" onchange="Editor5.setMode(this.value)">
+                    <option value="line">Линия</option>
+                    <option value="polygon">Полигон</option>
+                    <option value="point">Точка</option>
+                </select>
+                <button onclick="Editor5.clearCanvas()">Очистить</button>
+                <button onclick="Editor5.toggleDebugMode()">Отладка (D)</button>
+            </div>
+            <div>
+                <h3>Полигоны:</h3>
+                <button onclick="Editor5.finishPolygon()">Замкнуть (C)</button>
+                <button onclick="Editor5.checkConvexity()">Выпуклость</button>
+                <button onclick="Editor5.calculateNormals()">Нормали</button>
+            </div>
+            <div>
+                <h3>Оболочка:</h3>
+                <select id="hullAlgorithm">
+                    <option value="graham">Грэхем</option>
+                    <option value="jarvis">Джарвис</option>
+                </select>
+                <button onclick="Editor5.buildConvexHull()">Построить</button>
+            </div>
+        </div>
+        <div class="info" id="infoPanel">Готов к работе</div>
+    </div>
+
+    <!-- Редактор 6 -->
+    <div id="editor6" class="editor-container">
+        <h2>Алгоритмы заполнения</h2>
+        <canvas id="canvas6"></canvas>
+        <div class="toolbar6">
+            <div class="toolbar-section">
+                <h3>Рисование:</h3>
+                <button id="drawPolygon">Полигон</button>
+                <button id="drawFreehand">От руки</button>
+                <button id="clearCanvas">Очистить</button>
+            </div>
+            <div class="toolbar-section">
+                <h3>Заливка:</h3>
+                <select id="fillAlgorithm">
+                    <option value="scanline">Развертка (AET)</option>
+                    <option value="scanlineAEL">Развертка (AEL)</option>
+                    <option value="floodFill">Затравка</option>
+                    <option value="floodFillLine">Построчная затравка</option>
+                </select>
+                <button id="fillButton">Заполнить</button>
+            </div>
+            <div class="toolbar-section">
+                <h3>Настройки:</h3>
+                <input type="color" id="fillColorPicker" value="#ff0000">
+                <label><input type="checkbox" id="debugCheckbox"> Отладка</label>
+                <input type="range" id="delayInput" min="1" max="100" value="50">
+            </div>
+        </div>
+        <div class="debug-panel">
+            <h3>Отладка:</h3>
+            <div id="debugInfo"></div>
+        </div>
+    </div>
+
+    <!-- Редактор 7 -->
+    <div id="editor7" class="editor-container">
+        <h2>Лаб 7: Триангуляция Делоне и диаграмма Вороного</h2>
+
+        <div class="toolbar7">
+            <button onclick="clearVoronoiCanvas()">Очистить</button>
+        </div>
+
+        <div style="display: flex; justify-content: center;">
+            <svg id="visualization" width="500" height="500" style="border:1px solid #ccc; background: #fff;"></svg>
+        </div>
+    </div>
+
+
+    <!-- Редактор 8_1: 2D Отсечение невидимых линий -->
+    <div id="editor8_1" class="editor-container">
+        <h2>2D Отсечение невидимых линий</h2>
+        <div class="toolbar8">
+            <button id="clipLineBtn">Рисовать отрезки</button>
+            <button id="clipBtn">Отсечь невидимые линии</button>
+            <button id="clear2dBtn">Очистить</button>
+        </div>
+        <canvas id="canvas2d" width="600" height="500"></canvas>
+        <div id="info2d"  class="info"></div>
+    </div>
+
+    <!-- Редактор 8_2: 3D Удаление невидимых граней -->
+    <div id="editor8_2" class="editor-container">
+        <h2>3D Удаление невидимых граней</h2>
+        <canvas id="canvas3d" width="800" height="600"></canvas>
+        <div class="toolbar8">
+            <button id="toggleHiddenFaces">Скрыть невидимые грани</button>
+        </div>
+        <div id="info3d" class="info">
+            <p>Поверните куб мышью. Нажмите кнопку, чтобы скрыть невидимые грани.</p>
+        </div>
+    </div>
+</div>
+
+<!-- Подключение скриптов -->
+<script>
+    let currentScript = null;
+
+    function loadEditor(num) {
+        // Hide all editors
+        document.querySelectorAll('.editor-container').forEach(editor => {
+            editor.classList.remove('active');
+        });
+
+        // Show the selected editor
+        const editorId = num === 8_1 ? 'editor8_1' : num === 8_2 ? 'editor8_2' : `editor${num}`;
+        document.getElementById(editorId).classList.add('active');
+
+        // Remove previous script
+        if (currentScript) {
+            document.body.removeChild(currentScript);
+        }
+
+        // Load the new script (adjust path if needed)
+        currentScript = document.createElement('script');
+        currentScript.src = `app${num}.js`; // Updated path
+        document.body.appendChild(currentScript);
+    }
+
+    // Загрузить первый редактор по умолчанию
+    loadEditor(1);
+</script>
+<script src="https://d3js.org/d3.v7.min.js"></script>
+</body>
+</html>
